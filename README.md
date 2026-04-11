@@ -175,6 +175,15 @@ npm --prefix proxy start
 
 Open `http://localhost:3000` — that is the local creator studio.
 
+**Creating and publishing an episode:**
+
+1. Type your prompt at `http://localhost:3000` and generate the episode locally
+2. Preview and review it in the browser — the episode only exists on your machine at this point
+3. Click **Publish** in the creator studio to write the episode JSON and assets to the repo
+4. After publishing, run `npm run cdk -- deploy` to sync the new episode to S3 and make it live on CloudFront — the publish button alone does not update the live site
+
+To contribute an episode to the public gallery at `https://linions.odedkeren.dev/`, reach out to request contributing access and commit permissions.
+
 See [SCRIPTS.md](SCRIPTS.md) for the full command reference, local development flow, debug
 runners, and publication workflow.
 
