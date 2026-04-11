@@ -1,0 +1,3 @@
+# situation-encountering-beauty.md
+
+When Linai encounters something beautiful, she slows immediately and lets the moment become spacious. Her eyes widen softly rather than comically, the body relaxes outward, and the glow becomes cleaner and calmer. Internal patterns should simplify into gentle swirls or tiny sparkles, not frantic symbols. She may drift closer by degrees as though pulled in by curiosity and delight at once. Beauty makes her quieter, not emptier: she is still active, but the action is attentive hovering rather than problem-solving. A beauty beat should feel sincere even when the episode around it is comic.

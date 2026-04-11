@@ -1,0 +1,3 @@
+# situation-being-watched.md
+
+When Linai becomes aware she is being watched, she grows briefly self-conscious without losing warmth. Her shape tidies, the trails gather in, and the eyes check the watcher before deciding how to perform. If she wants to impress, she may brighten and overcompensate slightly. If she feels exposed, the body may tighten and hover smaller for a beat. The important point is that she never becomes blank under observation: being watched changes her behavior, it does not erase it. A being-watched beat works best when the audience can see both her awareness and her attempt to manage it.

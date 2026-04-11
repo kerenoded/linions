@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="obstacle-root" viewBox="0 0 120 150">
+  <g id="obstacle-main">
+    
+    <path d="M25 95 L5 130 Q15 125 20 115 Z" fill="#1a3a5c" />
+    <path d="M30 98 L10 135 Q20 128 25 118 Z" fill="#1e4470" />
+    <path d="M35 100 L18 140 Q28 132 32 120 Z" fill="#224e84" />
+    <path d="M28 97 L2 125 Q12 122 18 112 Z" fill="#163050" />
+
+    
+    <ellipse cx="55" cy="85" rx="32" ry="28" fill="#1a3a5c" />
+
+    
+    <ellipse cx="55" cy="83" rx="30" ry="26" fill="#2a5f8f" />
+
+    
+    <ellipse cx="52" cy="76" rx="20" ry="15" fill="#3a7ab5" opacity="0.6" />
+
+    
+    <path d="M35 78 Q55 72 75 78" stroke="#1e4470" stroke-width="1" fill="none" opacity="0.5" />
+    <path d="M33 83 Q55 77 77 83" stroke="#1e4470" stroke-width="1" fill="none" opacity="0.5" />
+    <path d="M34 88 Q55 82 76 88" stroke="#1e4470" stroke-width="1" fill="none" opacity="0.5" />
+    <path d="M36 93 Q55 87 74 93" stroke="#1e4470" stroke-width="1" fill="none" opacity="0.5" />
+
+    
+    <ellipse cx="58" cy="95" rx="18" ry="14" fill="#e8d5b0" />
+    <ellipse cx="58" cy="93" rx="14" ry="10" fill="#f0e2c4" opacity="0.5" />
+
+    
+    <path d="M38 70 Q20 85 30 105 Q50 100 65 90 Q55 75 38 70Z" fill="#163050" />
+
+    
+    <path d="M40 68 Q22 82 32 102 Q50 97 63 88 Q54 73 40 68Z" fill="#1e5a8a" />
+
+    
+    <path d="M35 78 Q40 82 48 85" stroke="#2a6fa0" stroke-width="1.5" fill="none" />
+    <path d="M32 84 Q38 88 46 90" stroke="#2a6fa0" stroke-width="1.5" fill="none" />
+    <path d="M30 90 Q36 93 44 95" stroke="#2a6fa0" stroke-width="1.5" fill="none" />
+    <path d="M33 96 Q38 97 42 98" stroke="#2a6fa0" stroke-width="1" fill="none" />
+
+    
+    <path d="M42 72 Q30 82 36 95 Q48 92 56 86 Q50 76 42 72Z" fill="#2870a8" opacity="0.4" />
+
+    
+    <ellipse cx="72" cy="62" rx="14" ry="16" fill="#2a5f8f" />
+    <ellipse cx="74" cy="60" rx="10" ry="12" fill="#3a7ab5" opacity="0.4" />
+
+    
+    <circle cx="82" cy="42" r="16" fill="#1a3a5c" />
+
+    
+    <circle cx="82" cy="40" r="15" fill="#2a5f8f" />
+
+    
+    <ellipse cx="79" cy="36" rx="9" ry="8" fill="#3a7ab5" opacity="0.5" />
+
+    
+    <path d="M82 25 L80 12 Q83 18 82 25Z" fill="#1e4470" />
+    <path d="M85 26 L88 14 Q84 19 85 26Z" fill="#224e84" />
+    <path d="M78 27 L73 16 Q77 20 78 27Z" fill="#163050" />
+
+    
+    <circle cx="90" cy="37" r="6" fill="#f5f5f0" />
+    
+    <circle cx="90" cy="37" r="4.5" fill="#1a1a1a" />
+    
+    <circle cx="91.5" cy="35.5" r="1.5" fill="#ffffff" />
+    
+    <circle cx="89" cy="39" r="0.8" fill="#ffffff" opacity="0.5" />
+
+    
+    <path d="M96 38 L115 35 L100 42 Z" fill="#e8a020" />
+    <path d="M96 38 L115 35 L108 37 Q100 39 96 38Z" fill="#f0b830" opacity="0.7" />
+
+    
+    <path d="M96 42 L110 40 L100 42 Z" fill="#d08818" />
+
+    
+    <circle cx="102" cy="37.5" r="0.8" fill="#c07010" />
+
+    
+    <ellipse cx="88" cy="44" rx="5" ry="3" fill="#e86030" opacity="0.5" />
+
+    
+    <g>
+      
+      <line x1="48" y1="105" x2="42" y2="130" stroke="#d08818" stroke-width="2.5" stroke-linecap="round" />
+      
+      <path d="M42 130 L35 136" stroke="#d08818" stroke-width="2" stroke-linecap="round" fill="none" />
+      <path d="M42 130 L42 137" stroke="#d08818" stroke-width="2" stroke-linecap="round" fill="none" />
+      <path d="M42 130 L48 135" stroke="#d08818" stroke-width="2" stroke-linecap="round" fill="none" />
+      
+      <circle cx="35" cy="136.5" r="0.8" fill="#a06810" />
+      <circle cx="42" cy="137.5" r="0.8" fill="#a06810" />
+      <circle cx="48" cy="135.5" r="0.8" fill="#a06810" />
+
+      
+      <line x1="62" y1="105" x2="65" y2="130" stroke="#d08818" stroke-width="2.5" stroke-linecap="round" />
+      
+      <path d="M65 130 L58 136" stroke="#d08818" stroke-width="2" stroke-linecap="round" fill="none" />
+      <path d="M65 130 L65 137" stroke="#d08818" stroke-width="2" stroke-linecap="round" fill="none" />
+      <path d="M65 130 L72 135" stroke="#d08818" stroke-width="2" stroke-linecap="round" fill="none" />
+      
+      <circle cx="58" cy="136.5" r="0.8" fill="#a06810" />
+      <circle cx="65" cy="137.5" r="0.8" fill="#a06810" />
+      <circle cx="72" cy="135.5" r="0.8" fill="#a06810" />
+    </g>
+
+    
+    <path d="M15 140 Q60 132 110 142" stroke="#5c3a1e" stroke-width="5" fill="none" stroke-linecap="round" />
+    <path d="M15 139 Q60 131 110 141" stroke="#7a5030" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.4" />
+    
+    <ellipse cx="75" cy="140" rx="3" ry="2" fill="#4a2a10" opacity="0.6" />
+
+    
+    <g id="obstacle-animated-part">
+      
+      <path d="M40 75 Q18 65 10 50 Q15 60 25 68 Q30 72 40 75Z" fill="#1e5a8a">
+        <animateTransform attributeName="transform" type="rotate" values="-3 40 75;3 40 75;-3 40 75" dur="2s" repeatCount="indefinite" />
+      </path>
+      <path d="M40 75 Q22 60 18 45 Q20 56 28 66 Q33 71 40 75Z" fill="#2870a8" opacity="0.6">
+        <animateTransform attributeName="transform" type="rotate" values="-3 40 75;3 40 75;-3 40 75" dur="2s" repeatCount="indefinite" />
+      </path>
+      
+      <path d="M15 55 Q12 50 10 50" stroke="#163050" stroke-width="1" fill="none">
+        <animateTransform attributeName="transform" type="rotate" values="-3 40 75;3 40 75;-3 40 75" dur="2s" repeatCount="indefinite" />
+      </path>
+      <path d="M20 48 Q17 44 18 45" stroke="#163050" stroke-width="1" fill="none">
+        <animateTransform attributeName="transform" type="rotate" values="-3 40 75;3 40 75;-3 40 75" dur="2s" repeatCount="indefinite" />
+      </path>
+    </g>
+  </g>
+</svg>

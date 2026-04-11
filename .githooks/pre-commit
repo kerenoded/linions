@@ -1,0 +1,8 @@
+#!/bin/sh
+# Regenerate episodes/index.json and thumb.svg files so they are always in sync
+# with the committed episode JSON artifacts. Stages any changes before the commit
+# lands, preventing the CI "git diff --exit-code -- episodes" check from failing.
+set -e
+
+node scripts/build-index.js
+git add episodes/

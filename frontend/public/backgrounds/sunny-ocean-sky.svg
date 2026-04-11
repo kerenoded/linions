@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="background-root" viewBox="0 0 800 200">
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a8d8ea" />
+      <stop offset="60%" stop-color="#d4eef7" />
+      <stop offset="85%" stop-color="#f5e6c8" />
+      <stop offset="100%" stop-color="#fff5e0" />
+    </linearGradient>
+    <linearGradient id="sunGlow" cx="0.5" cy="0.5" r="0.5" fx="0.5" fy="0.5">
+      <stop offset="0%" stop-color="#fffbe6" />
+      <stop offset="100%" stop-color="#ffe06600" />
+    </linearGradient>
+    <radialGradient id="sunRadial" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#fffbe6" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#fffbe6" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <g id="background-main">
+    
+    <rect x="0" y="0" width="800" height="200" fill="url(#skyGrad)" />
+
+    
+    <circle cx="620" cy="52" r="70" fill="#fffbe6" opacity="0.3" />
+    <circle cx="620" cy="52" r="50" fill="#fff5cc" opacity="0.4" />
+
+    
+    <rect x="0" y="115" width="800" height="25" fill="#f5e6c8" opacity="0.5" />
+
+    
+    <ellipse cx="200" cy="105" rx="120" ry="8" fill="#ffffff" opacity="0.35" />
+    <ellipse cx="500" cy="110" rx="90" ry="6" fill="#ffffff" opacity="0.3" />
+    <ellipse cx="700" cy="100" rx="70" ry="5" fill="#ffffff" opacity="0.25" />
+    <ellipse cx="100" cy="112" rx="80" ry="5" fill="#ffffff" opacity="0.2" />
+
+    
+    <rect x="0" y="130" width="800" height="70" fill="#1a7a7a" />
+
+    
+    <path d="M0,140 Q50,132 100,138 Q150,144 200,136 Q250,128 300,136 Q350,144 400,137 Q450,130 500,137 Q550,144 600,136 Q650,128 700,137 Q750,146 800,138 L800,200 L0,200 Z" fill="#2a9d8f" opacity="0.9" />
+
+    
+    <path d="M0,148 Q60,140 120,147 Q180,154 240,145 Q300,136 360,146 Q420,156 480,146 Q540,136 600,146 Q660,156 720,147 Q780,138 800,145 L800,200 L0,200 Z" fill="#3db8a9" opacity="0.85" />
+
+    
+    <path d="M0,155 Q70,148 140,155 Q210,162 280,153 Q350,144 420,154 Q490,164 560,154 Q630,144 700,154 Q770,164 800,156 L800,200 L0,200 Z" fill="#5ec4c4" opacity="0.8" />
+
+    
+    <path d="M0,165 Q40,158 80,164 Q120,170 160,162 Q200,154 240,163 Q280,172 320,163 Q360,154 400,163 Q440,172 480,164 Q520,156 560,164 Q600,172 640,163 Q680,154 720,163 Q760,172 800,165 L800,200 L0,200 Z" fill="#52b7b7" opacity="0.9" />
+
+    
+    <path d="M0,175 Q50,168 100,174 Q150,180 200,172 Q250,164 300,173 Q350,182 400,174 Q450,166 500,174 Q550,182 600,173 Q650,164 700,174 Q750,184 800,176 L800,200 L0,200 Z" fill="#40a8a8" opacity="0.95" />
+
+    
+    <path d="M0,172 Q30,168 60,171 Q90,174 120,169 Q150,164 180,170 Q210,176 240,170 Q270,164 300,170 Q330,176 360,170 Q390,164 420,170 Q450,176 480,171 Q510,166 540,171 Q570,176 600,170 Q630,164 660,171 Q690,178 720,171 Q750,164 780,170 L800,172" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.6" />
+
+    <path d="M0,182 Q25,178 50,181 Q75,184 100,180 Q125,176 150,180 Q175,184 200,180 Q225,176 250,181 Q275,186 300,181 Q325,176 350,181 Q375,186 400,181 Q425,176 450,181 Q475,186 500,181 Q525,176 550,181 Q575,186 600,181 Q625,176 650,181 Q675,186 700,181 Q725,176 750,181 Q775,186 800,182" fill="none" stroke="#ffffff" stroke-width="1.2" opacity="0.5" />
+
+    
+    <path d="M0,188 Q60,183 120,188 Q180,193 240,187 Q300,181 360,188 Q420,195 480,188 Q540,181 600,188 Q660,195 720,188 Q780,181 800,186 L800,200 L0,200 Z" fill="#2d8e8e" />
+
+    
+    <polygon points="150,152 153,148 156,152 153,156" fill="#ffffff" opacity="0.5" />
+    <polygon points="350,160 352,157 354,160 352,163" fill="#fffde0" opacity="0.4" />
+    <polygon points="550,148 553,144 556,148 553,152" fill="#ffffff" opacity="0.45" />
+    <polygon points="680,162 682,159 684,162 682,165" fill="#fffde0" opacity="0.35" />
+    <polygon points="250,168 252,165 254,168 252,171" fill="#ffffff" opacity="0.4" />
+    <polygon points="450,155 452,152 454,155 452,158" fill="#ffffff" opacity="0.3" />
+    <polygon points="90,165 92,162 94,165 92,168" fill="#fffde0" opacity="0.35" />
+    <polygon points="720,155 722,152 724,155 722,158" fill="#ffffff" opacity="0.4" />
+
+    
+    <g id="background-animated-part">
+      
+      <circle cx="620" cy="52" r="32" fill="#ffe066">
+        <animate attributeName="fill" values="#ffe066;#fff4a3;#ffe066" dur="5s" repeatCount="indefinite" />
+      </circle>
+
+      
+      <polygon points="300,150 304,144 308,150 304,156" fill="#ffffff" opacity="0.2">
+        <animate attributeName="opacity" values="0.2;1.0;0.2" dur="2s" repeatCount="indefinite" />
+      </polygon>
+
+      
+      <polygon points="520,158 524,152 528,158 524,164" fill="#fffde0" opacity="0.8">
+        <animate attributeName="opacity" values="1.0;0.2;1.0" dur="2.7s" repeatCount="indefinite" />
+      </polygon>
+
+      
+      <ellipse cx="380" cy="108" rx="110" ry="9" fill="#ffffff" opacity="0.3">
+        <animate attributeName="opacity" values="0.3;0.7;0.3" dur="4s" repeatCount="indefinite" />
+      </ellipse>
+
+      
+      <path d="M0,155 Q70,148 140,155 Q210,162 280,153 Q350,144 420,154 Q490,164 560,154 Q630,144 700,154 Q770,164 800,156 L800,168 Q730,174 660,164 Q590,154 520,164 Q450,174 380,164 Q310,154 240,163 Q170,172 100,163 Q30,154 0,162 Z" fill="#7ecfcf" opacity="0.6">
+        <animate attributeName="fill" values="#7ecfcf;#a8eaea;#7ecfcf" dur="3.5s" repeatCount="indefinite" />
+      </path>
+    </g>
+  </g>
+</svg>

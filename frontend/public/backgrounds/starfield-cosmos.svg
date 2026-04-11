@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="background-root" viewBox="0 0 800 200">
+  <defs>
+    <radialGradient id="spaceGrad" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#1a1a3e" />
+      <stop offset="60%" stop-color="#0d0d2b" />
+      <stop offset="100%" stop-color="#050510" />
+    </radialGradient>
+    <radialGradient id="nebulaGrad1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5b3a7e" stop-opacity="0.35" />
+      <stop offset="70%" stop-color="#2e6b8a" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#0d0d2b" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="nebulaGrad2" cx="40%" cy="60%" r="50%">
+      <stop offset="0%" stop-color="#3d5a80" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#0d0d2b" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="starGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9" />
+      <stop offset="40%" stop-color="#aaccff" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#aaccff" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="planetGrad" cx="50%" cy="0%" r="100%">
+      <stop offset="0%" stop-color="#4a6a8a" stop-opacity="0.6" />
+      <stop offset="40%" stop-color="#2a3a5a" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#0d0d2b" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="planetEdgeGlow" cx="50%" cy="0%" r="100%">
+      <stop offset="0%" stop-color="#6a9abf" stop-opacity="0.5" />
+      <stop offset="30%" stop-color="#4a7a9f" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#0d0d2b" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <g id="background-main">
+    
+    <rect x="0" y="0" width="800" height="200" fill="url(#spaceGrad)" />
+
+    
+    <circle cx="45" cy="23" r="0.5" fill="#ffffff" opacity="0.6" />
+    <circle cx="120" cy="67" r="0.4" fill="#ddeeff" opacity="0.5" />
+    <circle cx="198" cy="12" r="0.6" fill="#ffffff" opacity="0.7" />
+    <circle cx="250" cy="89" r="0.3" fill="#ccddff" opacity="0.4" />
+    <circle cx="310" cy="34" r="0.5" fill="#ffffff" opacity="0.55" />
+    <circle cx="370" cy="150" r="0.4" fill="#eeeeff" opacity="0.5" />
+    <circle cx="420" cy="45" r="0.6" fill="#ffffff" opacity="0.65" />
+    <circle cx="480" cy="110" r="0.3" fill="#ddeeff" opacity="0.45" />
+    <circle cx="530" cy="28" r="0.5" fill="#ffffff" opacity="0.6" />
+    <circle cx="590" cy="75" r="0.4" fill="#ccddff" opacity="0.5" />
+    <circle cx="640" cy="18" r="0.5" fill="#ffffff" opacity="0.55" />
+    <circle cx="700" cy="95" r="0.3" fill="#eeeeff" opacity="0.4" />
+    <circle cx="750" cy="42" r="0.6" fill="#ffffff" opacity="0.7" />
+    <circle cx="78" cy="140" r="0.4" fill="#ddeeff" opacity="0.45" />
+    <circle cx="160" cy="170" r="0.5" fill="#ffffff" opacity="0.5" />
+    <circle cx="290" cy="155" r="0.3" fill="#ccddff" opacity="0.4" />
+    <circle cx="450" cy="175" r="0.5" fill="#ffffff" opacity="0.55" />
+    <circle cx="560" cy="160" r="0.4" fill="#eeeeff" opacity="0.5" />
+    <circle cx="680" cy="140" r="0.3" fill="#ddeeff" opacity="0.45" />
+    <circle cx="770" cy="170" r="0.5" fill="#ffffff" opacity="0.6" />
+    <circle cx="35" cy="85" r="0.4" fill="#ffffff" opacity="0.5" />
+    <circle cx="95" cy="105" r="0.3" fill="#ccddff" opacity="0.4" />
+    <circle cx="215" cy="52" r="0.5" fill="#ffffff" opacity="0.6" />
+    <circle cx="345" cy="118" r="0.4" fill="#ddeeff" opacity="0.5" />
+    <circle cx="505" cy="65" r="0.3" fill="#ffffff" opacity="0.45" />
+    <circle cx="615" cy="130" r="0.5" fill="#eeeeff" opacity="0.55" />
+    <circle cx="725" cy="60" r="0.4" fill="#ffffff" opacity="0.5" />
+
+    
+    <circle cx="150" cy="40" r="6" fill="url(#starGlow)" opacity="0.5" />
+    <circle cx="150" cy="40" r="1.2" fill="#ffffff" opacity="0.85" />
+
+    <circle cx="380" cy="25" r="5" fill="url(#starGlow)" opacity="0.4" />
+    <circle cx="380" cy="25" r="1" fill="#ffffff" opacity="0.8" />
+
+    <circle cx="620" cy="55" r="7" fill="url(#starGlow)" opacity="0.45" />
+    <circle cx="620" cy="55" r="1.3" fill="#ffffff" opacity="0.85" />
+
+    <circle cx="90" cy="130" r="5" fill="url(#starGlow)" opacity="0.35" />
+    <circle cx="90" cy="130" r="0.9" fill="#ffffff" opacity="0.75" />
+
+    <circle cx="500" cy="140" r="4" fill="url(#starGlow)" opacity="0.3" />
+    <circle cx="500" cy="140" r="0.8" fill="#ffffff" opacity="0.7" />
+
+    <circle cx="740" cy="120" r="5" fill="url(#starGlow)" opacity="0.4" />
+    <circle cx="740" cy="120" r="1" fill="#ffffff" opacity="0.8" />
+
+    
+    <ellipse cx="620" cy="50" rx="180" ry="70" fill="url(#nebulaGrad1)" opacity="0.6" />
+    <ellipse cx="560" cy="70" rx="140" ry="55" fill="url(#nebulaGrad2)" opacity="0.4" />
+    <ellipse cx="680" cy="35" rx="100" ry="45" fill="#5b3a7e" opacity="0.12" />
+    <ellipse cx="550" cy="40" rx="90" ry="35" fill="#2e6b8a" opacity="0.1" />
+    <ellipse cx="650" cy="65" rx="120" ry="40" fill="#3d2a5e" opacity="0.08" />
+
+    
+    <ellipse cx="200" cy="320" rx="350" ry="160" fill="#1a2a3f" opacity="0.8" />
+    <ellipse cx="200" cy="325" rx="355" ry="162" fill="url(#planetGrad)" opacity="0.5" />
+
+    
+    <ellipse cx="200" cy="318" rx="352" ry="158" fill="none" stroke="#4a7a9f" stroke-width="1.5" opacity="0.3" />
+    <ellipse cx="200" cy="315" rx="354" ry="156" fill="none" stroke="#6a9abf" stroke-width="0.8" opacity="0.2" />
+
+    
+    <ellipse cx="150" cy="195" rx="80" ry="8" fill="#2a3a5a" opacity="0.3" />
+    <ellipse cx="280" cy="190" rx="50" ry="5" fill="#1f2f4f" opacity="0.25" />
+
+    
+    <circle cx="55" cy="50" r="0.7" fill="#ffffff" opacity="0.7" />
+    <circle cx="62" cy="44" r="0.5" fill="#ddeeff" opacity="0.6" />
+    <circle cx="48" cy="55" r="0.4" fill="#ffffff" opacity="0.55" />
+    <circle cx="58" cy="58" r="0.6" fill="#eeeeff" opacity="0.65" />
+    <circle cx="52" cy="42" r="0.3" fill="#ccddff" opacity="0.5" />
+
+    <circle cx="430" cy="85" r="0.7" fill="#ffffff" opacity="0.7" />
+    <circle cx="438" cy="78" r="0.5" fill="#ddeeff" opacity="0.6" />
+    <circle cx="425" cy="92" r="0.4" fill="#ffffff" opacity="0.55" />
+    <circle cx="442" cy="90" r="0.6" fill="#eeeeff" opacity="0.65" />
+    <circle cx="435" cy="82" r="0.3" fill="#ccddff" opacity="0.5" />
+
+    
+    <g id="background-animated-part">
+      
+      <circle cx="260" cy="35" r="8" fill="url(#starGlow)" opacity="0.3">
+        <animate attributeName="opacity" values="0.3;1.0;0.3" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="260" cy="35" r="1.8" fill="#ffffff" opacity="0.3">
+        <animate attributeName="opacity" values="0.3;1.0;0.3" dur="2s" repeatCount="indefinite" />
+      </circle>
+
+      
+      <circle cx="680" cy="105" r="7" fill="url(#starGlow)" opacity="0.2">
+        <animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.5s" repeatCount="indefinite" begin="1s" />
+      </circle>
+      <circle cx="680" cy="105" r="1.5" fill="#ffffff" opacity="0.2">
+        <animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.5s" repeatCount="indefinite" begin="1s" />
+      </circle>
+
+      
+      <ellipse cx="600" cy="45" rx="100" ry="40" fill="#5b3a7e" opacity="0.25">
+        <animate attributeName="fill" values="#5b3a7e;#2e6b8a;#5b3a7e" dur="5s" repeatCount="indefinite" />
+      </ellipse>
+      <ellipse cx="650" cy="55" rx="70" ry="30" fill="#5b3a7e" opacity="0.18">
+        <animate attributeName="fill" values="#5b3a7e;#2e6b8a;#5b3a7e" dur="5s" repeatCount="indefinite" />
+      </ellipse>
+
+      
+      <ellipse cx="200" cy="312" rx="356" ry="155" fill="none" stroke="#6a9abf" stroke-width="2.5" opacity="0.4">
+        <animate attributeName="opacity" values="0.4;0.75;0.4" dur="4s" repeatCount="indefinite" />
+      </ellipse>
+      <ellipse cx="200" cy="308" rx="358" ry="152" fill="none" stroke="#8abade" stroke-width="1" opacity="0.4">
+        <animate attributeName="opacity" values="0.4;0.75;0.4" dur="4s" repeatCount="indefinite" />
+      </ellipse>
+
+      
+      <g opacity="0.5">
+        <animate attributeName="opacity" values="0.5;1.0;0.5" dur="2.8s" repeatCount="indefinite" begin="0.5s" />
+        <circle cx="330" cy="130" r="1" fill="#ffffff" />
+        <circle cx="338" cy="124" r="0.7" fill="#ddeeff" />
+        <circle cx="325" cy="137" r="0.6" fill="#ffffff" />
+        <circle cx="342" cy="133" r="0.9" fill="#eeeeff" />
+        <circle cx="335" cy="126" r="0.5" fill="#ccddff" />
+        <circle cx="328" cy="132" r="0.8" fill="#ffffff" />
+        <circle cx="340" cy="140" r="0.6" fill="#ddeeff" />
+        <circle cx="322" cy="128" r="0.4" fill="#ffffff" />
+        <circle cx="333" cy="122" r="5" fill="url(#starGlow)" opacity="0.3" />
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,3 @@
+# situation-examining-object.md
+
+When Linai examines an object, curiosity leads and caution follows close behind. She drifts around it rather than simply facing it from one angle, using orbit, eye-line, and small vapor contacts to study shape and function. Internal patterns may echo what she is thinking: question marks, tentative spirals, or tiny spark-like insights. She should not treat the object as inert if the story suggests otherwise; her examination assumes the world may respond. If she misreads the object, the mistake should come from overinterpretation or optimism, not from carelessness. An examining-object beat is always a setup for decision-making.

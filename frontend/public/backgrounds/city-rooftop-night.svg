@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="background-root" viewBox="0 0 800 200">
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#050510" />
+      <stop offset="40%" stop-color="#0a0a2e" />
+      <stop offset="70%" stop-color="#111155" />
+      <stop offset="100%" stop-color="#1a1a5e" />
+    </linearGradient>
+    <radialGradient id="haloGrad" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#ffcc44" stop-opacity="0.7" />
+      <stop offset="60%" stop-color="#ffaa22" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#ffaa22" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="moonGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#fff5c0" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#fff5c0" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <g id="background-main">
+    
+    <rect x="0" y="0" width="800" height="200" fill="url(#skyGrad)" />
+
+    
+    <circle cx="50" cy="18" r="0.8" fill="#ffffff" opacity="0.6" />
+    <circle cx="120" cy="35" r="0.6" fill="#ddddff" opacity="0.5" />
+    <circle cx="180" cy="12" r="0.7" fill="#ffffff" opacity="0.7" />
+    <circle cx="230" cy="45" r="0.5" fill="#ccccff" opacity="0.4" />
+    <circle cx="290" cy="22" r="0.9" fill="#ffffff" opacity="0.6" />
+    <circle cx="340" cy="8" r="0.6" fill="#eeeeff" opacity="0.5" />
+    <circle cx="410" cy="30" r="0.7" fill="#ffffff" opacity="0.55" />
+    <circle cx="470" cy="15" r="0.5" fill="#ddddff" opacity="0.45" />
+    <circle cx="520" cy="42" r="0.8" fill="#ffffff" opacity="0.6" />
+    <circle cx="560" cy="10" r="0.6" fill="#ccccff" opacity="0.5" />
+    <circle cx="620" cy="28" r="0.7" fill="#ffffff" opacity="0.65" />
+    <circle cx="700" cy="20" r="0.5" fill="#eeeeff" opacity="0.4" />
+    <circle cx="750" cy="38" r="0.6" fill="#ffffff" opacity="0.5" />
+    <circle cx="90" cy="55" r="0.5" fill="#ffffff" opacity="0.35" />
+    <circle cx="380" cy="52" r="0.6" fill="#ddddff" opacity="0.4" />
+    <circle cx="490" cy="58" r="0.5" fill="#ffffff" opacity="0.35" />
+    <circle cx="155" cy="48" r="0.4" fill="#ffffff" opacity="0.3" />
+    <circle cx="660" cy="48" r="0.5" fill="#ccddff" opacity="0.4" />
+    <circle cx="30" cy="40" r="0.6" fill="#ffffff" opacity="0.45" />
+    <circle cx="775" cy="12" r="0.7" fill="#ffffff" opacity="0.5" />
+
+    
+    <circle cx="680" cy="35" r="40" fill="url(#moonGlow)" />
+
+    
+    <circle cx="680" cy="35" r="12" fill="#fff5c0" opacity="0.9" />
+    <circle cx="686" cy="33" r="10" fill="#0a0a2e" opacity="1" />
+
+    
+    <rect x="0" y="85" width="60" height="55" fill="#0d0d28" />
+    <rect x="55" y="78" width="45" height="62" fill="#0e0e2a" />
+    <rect x="95" y="90" width="35" height="50" fill="#0c0c25" />
+    <rect x="125" y="72" width="50" height="68" fill="#0f0f2c" />
+    <rect x="170" y="82" width="40" height="58" fill="#0d0d28" />
+    <rect x="205" y="75" width="55" height="65" fill="#101030" />
+    <rect x="255" y="88" width="30" height="52" fill="#0c0c26" />
+    <rect x="280" y="70" width="60" height="70" fill="#0e0e2b" />
+    <rect x="335" y="80" width="45" height="60" fill="#0d0d29" />
+    <rect x="375" y="74" width="50" height="66" fill="#0f0f2d" />
+    <rect x="420" y="86" width="35" height="54" fill="#0c0c27" />
+    <rect x="450" y="68" width="55" height="72" fill="#101031" />
+    <rect x="500" y="82" width="40" height="58" fill="#0d0d28" />
+    <rect x="535" y="76" width="50" height="64" fill="#0e0e2c" />
+    <rect x="580" y="90" width="30" height="50" fill="#0c0c25" />
+    <rect x="605" y="72" width="60" height="68" fill="#0f0f2e" />
+    <rect x="660" y="84" width="45" height="56" fill="#0d0d29" />
+    <rect x="700" y="78" width="50" height="62" fill="#0e0e2a" />
+    <rect x="745" y="86" width="55" height="54" fill="#0c0c26" />
+
+    
+    <rect x="0" y="95" width="50" height="45" fill="#121238" />
+    <rect x="45" y="88" width="55" height="52" fill="#141440" />
+    <rect x="95" y="100" width="40" height="40" fill="#111135" />
+    <rect x="130" y="85" width="60" height="55" fill="#151542" />
+    <rect x="185" y="92" width="45" height="48" fill="#131339" />
+    <rect x="225" y="87" width="50" height="53" fill="#161645" />
+    <rect x="270" y="98" width="35" height="42" fill="#121237" />
+    <rect x="300" y="83" width="65" height="57" fill="#141441" />
+    <rect x="360" y="90" width="50" height="50" fill="#131339" />
+    <rect x="405" y="86" width="45" height="54" fill="#151543" />
+    <rect x="445" y="95" width="40" height="45" fill="#111136" />
+    <rect x="480" y="82" width="55" height="58" fill="#161646" />
+    <rect x="530" y="93" width="45" height="47" fill="#121238" />
+    <rect x="570" y="88" width="50" height="52" fill="#141440" />
+    <rect x="615" y="96" width="35" height="44" fill="#131338" />
+    <rect x="645" y="84" width="60" height="56" fill="#151543" />
+    <rect x="700" y="90" width="50" height="50" fill="#121237" />
+    <rect x="745" y="94" width="55" height="46" fill="#141441" />
+
+    
+    <rect x="55" y="95" width="3" height="3" fill="#ffcc66" opacity="0.6" />
+    <rect x="65" y="100" width="3" height="3" fill="#ffffff" opacity="0.4" />
+    <rect x="75" y="93" width="3" height="3" fill="#ffbb44" opacity="0.5" />
+    <rect x="140" y="92" width="3" height="3" fill="#ffcc66" opacity="0.55" />
+    <rect x="155" y="98" width="3" height="3" fill="#ffffff" opacity="0.45" />
+    <rect x="165" y="90" width="3" height="3" fill="#ffaa33" opacity="0.5" />
+    <rect x="235" y="94" width="3" height="3" fill="#ffcc66" opacity="0.5" />
+    <rect x="250" y="100" width="3" height="3" fill="#ffffff" opacity="0.4" />
+    <rect x="310" y="90" width="3" height="3" fill="#ffbb44" opacity="0.6" />
+    <rect x="325" y="96" width="3" height="3" fill="#ffcc66" opacity="0.45" />
+    <rect x="340" y="88" width="3" height="3" fill="#ffffff" opacity="0.5" />
+    <rect x="370" y="97" width="3" height="3" fill="#ffaa33" opacity="0.55" />
+    <rect x="415" y="93" width="3" height="3" fill="#ffcc66" opacity="0.5" />
+    <rect x="430" y="99" width="3" height="3" fill="#ffffff" opacity="0.4" />
+    <rect x="490" y="89" width="3" height="3" fill="#ffbb44" opacity="0.6" />
+    <rect x="505" y="95" width="3" height="3" fill="#ffcc66" opacity="0.45" />
+    <rect x="540" y="100" width="3" height="3" fill="#ffffff" opacity="0.5" />
+    <rect x="580" y="94" width="3" height="3" fill="#ffaa33" opacity="0.5" />
+    <rect x="655" y="91" width="3" height="3" fill="#ffcc66" opacity="0.55" />
+    <rect x="670" y="97" width="3" height="3" fill="#ffffff" opacity="0.4" />
+    <rect x="710" y="96" width="3" height="3" fill="#ffbb44" opacity="0.5" />
+    <rect x="760" y="100" width="3" height="3" fill="#ffcc66" opacity="0.45" />
+
+    
+    <rect x="0" y="140" width="800" height="60" fill="#1a1a2a" />
+
+    
+    <rect x="0" y="140" width="800" height="60" fill="#222238" opacity="0.7" />
+    <rect x="0" y="155" width="800" height="45" fill="#1e1e30" opacity="0.5" />
+
+    
+    <rect x="0" y="134" width="800" height="10" fill="#252540" />
+    
+    <rect x="0" y="132" width="800" height="3" fill="#2a2a4a" />
+    
+    <rect x="0" y="144" width="800" height="3" fill="#111120" opacity="0.5" />
+
+    
+    <rect x="120" y="148" width="8" height="12" fill="#2a2a42" />
+    <rect x="118" y="146" width="12" height="3" fill="#333355" />
+    <rect x="600" y="150" width="6" height="10" fill="#282840" />
+    <rect x="598" y="148" width="10" height="3" fill="#303050" />
+    <rect x="350" y="152" width="10" height="8" fill="#2c2c45" />
+    <rect x="348" y="150" width="14" height="3" fill="#353558" />
+
+    
+    <ellipse cx="400" cy="165" rx="120" ry="30" fill="url(#haloGrad)" opacity="0.4" />
+
+    
+    <g id="background-animated-part">
+      
+      <rect x="308" y="88" width="4" height="4" fill="#ffcc44" opacity="0.35">
+        <animate attributeName="opacity" values="0.35;0.95;0.35" dur="3s" repeatCount="indefinite" />
+      </rect>
+
+      
+      <rect x="502" y="92" width="4" height="4" fill="#ffffff" opacity="0.95">
+        <animate attributeName="opacity" values="0.95;0.35;0.95" dur="4.2s" repeatCount="indefinite" />
+      </rect>
+
+      
+      <circle cx="350" cy="20" r="1.8" fill="#ffffff" opacity="0.9">
+        <animate attributeName="fill" values="#ffffff;#c8e8ff;#ffffff" dur="3.5s" repeatCount="indefinite" />
+      </circle>
+
+      
+      <ellipse cx="400" cy="165" rx="100" ry="25" fill="#ffcc44" opacity="0.2">
+        <animate attributeName="opacity" values="0.2;0.6;0.2" dur="4s" repeatCount="indefinite" />
+      </ellipse>
+
+      
+      <circle cx="680" cy="35" r="12" fill="#fff5c0" opacity="0.9">
+        <animate attributeName="fill" values="#fff5c0;#ffe080;#fff5c0" dur="6s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="686" cy="33" r="10" fill="#0a0a2e" />
+    </g>
+  </g>
+</svg>

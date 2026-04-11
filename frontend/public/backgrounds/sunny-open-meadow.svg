@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="background-root" viewBox="0 0 800 200">
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#87CEEB" />
+      <stop offset="60%" stop-color="#b8e4f0" />
+      <stop offset="100%" stop-color="#fdf8e8" />
+    </linearGradient>
+    <linearGradient id="grassGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6abf4b" />
+      <stop offset="100%" stop-color="#3a8c2e" />
+    </linearGradient>
+  </defs>
+
+  <g id="background-main">
+    
+    <rect x="0" y="0" width="800" height="200" fill="url(#skyGrad)" />
+
+    
+    <ellipse cx="650" cy="30" rx="50" ry="50" fill="#fff9c4" opacity="0.7" />
+    <ellipse cx="650" cy="30" rx="30" ry="30" fill="#ffee58" opacity="0.9" />
+
+    
+    <ellipse cx="150" cy="35" rx="60" ry="18" fill="#ffffff" opacity="0.85" />
+    <ellipse cx="180" cy="28" rx="45" ry="15" fill="#ffffff" opacity="0.9" />
+    <ellipse cx="120" cy="30" rx="35" ry="14" fill="#ffffff" opacity="0.8" />
+
+    <ellipse cx="500" cy="50" rx="55" ry="16" fill="#ffffff" opacity="0.8" />
+    <ellipse cx="530" cy="44" rx="40" ry="13" fill="#ffffff" opacity="0.85" />
+
+    <ellipse cx="350" cy="25" rx="50" ry="14" fill="#ffffff" opacity="0.75" />
+    <ellipse cx="380" cy="20" rx="35" ry="12" fill="#ffffff" opacity="0.8" />
+
+    
+    <ellipse cx="200" cy="115" rx="250" ry="30" fill="#8cc77a" opacity="0.5" />
+    <ellipse cx="600" cy="118" rx="300" ry="28" fill="#9dd68a" opacity="0.45" />
+
+    
+    <ellipse cx="80" cy="105" rx="30" ry="22" fill="#4a9e4a" />
+    <ellipse cx="130" cy="100" rx="35" ry="25" fill="#5db85d" />
+    <ellipse cx="185" cy="103" rx="28" ry="20" fill="#4a9e4a" />
+    <ellipse cx="240" cy="98" rx="32" ry="24" fill="#6bc76b" />
+    <ellipse cx="300" cy="102" rx="28" ry="21" fill="#5db85d" />
+    <ellipse cx="360" cy="97" rx="34" ry="26" fill="#4a9e4a" />
+    <ellipse cx="420" cy="101" rx="30" ry="22" fill="#6bc76b" />
+    <ellipse cx="480" cy="96" rx="36" ry="27" fill="#5db85d" />
+    <ellipse cx="540" cy="100" rx="28" ry="20" fill="#4a9e4a" />
+    <ellipse cx="600" cy="98" rx="33" ry="24" fill="#6bc76b" />
+    <ellipse cx="660" cy="102" rx="30" ry="22" fill="#5db85d" />
+    <ellipse cx="720" cy="97" rx="35" ry="25" fill="#4a9e4a" />
+    <ellipse cx="770" cy="103" rx="30" ry="22" fill="#6bc76b" />
+
+    
+    <rect x="125" y="100" width="8" height="18" fill="#8B6914" rx="2" />
+    <rect x="235" y="98" width="8" height="20" fill="#8B6914" rx="2" />
+    <rect x="355" y="97" width="9" height="22" fill="#8B6914" rx="2" />
+    <rect x="475" y="96" width="9" height="22" fill="#8B6914" rx="2" />
+    <rect x="595" y="98" width="8" height="20" fill="#8B6914" rx="2" />
+    <rect x="715" y="97" width="8" height="20" fill="#8B6914" rx="2" />
+
+    
+    <ellipse cx="130" cy="95" rx="22" ry="16" fill="#c4d94e" opacity="0.5" />
+    <ellipse cx="480" cy="91" rx="24" ry="17" fill="#d4e157" opacity="0.45" />
+
+    
+    <rect x="0" y="110" width="800" height="90" fill="url(#grassGrad)" />
+
+    
+    <ellipse cx="100" cy="120" rx="120" ry="8" fill="#5aad3a" opacity="0.6" />
+    <ellipse cx="400" cy="125" rx="180" ry="10" fill="#4d9e30" opacity="0.5" />
+    <ellipse cx="700" cy="118" rx="140" ry="7" fill="#5aad3a" opacity="0.55" />
+
+    
+    
+    <circle cx="120" cy="135" r="4" fill="#e53935" />
+    <circle cx="128" cy="138" r="3" fill="#ef5350" />
+    <circle cx="115" cy="140" r="3.5" fill="#c62828" />
+    <circle cx="135" cy="133" r="2.5" fill="#e53935" />
+
+    
+    <circle cx="300" cy="140" r="4" fill="#fdd835" />
+    <circle cx="310" cy="137" r="3" fill="#ffe066" />
+    <circle cx="295" cy="143" r="3.5" fill="#f9a825" />
+    <circle cx="318" cy="142" r="2.5" fill="#fdd835" />
+
+    
+    <circle cx="500" cy="132" r="4" fill="#ab47bc" />
+    <circle cx="508" cy="136" r="3" fill="#ce93d8" />
+    <circle cx="495" cy="138" r="3.5" fill="#8e24aa" />
+    <circle cx="515" cy="134" r="2.5" fill="#ab47bc" />
+
+    
+    <circle cx="650" cy="138" r="4" fill="#ec407a" />
+    <circle cx="658" cy="135" r="3" fill="#f48fb1" />
+    <circle cx="643" cy="141" r="3.5" fill="#d81b60" />
+
+    
+    <circle cx="220" cy="145" r="3" fill="#ff6eb4" />
+    <circle cx="400" cy="148" r="3" fill="#e53935" />
+    <circle cx="560" cy="143" r="3" fill="#fdd835" />
+    <circle cx="750" cy="140" r="3" fill="#ab47bc" />
+
+    
+    <path d="M30 170 Q35 155 40 170" fill="#3a8c2e" opacity="0.8" />
+    <path d="M35 170 Q40 152 45 170" fill="#4a9e3a" opacity="0.7" />
+    <path d="M150 175 Q155 158 160 175" fill="#3a8c2e" opacity="0.8" />
+    <path d="M155 175 Q160 155 165 175" fill="#4a9e3a" opacity="0.7" />
+    <path d="M280 172 Q285 156 290 172" fill="#3a8c2e" opacity="0.8" />
+    <path d="M285 172 Q290 153 295 172" fill="#4a9e3a" opacity="0.7" />
+    <path d="M450 178 Q455 162 460 178" fill="#3a8c2e" opacity="0.8" />
+    <path d="M455 178 Q460 159 465 178" fill="#4a9e3a" opacity="0.7" />
+    <path d="M600 173 Q605 157 610 173" fill="#3a8c2e" opacity="0.8" />
+    <path d="M700 176 Q705 160 710 176" fill="#3a8c2e" opacity="0.8" />
+    <path d="M705 176 Q710 157 715 176" fill="#4a9e3a" opacity="0.7" />
+
+    
+    <circle cx="50" cy="165" r="5" fill="#ff6eb4" />
+    <circle cx="55" cy="162" r="3.5" fill="#ff8ec7" />
+    <circle cx="200" cy="168" r="4.5" fill="#e53935" />
+    <circle cx="350" cy="170" r="5" fill="#ffe066" />
+    <circle cx="355" cy="167" r="3.5" fill="#fdd835" />
+    <circle cx="520" cy="165" r="4.5" fill="#ab47bc" />
+    <circle cx="680" cy="170" r="5" fill="#ec407a" />
+    <circle cx="780" cy="168" r="4" fill="#fdd835" />
+
+    
+    <ellipse cx="200" cy="190" rx="200" ry="12" fill="#3a8c2e" opacity="0.4" />
+    <ellipse cx="600" cy="192" rx="220" ry="10" fill="#3a8c2e" opacity="0.35" />
+
+    <g id="background-animated-part">
+      
+      <circle cx="380" cy="150" r="7" fill="#ff6eb4">
+        <animate attributeName="fill" values="#ff6eb4;#ffb347;#ff6eb4" dur="4s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="375" cy="147" r="4" fill="#ff8ec7">
+        <animate attributeName="fill" values="#ff8ec7;#ffc97a;#ff8ec7" dur="4s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="386" cy="147" r="4" fill="#ff8ec7">
+        <animate attributeName="fill" values="#ff8ec7;#ffc97a;#ff8ec7" dur="4s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="380" cy="155" r="3" fill="#ffb347">
+        <animate attributeName="fill" values="#ffb347;#ff6eb4;#ffb347" dur="4s" repeatCount="indefinite" />
+      </circle>
+
+      
+      <ellipse cx="700" cy="40" rx="65" ry="20" fill="#ffffff" opacity="0.85">
+        <animate attributeName="opacity" values="0.7;1.0;0.7" dur="5s" repeatCount="indefinite" />
+      </ellipse>
+      <ellipse cx="730" cy="33" rx="48" ry="16" fill="#ffffff" opacity="0.9">
+        <animate attributeName="opacity" values="0.7;1.0;0.7" dur="5s" repeatCount="indefinite" />
+      </ellipse>
+      <ellipse cx="670" cy="36" rx="38" ry="14" fill="#ffffff" opacity="0.8">
+        <animate attributeName="opacity" values="0.7;1.0;0.7" dur="5s" repeatCount="indefinite" />
+      </ellipse>
+
+      
+      <circle cx="250" cy="155" r="6" fill="#ffe066">
+        <animate attributeName="fill" values="#ffe066;#a8e063;#ffe066" dur="3.5s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="245" cy="152" r="3.5" fill="#fff59d">
+        <animate attributeName="fill" values="#fff59d;#c5e99b;#fff59d" dur="3.5s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="256" cy="152" r="3.5" fill="#fff59d">
+        <animate attributeName="fill" values="#fff59d;#c5e99b;#fff59d" dur="3.5s" repeatCount="indefinite" />
+      </circle>
+
+      
+      <ellipse cx="420" cy="145" rx="90" ry="25" fill="#fffde7" opacity="0.25">
+        <animate attributeName="opacity" values="0.1;0.4;0.1" dur="4s" repeatCount="indefinite" />
+      </ellipse>
+
+      
+      <ellipse cx="360" cy="97" rx="34" ry="26" fill="#5db85d">
+        <animate attributeName="fill" values="#5db85d;#7dd67d;#5db85d" dur="6s" repeatCount="indefinite" />
+      </ellipse>
+    </g>
+  </g>
+</svg>

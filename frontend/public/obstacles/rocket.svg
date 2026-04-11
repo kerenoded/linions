@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="obstacle-root" viewBox="0 0 120 150">
+  <g id="obstacle-main" transform="translate(60,75) rotate(-3) translate(-60,-75)">
+    
+    
+    <g id="obstacle-animated-part">
+      <ellipse cx="60" cy="142" rx="14" ry="8" fill="#FF4500" opacity="0.5">
+        <animate attributeName="opacity" values="0.4;1.0;0.4" dur="1.5s" repeatCount="indefinite" />
+      </ellipse>
+      <ellipse cx="60" cy="140" rx="10" ry="6" fill="#FF6600" opacity="0.6">
+        <animate attributeName="opacity" values="0.5;1.0;0.5" dur="1.5s" repeatCount="indefinite" />
+      </ellipse>
+      <ellipse cx="60" cy="138" rx="7" ry="4" fill="#FFAA00" opacity="0.7">
+        <animate attributeName="opacity" values="0.4;1.0;0.4" dur="1.5s" repeatCount="indefinite" />
+      </ellipse>
+      <ellipse cx="60" cy="136" rx="4" ry="3" fill="#FFDD44" opacity="0.8">
+        <animate attributeName="opacity" values="0.5;1.0;0.5" dur="1.5s" repeatCount="indefinite" />
+      </ellipse>
+      
+      <ellipse cx="58" cy="146" rx="8" ry="3" fill="#FF3300" opacity="0.3">
+        <animate attributeName="opacity" values="0.2;0.7;0.2" dur="1.2s" repeatCount="indefinite" />
+      </ellipse>
+      <ellipse cx="62" cy="148" rx="6" ry="2" fill="#FF5500" opacity="0.25">
+        <animate attributeName="opacity" values="0.15;0.6;0.15" dur="1.0s" repeatCount="indefinite" />
+      </ellipse>
+    </g>
+
+    
+    <path d="M50,128 L52,135 L68,135 L70,128 Z" fill="#555555" />
+    <path d="M53,135 L54,140 L66,140 L67,135 Z" fill="#444444" />
+    <path d="M55,135 L54.5,138 L65.5,138 L65,135 Z" fill="#666666" />
+
+    
+    <path d="M38,105 L28,132 L32,134 L48,120 Z" fill="#CC2200" />
+    <path d="M38,105 L30,130 L32,131 L46,118 Z" fill="#DD3311" opacity="0.6" />
+
+    
+    <path d="M82,105 L92,132 L88,134 L72,120 Z" fill="#AA1800" />
+    <path d="M82,105 L90,130 L88,131 L74,118 Z" fill="#CC2200" opacity="0.5" />
+
+    
+    <path d="M42,108 L33,130 L38,132 L50,118 Z" fill="#DD3300" />
+    <path d="M43,110 L36,128 L39,129 L49,117 Z" fill="#EE4411" opacity="0.5" />
+
+    
+    <path d="M78,108 L87,130 L82,132 L70,118 Z" fill="#BB2200" />
+    <path d="M77,110 L84,128 L81,129 L71,117 Z" fill="#DD3311" opacity="0.4" />
+
+    
+    <path d="M46,30 C46,30 44,35 44,50 L44,128 L76,128 L76,50 C76,35 74,30 74,30 Z" fill="#B0B0B0" />
+
+    
+    <path d="M46,30 C46,30 45,35 45,50 L45,128 L73,128 L73,50 C73,35 72,30 72,30 Z" fill="#F0F0F5" />
+
+    
+    <rect x="45" y="50" width="4" height="78" fill="#C8C8D0" opacity="0.7" />
+
+    
+    <rect x="69" y="50" width="4" height="78" fill="#A8A8B0" opacity="0.5" />
+
+    
+    <rect x="45" y="55" width="28" height="5" rx="1" fill="#DD2200" />
+    <rect x="45" y="55" width="28" height="2" rx="1" fill="#EE3311" opacity="0.5" />
+
+    
+    <rect x="45" y="63" width="28" height="3" rx="1" fill="#FF6600" />
+    <rect x="45" y="63" width="28" height="1.5" rx="1" fill="#FF8833" opacity="0.5" />
+
+    
+    <rect x="45" y="95" width="28" height="5" rx="1" fill="#DD2200" />
+    <rect x="45" y="95" width="28" height="2" rx="1" fill="#EE3311" opacity="0.5" />
+
+    
+    <rect x="45" y="103" width="28" height="3" rx="1" fill="#FF6600" />
+
+    
+    <rect x="44" y="120" width="30" height="8" rx="1" fill="#CC1100" />
+    <rect x="44" y="120" width="30" height="3" rx="1" fill="#DD2211" opacity="0.6" />
+
+    
+    <circle cx="59" cy="78" r="6" fill="#334455" />
+    <circle cx="59" cy="78" r="5.2" fill="#445566" />
+    
+    
+    <circle cx="59" cy="78" r="4.5" fill="#2244AA" />
+    <circle cx="59" cy="78" r="4.5" fill="url(#windowGrad)" />
+    
+    
+    <ellipse cx="57.5" cy="76.5" rx="2" ry="1.5" fill="#88BBFF" opacity="0.6" />
+    <ellipse cx="57" cy="76" rx="1" ry="0.7" fill="#FFFFFF" opacity="0.7" />
+
+    
+    <circle cx="59" cy="78" r="5.5" fill="none" stroke="#888899" stroke-width="0.8" />
+
+    
+    <circle cx="59" cy="45" r="2.5" fill="#334455" />
+    <circle cx="59" cy="45" r="2" fill="#2255BB" />
+    <ellipse cx="58.2" cy="44.2" rx="0.8" ry="0.6" fill="#88CCFF" opacity="0.5" />
+
+    
+    <path d="M60,5 C60,5 54,18 48,30 C47,32 46,34 46,35 L74,35 C74,34 73,32 72,30 C66,18 60,5 60,5 Z" fill="#E8E8EE" />
+    
+    
+    <path d="M60,5 C60,5 56,14 53,22 L67,22 C64,14 60,5 60,5 Z" fill="#DD2200" />
+    <path d="M60,5 C60,5 57,12 55,18 L65,18 C63,12 60,5 60,5 Z" fill="#EE3311" opacity="0.5" />
+
+    
+    <path d="M60,5 C58,10 55,20 52,28 L48,35 L50,35 C52,28 56,14 58,8 Z" fill="#FFFFFF" opacity="0.25" />
+
+    
+    <path d="M48,35 L48,128 L51,128 L51,35 Z" fill="#FFFFFF" opacity="0.15" />
+    <path d="M49,40 L49,125 L50,125 L50,40 Z" fill="#FFFFFF" opacity="0.2" />
+
+    
+    <path d="M68,35 L68,128 L73,128 L73,35 Z" fill="#000000" opacity="0.08" />
+
+    
+    <circle cx="48" cy="42" r="0.5" fill="#999999" />
+    <circle cx="48" cy="52" r="0.5" fill="#999999" />
+    <circle cx="48" cy="62" r="0.5" fill="#999999" />
+    <circle cx="48" cy="72" r="0.5" fill="#999999" />
+    <circle cx="48" cy="88" r="0.5" fill="#999999" />
+    <circle cx="48" cy="98" r="0.5" fill="#999999" />
+    <circle cx="48" cy="108" r="0.5" fill="#999999" />
+    <circle cx="70" cy="42" r="0.5" fill="#888888" />
+    <circle cx="70" cy="52" r="0.5" fill="#888888" />
+    <circle cx="70" cy="62" r="0.5" fill="#888888" />
+    <circle cx="70" cy="72" r="0.5" fill="#888888" />
+    <circle cx="70" cy="88" r="0.5" fill="#888888" />
+    <circle cx="70" cy="98" r="0.5" fill="#888888" />
+    <circle cx="70" cy="108" r="0.5" fill="#888888" />
+
+    
+    <line x1="45" y1="50" x2="73" y2="50" stroke="#CCCCCC" stroke-width="0.3" />
+    <line x1="45" y1="90" x2="73" y2="90" stroke="#CCCCCC" stroke-width="0.3" />
+    <line x1="45" y1="115" x2="73" y2="115" stroke="#CCCCCC" stroke-width="0.3" />
+
+    
+    <line x1="60" y1="5" x2="60" y2="2" stroke="#888888" stroke-width="0.8" />
+    <circle cx="60" cy="1.5" r="1" fill="#DD2200" />
+    <circle cx="60" cy="1.5" r="0.5" fill="#FF4422" />
+
+    
+    <animateTransform attributeName="transform" type="rotate" values="-3,60,75;-1,60,75;-3,60,75" dur="4s" repeatCount="indefinite" additive="sum" />
+  </g>
+
+  <defs>
+    <radialGradient id="windowGrad" cx="45%" cy="40%">
+      <stop offset="0%" stop-color="#4488DD" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#112244" stop-opacity="1" />
+    </radialGradient>
+  </defs>
+</svg>

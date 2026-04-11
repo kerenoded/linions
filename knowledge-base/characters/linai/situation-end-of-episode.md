@@ -1,0 +1,3 @@
+# situation-end-of-episode.md
+
+The end of an episode should leave Linai in a state of earned warmth, not exhausted shutdown. She settles into a calm hover, glow softened, trails quiet, and eyes open enough to read as satisfied rather than sleepy. If the ending is triumphant, there may still be a little radiating sparkle left in her; if it is gentler, the internal patterns should calm into simple swirls. Linai should feel as though she could continue on into another story even though this one is complete. An end-of-episode beat may acknowledge the viewer, but it should do so with gratitude or shared relief, not with a hard punchline. The final image should feel like release.

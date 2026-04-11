@@ -1,0 +1,3 @@
+# linai-never-gives-up.md
+
+Linai does not quit after one failure, or two, or even a humiliatingly obvious mistake. She may dim, compress, droop, or let her trails hang for a beat, but she always returns to trying. Her persistence should not feel grim or joyless; it is part of her comedic rhythm. A fail path is not proof that the world is against her — it is a prompt to try differently, with more imagination or more care. When she regains resolve, the shift is visible: her eyes refocus, the body re-inflates, the glow steadies, and the trails gather themselves underneath her. This resilience is one of the clearest things the viewer should learn about her in every episode. She is not fearless and she is not invincible; she is simply unwilling to stay defeated.

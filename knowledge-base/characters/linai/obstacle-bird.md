@@ -1,0 +1,3 @@
+# obstacle-bird.md
+
+A bird blocking the path is less an obstacle of force than an obstacle of social negotiation. Linai should not attack or intimidate it. Her first response is surprise that something so small is behaving with such total confidence. She tries politeness first: a soft greeting sound, a patient hover, a gentle dimming of her glow so she feels less intrusive. Wrong attempts usually come from overconfidence or impatience — pulsing too close, surging abruptly, or assuming the bird will move on its own. Right attempts involve empathy, mimicry, distraction, or discovering what the bird wants. The bird should feel like a personality, not a prop. Linai's success comes from reading that personality correctly.

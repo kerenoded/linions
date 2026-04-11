@@ -1,0 +1,194 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="aura-glow" cx="55%" cy="45%" r="50%">
+      <stop offset="0%" stop-color="#cc88ff" stop-opacity="0.4"/>
+      <stop offset="60%" stop-color="#9955dd" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#7733bb" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="body-grad1" cx="50%" cy="45%" r="50%">
+      <stop offset="0%" stop-color="#ddaaff" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#9955dd" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#7733bb" stop-opacity="0.3"/>
+    </radialGradient>
+    <radialGradient id="body-grad2" cx="45%" cy="50%" r="45%">
+      <stop offset="0%" stop-color="#cc88ff" stop-opacity="0.8"/>
+      <stop offset="70%" stop-color="#7733bb" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#551199" stop-opacity="0.1"/>
+    </radialGradient>
+    <radialGradient id="inner-glow" cx="50%" cy="40%" r="35%">
+      <stop offset="0%" stop-color="#eeccff" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#9955dd" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="pupil-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#cc88ff" stop-opacity="1"/>
+      <stop offset="60%" stop-color="#cc88ff" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#9955dd" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="star-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#cc88ff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft-blur">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="glow-filter">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <filter id="mist-blur">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <filter id="tiny-glow">
+      <feGaussianBlur stdDeviation="1.5"/>
+    </filter>
+    <filter id="eye-glow">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+  </defs>
+
+  <!-- Outer aura glow -->
+  <ellipse cx="105" cy="95" rx="85" ry="75" fill="url(#aura-glow)" filter="url(#glow-filter)"/>
+  <ellipse cx="105" cy="95" rx="75" ry="65" fill="#9955dd" opacity="0.08" filter="url(#glow-filter)"/>
+
+  <g id="character-body">
+    <!-- Main cloud body - layered shapes -->
+    <!-- Outermost wispy layer -->
+    <path d="M30 100 Q25 75 45 60 Q55 48 75 45 Q90 38 110 40 Q130 38 145 48 Q165 55 172 72 Q180 88 175 105 Q172 118 160 125 Q150 135 135 132 Q120 138 105 135 Q85 140 70 132 Q50 128 40 115 Z" fill="#7733bb" opacity="0.3" filter="url(#soft-blur)"/>
+
+    <!-- Second layer -->
+    <path d="M38 98 Q35 78 50 65 Q62 52 80 50 Q95 44 112 46 Q132 44 148 54 Q162 62 167 78 Q172 92 168 106 Q162 118 150 122 Q138 130 120 128 Q100 132 82 126 Q60 122 48 112 Z" fill="url(#body-grad1)"/>
+
+    <!-- Third layer - more opaque center -->
+    <path d="M48 96 Q45 80 58 70 Q68 58 85 56 Q98 50 115 53 Q133 52 145 62 Q156 70 158 84 Q160 98 155 108 Q148 118 135 120 Q118 126 102 122 Q82 124 68 116 Q54 108 50 100 Z" fill="url(#body-grad2)"/>
+
+    <!-- Inner luminous core -->
+    <ellipse cx="105" cy="88" rx="42" ry="30" fill="url(#inner-glow)"/>
+
+    <!-- Deep inner nebula swirls -->
+    <path d="M70 85 Q80 75 95 80 Q110 72 120 82 Q130 78 140 88" fill="none" stroke="#ddaaff" stroke-width="1.5" opacity="0.4" stroke-linecap="round"/>
+    <path d="M60 95 Q75 88 90 95 Q105 88 118 96 Q130 90 145 98" fill="none" stroke="#cc88ff" stroke-width="1" opacity="0.35" stroke-linecap="round"/>
+    <path d="M75 105 Q88 98 100 105 Q112 98 125 106" fill="none" stroke="#ddaaff" stroke-width="1" opacity="0.3" stroke-linecap="round"/>
+
+    <!-- Energy wisps inside body -->
+    <path d="M65 78 Q72 70 82 74 Q88 68 95 73" fill="none" stroke="#eeccff" stroke-width="0.8" opacity="0.5" stroke-linecap="round"/>
+    <path d="M120 72 Q128 66 138 72 Q144 68 150 75" fill="none" stroke="#eeccff" stroke-width="0.8" opacity="0.4" stroke-linecap="round"/>
+
+    <!-- Orbiting rings -->
+    <ellipse cx="105" cy="88" rx="50" ry="12" fill="none" stroke="#cc88ff" stroke-width="0.6" opacity="0.25" transform="rotate(-8 105 88)"/>
+    <ellipse cx="105" cy="88" rx="38" ry="18" fill="none" stroke="#ddaaff" stroke-width="0.5" opacity="0.2" transform="rotate(15 105 88)"/>
+    <ellipse cx="105" cy="88" rx="55" ry="8" fill="none" stroke="#9955dd" stroke-width="0.4" opacity="0.2" transform="rotate(-20 105 88)"/>
+
+    <!-- Star sparkle particles with glow -->
+    <circle cx="72" cy="72" r="1.8" fill="white" opacity="0.9"/>
+    <circle cx="72" cy="72" r="4" fill="white" opacity="0.2" filter="url(#tiny-glow)"/>
+
+    <circle cx="130" cy="68" r="1.5" fill="white" opacity="0.85"/>
+    <circle cx="130" cy="68" r="3.5" fill="white" opacity="0.18" filter="url(#tiny-glow)"/>
+
+    <circle cx="95" cy="58" r="1.2" fill="white" opacity="0.8"/>
+    <circle cx="95" cy="58" r="3" fill="white" opacity="0.15" filter="url(#tiny-glow)"/>
+
+    <circle cx="145" cy="85" r="1" fill="white" opacity="0.75"/>
+    <circle cx="145" cy="85" r="2.5" fill="white" opacity="0.15" filter="url(#tiny-glow)"/>
+
+    <circle cx="60" cy="92" r="1.3" fill="white" opacity="0.7"/>
+    <circle cx="60" cy="92" r="3" fill="white" opacity="0.12" filter="url(#tiny-glow)"/>
+
+    <circle cx="115" cy="110" r="1" fill="white" opacity="0.65"/>
+    <circle cx="115" cy="110" r="2.5" fill="white" opacity="0.12" filter="url(#tiny-glow)"/>
+
+    <circle cx="82" cy="108" r="0.8" fill="white" opacity="0.6"/>
+    <circle cx="150" cy="100" r="0.9" fill="white" opacity="0.55"/>
+    <circle cx="105" cy="52" r="1" fill="white" opacity="0.7"/>
+    <circle cx="55" cy="80" r="0.7" fill="white" opacity="0.5"/>
+    <circle cx="138" cy="112" r="0.7" fill="white" opacity="0.45"/>
+
+    <!-- Stars peeking through body -->
+    <circle cx="78" cy="62" r="0.6" fill="#ffffff" opacity="0.9"/>
+    <line x1="75.5" y1="62" x2="80.5" y2="62" stroke="white" stroke-width="0.3" opacity="0.6"/>
+    <line x1="78" y1="59.5" x2="78" y2="64.5" stroke="white" stroke-width="0.3" opacity="0.6"/>
+
+    <circle cx="140" cy="76" r="0.5" fill="#ffffff" opacity="0.85"/>
+    <line x1="138" y1="76" x2="142" y2="76" stroke="white" stroke-width="0.25" opacity="0.5"/>
+    <line x1="140" y1="74" x2="140" y2="78" stroke="white" stroke-width="0.25" opacity="0.5"/>
+
+    <circle cx="100" cy="115" r="0.5" fill="#ffffff" opacity="0.7"/>
+    <line x1="98.2" y1="115" x2="101.8" y2="115" stroke="white" stroke-width="0.2" opacity="0.45"/>
+    <line x1="100" y1="113.2" x2="100" y2="116.8" stroke="white" stroke-width="0.2" opacity="0.45"/>
+
+    <!-- Bottom trailing mist -->
+    <path d="M55 120 Q60 130 70 128 Q80 135 90 130 Q100 138 110 132 Q120 140 130 134 Q140 138 148 130 Q155 125 160 118" fill="#9955dd" opacity="0.25" filter="url(#soft-blur)"/>
+    <path d="M62 128 Q72 140 85 136 Q95 145 108 138 Q118 148 130 140 Q142 145 152 135" fill="#7733bb" opacity="0.15" filter="url(#mist-blur)"/>
+    <path d="M70 138 Q82 150 98 145 Q110 155 125 148 Q138 152 145 142" fill="#7733bb" opacity="0.08" filter="url(#mist-blur)"/>
+    <path d="M80 148 Q92 160 108 155 Q120 162 132 152" fill="#551199" opacity="0.05" filter="url(#mist-blur)"/>
+
+    <!-- Wispy tendrils at edges -->
+    <path d="M35 95 Q28 90 22 95 Q18 100 25 105" fill="#9955dd" opacity="0.15" filter="url(#soft-blur)"/>
+    <path d="M170 80 Q178 75 182 82 Q185 90 178 92" fill="#9955dd" opacity="0.12" filter="url(#soft-blur)"/>
+    <path d="M42 112 Q35 118 30 115 Q26 108 32 105" fill="#7733bb" opacity="0.1" filter="url(#soft-blur)"/>
+    <path d="M165 108 Q172 115 175 110 Q178 102 170 100" fill="#7733bb" opacity="0.1" filter="url(#soft-blur)"/>
+
+    <!-- Top wisps -->
+    <path d="M80 48 Q75 40 80 35 Q85 32 88 38" fill="#9955dd" opacity="0.12" filter="url(#soft-blur)"/>
+    <path d="M120 44 Q125 36 130 40 Q133 46 128 48" fill="#9955dd" opacity="0.1" filter="url(#soft-blur)"/>
+  </g>
+
+  <!-- Eyes -->
+  <g id="character-eye-left">
+    <!-- Eye glow behind -->
+    <ellipse cx="88" cy="88" rx="14" ry="13" fill="#cc88ff" opacity="0.2" filter="url(#eye-glow)"/>
+    <!-- White sclera -->
+    <ellipse cx="88" cy="88" rx="12" ry="11" fill="#ffffff"/>
+    <!-- Subtle sclera shading -->
+    <ellipse cx="88" cy="91" rx="11" ry="8" fill="#f0e8f8" opacity="0.3"/>
+    <!-- Dark iris -->
+    <ellipse cx="90" cy="88" rx="7" ry="7.5" fill="#1a0033"/>
+    <!-- Iris detail ring -->
+    <ellipse cx="90" cy="88" rx="5.5" ry="6" fill="#2a0055" opacity="0.6"/>
+    <!-- Glowing violet pupil -->
+    <circle cx="90" cy="88" r="3.5" fill="url(#pupil-glow)"/>
+    <circle cx="90" cy="88" r="2.5" fill="#cc88ff"/>
+    <!-- Pupil inner bright -->
+    <circle cx="90" cy="88" r="1.2" fill="#eeddff" opacity="0.6"/>
+    <!-- Highlight dots -->
+    <circle cx="93" cy="84" r="2" fill="white" opacity="0.95"/>
+    <circle cx="87" cy="92" r="1" fill="white" opacity="0.6"/>
+  </g>
+
+  <g id="character-eye-right">
+    <!-- Eye glow behind -->
+    <ellipse cx="120" cy="86" rx="14" ry="13" fill="#cc88ff" opacity="0.2" filter="url(#eye-glow)"/>
+    <!-- White sclera -->
+    <ellipse cx="120" cy="86" rx="12" ry="11" fill="#ffffff"/>
+    <!-- Subtle sclera shading -->
+    <ellipse cx="120" cy="89" rx="11" ry="8" fill="#f0e8f8" opacity="0.3"/>
+    <!-- Dark iris -->
+    <ellipse cx="122" cy="86" rx="7" ry="7.5" fill="#1a0033"/>
+    <!-- Iris detail ring -->
+    <ellipse cx="122" cy="86" rx="5.5" ry="6" fill="#2a0055" opacity="0.6"/>
+    <!-- Glowing violet pupil -->
+    <circle cx="122" cy="86" r="3.5" fill="url(#pupil-glow)"/>
+    <circle cx="122" cy="86" r="2.5" fill="#cc88ff"/>
+    <!-- Pupil inner bright -->
+    <circle cx="122" cy="86" r="1.2" fill="#eeddff" opacity="0.6"/>
+    <!-- Highlight dots -->
+    <circle cx="125" cy="82" r="2" fill="white" opacity="0.95"/>
+    <circle cx="119" cy="90" r="1" fill="white" opacity="0.6"/>
+  </g>
+
+  <!-- Gentle smile -->
+  <path d="M96 100 Q105 107 114 100" fill="none" stroke="#ddaaff" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+  <path d="M98 100 Q105 105 112 100" fill="none" stroke="#eeddff" stroke-width="0.6" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- Tiny cheek blush -->
+  <ellipse cx="78" cy="96" rx="5" ry="3" fill="#dd88cc" opacity="0.15" filter="url(#soft-blur)"/>
+  <ellipse cx="132" cy="94" rx="5" ry="3" fill="#dd88cc" opacity="0.15" filter="url(#soft-blur)"/>
+
+  <!-- Additional ambient sparkles outside body -->
+  <circle cx="25" cy="55" r="0.8" fill="white" opacity="0.4"/>
+  <circle cx="175" cy="45" r="0.6" fill="white" opacity="0.35"/>
+  <circle cx="18" cy="130" r="0.5" fill="white" opacity="0.3"/>
+  <circle cx="185" cy="125" r="0.7" fill="white" opacity="0.3"/>
+  <circle cx="40" cy="35" r="0.4" fill="white" opacity="0.25"/>
+  <circle cx="165" cy="150" r="0.5" fill="white" opacity="0.25"/>
+</svg>

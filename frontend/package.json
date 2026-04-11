@@ -1,0 +1,13 @@
+{
+  "name": "linions-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/generate-build-config.mjs && tsc && node scripts/copy-public.mjs"
+  },
+  "devDependencies": {
+    "@types/dom-webcodecs": "^0.1.0",
+    "typescript": "^5.0.0"
+  }
+}

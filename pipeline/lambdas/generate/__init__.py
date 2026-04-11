@@ -1,0 +1,1 @@
+"""Generate Lambda handler package."""

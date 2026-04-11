@@ -1,0 +1,204 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="obstacle-root" viewBox="0 0 120 150">
+  <defs>
+    <linearGradient id="bodyGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7B8FA1" />
+      <stop offset="50%" stop-color="#5C6F7E" />
+      <stop offset="100%" stop-color="#3D4F5F" />
+    </linearGradient>
+    <linearGradient id="headGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8FA3B3" />
+      <stop offset="100%" stop-color="#5A7080" />
+    </linearGradient>
+    <linearGradient id="legGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4A5A68" />
+      <stop offset="100%" stop-color="#6B7D8D" />
+    </linearGradient>
+    <radialGradient id="eyeGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#00FFFF" />
+      <stop offset="60%" stop-color="#00CCDD" />
+      <stop offset="100%" stop-color="#007788" />
+    </radialGradient>
+    <radialGradient id="chestGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#FF6644" />
+      <stop offset="70%" stop-color="#CC3311" />
+      <stop offset="100%" stop-color="#881100" />
+    </radialGradient>
+  </defs>
+
+  <g id="obstacle-main">
+    
+    <ellipse cx="60" cy="146" rx="30" ry="4" fill="#1A1A2E" opacity="0.4" />
+
+    
+    <rect x="38" y="112" width="12" height="28" rx="3" fill="url(#legGrad)" />
+    <rect x="38" y="112" width="12" height="4" rx="2" fill="#8FA3B3" opacity="0.4" />
+    
+    <ellipse cx="44" cy="124" rx="7" ry="3" fill="#3D4F5F" />
+    <ellipse cx="44" cy="124" rx="5" ry="2" fill="#5C6F7E" />
+    
+    <path d="M34 138 Q34 144 44 144 Q54 144 54 138 L50 136 L38 136 Z" fill="#3D4F5F" />
+    <rect x="36" y="136" width="16" height="3" rx="1" fill="#4A5A68" />
+
+    
+    <rect x="70" y="112" width="12" height="28" rx="3" fill="url(#legGrad)" />
+    <rect x="70" y="112" width="12" height="4" rx="2" fill="#8FA3B3" opacity="0.4" />
+    
+    <ellipse cx="76" cy="124" rx="7" ry="3" fill="#3D4F5F" />
+    <ellipse cx="76" cy="124" rx="5" ry="2" fill="#5C6F7E" />
+    
+    <path d="M66 138 Q66 144 76 144 Q86 144 86 138 L82 136 L70 136 Z" fill="#3D4F5F" />
+    <rect x="68" y="136" width="16" height="3" rx="1" fill="#4A5A68" />
+
+    
+    <rect x="32" y="62" width="56" height="52" rx="6" fill="url(#bodyGrad)" />
+    
+    <rect x="36" y="66" width="48" height="1" fill="#8FA3B3" opacity="0.3" />
+    <rect x="36" y="78" width="48" height="1" fill="#8FA3B3" opacity="0.2" />
+    <rect x="36" y="90" width="48" height="1" fill="#8FA3B3" opacity="0.2" />
+    <rect x="36" y="102" width="48" height="1" fill="#8FA3B3" opacity="0.2" />
+    
+    <rect x="34" y="64" width="8" height="48" rx="3" fill="#FFFFFF" opacity="0.08" />
+
+    
+    <rect x="42" y="70" width="36" height="24" rx="4" fill="#3D4F5F" />
+    <rect x="44" y="72" width="32" height="20" rx="3" fill="#2A3A48" />
+    
+    <ellipse cx="60" cy="82" rx="8" ry="8" fill="url(#chestGlow)" />
+    <ellipse cx="60" cy="82" rx="5" ry="5" fill="#FF8866" opacity="0.8" />
+    <ellipse cx="60" cy="82" rx="2.5" ry="2.5" fill="#FFCCBB" />
+    
+    <ellipse cx="60" cy="82" rx="8" ry="8" fill="#FF6644" opacity="0.15">
+      <animate attributeName="rx" values="8;10;8" dur="2s" repeatCount="indefinite" />
+      <animate attributeName="ry" values="8;10;8" dur="2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.15;0.05;0.15" dur="2s" repeatCount="indefinite" />
+    </ellipse>
+
+    
+    <rect x="48" y="98" width="6" height="3" rx="1" fill="#2A3A48" />
+    <rect x="57" y="98" width="6" height="3" rx="1" fill="#2A3A48" />
+    <rect x="66" y="98" width="6" height="3" rx="1" fill="#2A3A48" />
+    
+    <circle cx="51" cy="99.5" r="1" fill="#44FF44" opacity="0.8" />
+    <circle cx="60" cy="99.5" r="1" fill="#FFAA00" opacity="0.8" />
+    <circle cx="69" cy="99.5" r="1" fill="#44FF44" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;0.3;0.8" dur="1.5s" repeatCount="indefinite" />
+    </circle>
+
+    
+    <rect x="36" y="110" width="48" height="6" rx="3" fill="#3D4F5F" />
+    <ellipse cx="60" cy="113" rx="22" ry="4" fill="#4A5A68" />
+
+    
+    <g id="obstacle-animated-part">
+      <animateTransform attributeName="transform" type="rotate" values="-3 32 66;3 32 66;-3 32 66" dur="3s" repeatCount="indefinite" />
+      
+      <circle cx="30" cy="66" r="7" fill="#5C6F7E" />
+      <circle cx="30" cy="66" r="5" fill="#4A5A68" />
+      <circle cx="30" cy="66" r="2.5" fill="#6B7D8D" />
+      
+      <rect x="24" y="70" width="12" height="22" rx="4" fill="url(#legGrad)" />
+      <rect x="24" y="70" width="12" height="3" rx="2" fill="#8FA3B3" opacity="0.3" />
+      
+      <circle cx="30" cy="93" r="5" fill="#3D4F5F" />
+      <circle cx="30" cy="93" r="3" fill="#5C6F7E" />
+      
+      <rect x="25" y="96" width="10" height="18" rx="3" fill="#5C6F7E" />
+      
+      <path d="M24 114 Q22 118 24 120 L27 120 L27 116 Z" fill="#4A5A68" />
+      <path d="M30 114 Q32 118 30 120 L27 120 L27 116 Z" fill="#4A5A68" />
+      <rect x="25" y="113" width="10" height="3" rx="1" fill="#3D4F5F" />
+    </g>
+
+    
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="3 88 66;-3 88 66;3 88 66" dur="3s" repeatCount="indefinite" />
+      
+      <circle cx="90" cy="66" r="7" fill="#5C6F7E" />
+      <circle cx="90" cy="66" r="5" fill="#4A5A68" />
+      <circle cx="90" cy="66" r="2.5" fill="#6B7D8D" />
+      
+      <rect x="84" y="70" width="12" height="22" rx="4" fill="url(#legGrad)" />
+      <rect x="84" y="70" width="12" height="3" rx="2" fill="#8FA3B3" opacity="0.3" />
+      
+      <circle cx="90" cy="93" r="5" fill="#3D4F5F" />
+      <circle cx="90" cy="93" r="3" fill="#5C6F7E" />
+      
+      <rect x="85" y="96" width="10" height="18" rx="3" fill="#5C6F7E" />
+      
+      <path d="M84 114 Q82 118 84 120 L87 120 L87 116 Z" fill="#4A5A68" />
+      <path d="M90 114 Q92 118 90 120 L87 120 L87 116 Z" fill="#4A5A68" />
+      <rect x="85" y="113" width="10" height="3" rx="1" fill="#3D4F5F" />
+    </g>
+
+    
+    <rect x="52" y="54" width="16" height="10" rx="3" fill="#4A5A68" />
+    <rect x="54" y="56" width="12" height="2" rx="1" fill="#3D4F5F" />
+    
+    <rect x="50" y="56" width="2" height="8" rx="1" fill="#3D4F5F" />
+    <rect x="68" y="56" width="2" height="8" rx="1" fill="#3D4F5F" />
+
+    
+    <rect x="34" y="18" width="52" height="38" rx="8" fill="url(#headGrad)" />
+    
+    <rect x="38" y="20" width="44" height="6" rx="4" fill="#FFFFFF" opacity="0.1" />
+    
+    <rect x="40" y="22" width="40" height="8" rx="3" fill="#4A5A68" />
+    <rect x="44" y="24" width="32" height="4" rx="2" fill="#3D4F5F" />
+
+    
+    <rect x="40" y="32" width="16" height="12" rx="4" fill="#1A1A2E" />
+    <rect x="64" y="32" width="16" height="12" rx="4" fill="#1A1A2E" />
+
+    
+    <ellipse cx="48" cy="38" rx="6" ry="5" fill="url(#eyeGlow)" />
+    <ellipse cx="72" cy="38" rx="6" ry="5" fill="url(#eyeGlow)" />
+    
+    <ellipse cx="48" cy="38" rx="3" ry="2.5" fill="#AAFFFF" />
+    <ellipse cx="72" cy="38" rx="3" ry="2.5" fill="#AAFFFF" />
+    
+    <ellipse cx="48" cy="38" rx="1.5" ry="2" fill="#FFFFFF" />
+    <ellipse cx="72" cy="38" rx="1.5" ry="2" fill="#FFFFFF" />
+    
+    <ellipse cx="48" cy="38" rx="7" ry="6" fill="#00FFFF" opacity="0.1">
+      <animate attributeName="opacity" values="0.1;0.2;0.1" dur="2.5s" repeatCount="indefinite" />
+    </ellipse>
+    <ellipse cx="72" cy="38" rx="7" ry="6" fill="#00FFFF" opacity="0.1">
+      <animate attributeName="opacity" values="0.1;0.2;0.1" dur="2.5s" repeatCount="indefinite" />
+    </ellipse>
+
+    
+    <rect x="46" y="47" width="28" height="6" rx="3" fill="#2A3A48" />
+    <line x1="50" y1="48" x2="50" y2="52" stroke="#4A5A68" stroke-width="0.8" />
+    <line x1="54" y1="48" x2="54" y2="52" stroke="#4A5A68" stroke-width="0.8" />
+    <line x1="58" y1="48" x2="58" y2="52" stroke="#4A5A68" stroke-width="0.8" />
+    <line x1="62" y1="48" x2="62" y2="52" stroke="#4A5A68" stroke-width="0.8" />
+    <line x1="66" y1="48" x2="66" y2="52" stroke="#4A5A68" stroke-width="0.8" />
+    <line x1="70" y1="48" x2="70" y2="52" stroke="#4A5A68" stroke-width="0.8" />
+
+    
+    <rect x="58" y="6" width="4" height="14" rx="2" fill="#5C6F7E" />
+    <circle cx="60" cy="5" r="4" fill="#4A5A68" />
+    <circle cx="60" cy="5" r="2.5" fill="#FF4444" />
+    <circle cx="60" cy="5" r="2.5" fill="#FF4444" opacity="0.6">
+      <animate attributeName="r" values="2.5;4;2.5" dur="1.5s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.6;0;0.6" dur="1.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="60" cy="5" r="1.2" fill="#FF8888" />
+
+    
+    <rect x="30" y="28" width="6" height="18" rx="2" fill="#4A5A68" />
+    <rect x="31" y="30" width="4" height="5" rx="1" fill="#3D4F5F" />
+    <rect x="31" y="37" width="4" height="5" rx="1" fill="#3D4F5F" />
+    <rect x="84" y="28" width="6" height="18" rx="2" fill="#4A5A68" />
+    <rect x="85" y="30" width="4" height="5" rx="1" fill="#3D4F5F" />
+    <rect x="85" y="37" width="4" height="5" rx="1" fill="#3D4F5F" />
+
+    
+    <circle cx="36" cy="66" r="1.5" fill="#8FA3B3" />
+    <circle cx="84" cy="66" r="1.5" fill="#8FA3B3" />
+    <circle cx="36" cy="110" r="1.5" fill="#8FA3B3" />
+    <circle cx="84" cy="110" r="1.5" fill="#8FA3B3" />
+    <circle cx="36" cy="88" r="1" fill="#6B7D8D" />
+    <circle cx="84" cy="88" r="1" fill="#6B7D8D" />
+  </g>
+</svg>

@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="background-root" viewBox="0 0 800 200">
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c4a8d4" />
+      <stop offset="30%" stop-color="#f0c97a" />
+      <stop offset="60%" stop-color="#f7dfa8" />
+      <stop offset="85%" stop-color="#fce8b2" />
+      <stop offset="100%" stop-color="#fff5d6" />
+    </linearGradient>
+    <linearGradient id="sandGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d4a44a" />
+      <stop offset="40%" stop-color="#c89535" />
+      <stop offset="100%" stop-color="#b07a28" />
+    </linearGradient>
+    <linearGradient id="sandForeGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b88530" />
+      <stop offset="100%" stop-color="#a06e20" />
+    </linearGradient>
+  </defs>
+  <g id="background-main">
+    
+    <rect x="0" y="0" width="800" height="200" fill="url(#skyGrad)" />
+
+    
+    <rect x="0" y="0" width="800" height="60" fill="#f7dfa8" opacity="0.5" />
+
+    
+    <rect x="0" y="0" width="800" height="30" fill="#d4b8c0" opacity="0.35" />
+
+    
+    <rect x="0" y="80" width="800" height="30" fill="#ffe8a0" opacity="0.4" />
+
+    
+    <rect x="0" y="95" width="800" height="18" fill="#8ecfd8" opacity="0.9" />
+
+    
+    <rect x="0" y="98" width="800" height="12" fill="#a8e6ef" opacity="0.85" />
+
+    
+    <rect x="0" y="100" width="800" height="3" fill="#d4f0f4" opacity="0.6" />
+
+    
+    <rect x="0" y="110" width="800" height="90" fill="url(#sandGrad)" />
+
+    
+    <ellipse cx="120" cy="140" rx="180" ry="4" fill="#9a6a1e" opacity="0.3" />
+    <ellipse cx="400" cy="135" rx="220" ry="3.5" fill="#9a6a1e" opacity="0.25" />
+    <ellipse cx="650" cy="145" rx="160" ry="4" fill="#8e6018" opacity="0.28" />
+    <ellipse cx="300" cy="155" rx="200" ry="3" fill="#8e6018" opacity="0.22" />
+    <ellipse cx="550" cy="160" rx="180" ry="3.5" fill="#9a6a1e" opacity="0.2" />
+    <ellipse cx="100" cy="165" rx="140" ry="3" fill="#8e6018" opacity="0.25" />
+    <ellipse cx="700" cy="170" rx="120" ry="2.5" fill="#9a6a1e" opacity="0.2" />
+
+    
+    <ellipse cx="250" cy="130" rx="150" ry="6" fill="#e8c060" opacity="0.35" />
+    <ellipse cx="600" cy="125" rx="130" ry="5" fill="#e8c060" opacity="0.3" />
+
+    
+    <rect x="0" y="175" width="800" height="25" fill="url(#sandForeGrad)" />
+    <rect x="0" y="185" width="800" height="15" fill="#956520" opacity="0.4" />
+
+    
+    <ellipse cx="200" cy="190" rx="100" ry="3" fill="#a87828" opacity="0.3" />
+    <ellipse cx="500" cy="192" rx="120" ry="2.5" fill="#a87828" opacity="0.25" />
+    <ellipse cx="700" cy="188" rx="80" ry="2" fill="#a87828" opacity="0.3" />
+
+    
+    <ellipse cx="580" cy="35" rx="60" ry="8" fill="#ffffff" opacity="0.3" />
+    <ellipse cx="200" cy="55" rx="45" ry="6" fill="#fff8e8" opacity="0.25" />
+
+    <g id="background-animated-part">
+      
+      <rect x="0" y="0" width="800" height="55" fill="#f7dfa8" opacity="0.45">
+        <animate attributeName="fill" values="#f7dfa8;#f0c97a;#f7dfa8" dur="7s" repeatCount="indefinite" />
+      </rect>
+
+      
+      <g opacity="0.8">
+        <ellipse cx="150" cy="28" rx="90" ry="10" fill="#ffffff" />
+        <ellipse cx="180" cy="25" rx="60" ry="8" fill="#fff8e8" />
+        <ellipse cx="120" cy="30" rx="50" ry="7" fill="#ffffff" />
+        <animate attributeName="opacity" values="0.6;1.0;0.6" dur="4s" repeatCount="indefinite" />
+      </g>
+
+      
+      <g opacity="0.7">
+        <ellipse cx="520" cy="18" rx="110" ry="9" fill="#ffffff" />
+        <ellipse cx="560" cy="15" rx="70" ry="7" fill="#fff8e8" />
+        <ellipse cx="480" cy="20" rx="55" ry="6" fill="#ffffff" />
+        <animate attributeName="opacity" values="0.5;0.95;0.5" dur="5s" repeatCount="indefinite" begin="1.2s" />
+      </g>
+
+      
+      <rect x="0" y="96" width="800" height="14" fill="#a8e6ef" opacity="0.9">
+        <animate attributeName="fill" values="#a8e6ef;#7fd6e8;#a8e6ef" dur="6s" repeatCount="indefinite" />
+      </rect>
+
+      
+      <g opacity="0.5">
+        <rect x="0" y="115" width="800" height="12" fill="#f0d070" rx="3" />
+        <ellipse cx="400" cy="121" rx="350" ry="6" fill="#f5da78" />
+        <animate attributeName="opacity" values="0.35;0.7;0.35" dur="3.5s" repeatCount="indefinite" />
+      </g>
+
+      
+      <g opacity="0.4">
+        <ellipse cx="700" cy="42" rx="70" ry="7" fill="#ffffff" />
+        <ellipse cx="720" cy="40" rx="45" ry="5.5" fill="#fff8e8" />
+        <animate attributeName="opacity" values="0.3;0.7;0.3" dur="4.5s" repeatCount="indefinite" begin="0.8s" />
+      </g>
+    </g>
+  </g>
+</svg>

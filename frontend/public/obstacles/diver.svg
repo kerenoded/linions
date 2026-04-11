@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 150" id="obstacle-root">
+  <g id="obstacle-main">
+    
+    <rect x="48" y="42" width="16" height="38" rx="5" fill="#3a3a3a" />
+    <rect x="50" y="42" width="12" height="38" rx="4" fill="#4a4a4a" />
+    <rect x="53" y="38" width="6" height="6" rx="2" fill="#666666" />
+    <circle cx="56" cy="39" r="2" fill="#888888" />
+    
+    <rect x="54" y="36" width="4" height="4" rx="1" fill="#777777" />
+    
+    <rect x="46" y="50" width="22" height="3" rx="1" fill="#222222" />
+    <rect x="46" y="62" width="22" height="3" rx="1" fill="#222222" />
+
+    
+    <path d="M44,46 Q42,44 44,42 L50,38 Q57,36 64,38 L70,42 Q72,44 70,46 L72,80 Q60,84 42,80 Z" fill="#1a1a1a" />
+    
+    <path d="M48,42 Q57,39 66,42 L68,70 Q58,74 46,70 Z" fill="#222222" />
+    
+    <path d="M44,46 Q57,43 70,46 L70,48 Q57,45 44,48 Z" fill="#e6b800" />
+    
+    <rect x="42" y="50" width="3" height="28" rx="1" fill="#0066cc" />
+    <rect x="69" y="50" width="3" height="28" rx="1" fill="#0066cc" />
+
+    
+    <path d="M45,78 L43,82 L41,110 Q40,118 43,122 L49,122 Q51,118 49,110 L53,82 L51,78 Z" fill="#1a1a1a" />
+    <path d="M43,84 L45,110 Q45,116 47,120 L47,110 L49,84 Z" fill="#222222" />
+    
+    <path d="M59,78 L57,82 L56,110 Q55,118 58,124 L64,124 Q66,118 65,110 L67,82 L65,78 Z" fill="#1a1a1a" />
+    <path d="M58,84 L59,110 Q59,116 61,122 L62,110 L64,84 Z" fill="#222222" />
+    
+    <path d="M39,120 L37,126 Q37,130 41,130 L51,130 Q53,130 53,126 L51,120 Z" fill="#111111" />
+    <path d="M39,126 Q40,128 45,128 L51,128 Q52,126 51,124" fill="none" stroke="#333333" stroke-width="0.5" />
+
+    
+    <path d="M54,122 L52,128 Q52,132 56,132 L66,132 Q68,132 68,128 L66,122 Z" fill="#111111" />
+    <path d="M54,128 Q55,130 60,130 L66,130 Q67,128 66,126" fill="none" stroke="#333333" stroke-width="0.5" />
+
+    
+    <path d="M42,48 L34,52 L28,68 Q26,72 28,76 L30,80 L34,78 L32,72 L36,58 L42,54 Z" fill="#1a1a1a" />
+    
+    <path d="M34,52 L32,54 L28,68 L30,68 L34,54 Z" fill="#e6b800" opacity="0.6" />
+    
+    <ellipse cx="31" cy="80" rx="4" ry="3" fill="#d4a574" />
+    
+    <path d="M28,78 Q27,77 28,76 M30,77 Q29,76 30,75 M32,78 Q33,77 33,76" fill="none" stroke="#c49464" stroke-width="0.8" />
+
+    
+    <g transform="translate(24,80) rotate(15)">
+      <path d="M0,0 L-4,22 Q-2,28 2,28 L6,28 Q10,28 8,22 L4,0 Z" fill="#00aa55" />
+      <path d="M1,2 L-2,20 Q0,24 3,24 L5,24 Q8,24 6,20 L3,2 Z" fill="#00cc66" />
+      
+      <rect x="-1" y="-2" width="6" height="4" rx="2" fill="#111111" />
+      
+      <path d="M2,1 L-2,21 Q0,27 4,27 L8,27 Q12,27 10,21 L6,1 Z" fill="#008844" opacity="0.7" />
+    </g>
+
+    
+    <path d="M70,48 L76,54 L78,70 Q78,76 76,80 L74,84 L70,82 L72,76 L72,62 L70,54 Z" fill="#1a1a1a" />
+    
+    <path d="M76,54 L78,56 L78,70 L76,70 L76,56 Z" fill="#e6b800" opacity="0.6" />
+    
+    <ellipse cx="73" cy="84" rx="3.5" ry="3" fill="#d4a574" />
+    <path d="M71,82 Q70,81 71,80 M73,81 Q72,80 73,79" fill="none" stroke="#c49464" stroke-width="0.8" />
+
+    
+    <rect x="52" y="34" width="10" height="6" rx="2" fill="#d4a574" />
+    
+    <path d="M50,38 Q57,36 64,38 L64,40 Q57,38 50,40 Z" fill="#1a1a1a" />
+    <path d="M50,38 Q57,36 64,38 L64,39 Q57,37 50,39 Z" fill="#e6b800" />
+
+    
+    <ellipse cx="57" cy="28" rx="11" ry="13" fill="#d4a574" />
+    
+    <ellipse cx="58" cy="29" rx="10" ry="12" fill="#c49464" opacity="0.3" />
+    
+    <ellipse cx="46" cy="28" rx="2.5" ry="4" fill="#c49464" />
+    <ellipse cx="46.5" cy="28" rx="1.5" ry="3" fill="#d4a574" />
+    
+    <ellipse cx="68" cy="26" rx="2.5" ry="4" fill="#c49464" />
+    <ellipse cx="67.5" cy="26" rx="1.5" ry="3" fill="#d4a574" />
+
+    
+    <path d="M46,22 Q47,14 57,12 Q67,14 68,22 L68,18 Q66,12 57,10 Q48,12 46,18 Z" fill="#4a3728" />
+    <path d="M47,20 Q48,15 57,13 Q66,15 67,20 Q66,16 57,14 Q48,16 47,20 Z" fill="#5a4738" />
+
+    
+    <ellipse cx="52" cy="26" rx="2.5" ry="2" fill="white" />
+    <ellipse cx="62" cy="25" rx="2.5" ry="2" fill="white" />
+    <circle cx="53" cy="26" r="1.2" fill="#2d5a27" />
+    <circle cx="63" cy="25" r="1.2" fill="#2d5a27" />
+    <circle cx="53.3" cy="25.7" r="0.5" fill="#111111" />
+    <circle cx="63.3" cy="24.7" r="0.5" fill="#111111" />
+    
+    <circle cx="52.2" cy="25.2" r="0.4" fill="white" />
+    <circle cx="62.2" cy="24.2" r="0.4" fill="white" />
+
+    
+    <path d="M49,23 Q52,21.5 55,23" fill="none" stroke="#4a3728" stroke-width="1" stroke-linecap="round" />
+    <path d="M59,22 Q62,20.5 65,22" fill="none" stroke="#4a3728" stroke-width="1" stroke-linecap="round" />
+
+    
+    <path d="M57,27 L56,30 Q57,31 58,30 Z" fill="#c49464" />
+
+    
+    <path d="M53,33 Q57,35.5 61,33" fill="none" stroke="#8b5e3c" stroke-width="0.8" stroke-linecap="round" />
+
+    
+    <g id="obstacle-animated-part">
+      <animateTransform attributeName="transform" type="rotate" values="-3,57,18;3,57,18;-3,57,18" dur="2s" repeatCount="indefinite" />
+      
+      <path d="M44,18 Q57,16 70,18 Q70,20 70,19 Q57,17 44,19 Z" fill="#333333" />
+      
+      <rect x="47" y="14" width="20" height="10" rx="4" fill="#222222" stroke="#444444" stroke-width="0.5" />
+      
+      <ellipse cx="53" cy="19" rx="4.5" ry="3.5" fill="#1a6699" opacity="0.7" />
+      <ellipse cx="53" cy="19" rx="4.5" ry="3.5" fill="none" stroke="#333333" stroke-width="1" />
+      
+      <ellipse cx="61" cy="19" rx="4.5" ry="3.5" fill="#1a6699" opacity="0.7" />
+      <ellipse cx="61" cy="19" rx="4.5" ry="3.5" fill="none" stroke="#333333" stroke-width="1" />
+      
+      <rect x="56" y="17" width="2" height="4" rx="1" fill="#333333" />
+      
+      <path d="M50,17 Q51,16 53,17" fill="none" stroke="#66bbee" stroke-width="0.5" opacity="0.6" />
+      <path d="M58,17 Q59,16 61,17" fill="none" stroke="#66bbee" stroke-width="0.5" opacity="0.6" />
+      
+      <path d="M48,15 Q57,13 66,15" fill="none" stroke="#555555" stroke-width="0.5" />
+    </g>
+
+    
+    <path d="M46,44 L44,50 L44,70 L46,72 L46,44 Z" fill="#2a2a2a" />
+    <path d="M68,44 L70,50 L70,70 L68,72 L68,44 Z" fill="#2a2a2a" />
+    
+    <rect x="54" y="52" width="6" height="4" rx="1" fill="#888888" />
+    <rect x="55" y="53" width="4" height="2" rx="0.5" fill="#aaaaaa" />
+    
+    <path d="M48,46 Q40,44 36,48 Q34,52 36,56" fill="none" stroke="#444444" stroke-width="1.5" />
+    <circle cx="36" cy="57" r="3" fill="#555555" />
+    <circle cx="36" cy="57" r="2" fill="#333333" />
+    <circle cx="36" cy="57" r="1.2" fill="#88ff88" opacity="0.6" />
+
+    
+    <rect x="43" y="76" width="26" height="3" rx="1" fill="#333333" />
+    <rect x="54" y="75.5" width="6" height="4" rx="1" fill="#777777" />
+    
+    <rect x="44" y="76" width="4" height="3" rx="0.5" fill="#555555" />
+    <rect x="64" y="76" width="4" height="3" rx="0.5" fill="#555555" />
+
+    
+    <ellipse cx="46" cy="100" rx="4" ry="5" fill="#2a2a2a" />
+    <ellipse cx="61" cy="102" rx="4" ry="5" fill="#2a2a2a" />
+  </g>
+</svg>

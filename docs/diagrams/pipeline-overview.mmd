@@ -1,0 +1,64 @@
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#E3F2FD', 'primaryTextColor': '#1a1a1a', 'primaryBorderColor': '#1565C0', 'lineColor': '#424242', 'secondaryColor': '#FFF3E0', 'tertiaryColor': '#E8F5E9', 'fontSize': '16px'}, 'flowchart': {'curve': 'basis', 'padding': 25, 'nodeSpacing': 40, 'rankSpacing': 50}}}%%
+
+flowchart TD
+    START([Prompt submitted]) --> SESSION[Create AgentCore Session]
+    SESSION --> RAG[/"RAG Retrieval\n&#40;Bedrock Knowledge Base&#41;"/]
+
+    RAG --> DIRECTOR["Director Agent\n&#40;story script&#41;"]
+    DIRECTOR --> SCRIPT_VAL{Script\nValidator}
+    SCRIPT_VAL -- Fail --> DIRECTOR_RETRY["Retry with exact\nvalidation errors"]
+    DIRECTOR_RETRY --> DIRECTOR
+    SCRIPT_VAL -- Pass --> ANIMATOR
+
+    ANIMATOR["Animator Agent\n&#40;keyframe choreography&#41;"]
+    ANIMATOR --> ANIM_PAR{{"parallel: one\nBedrock call per act"}}
+    ANIM_PAR --> FRAME_VAL{Frame Validator\n+ keyframe repair}
+    FRAME_VAL -- Fail --> ANIM_RETRY[Retry failed acts only]
+    ANIM_RETRY --> ANIM_PAR
+    FRAME_VAL -- Pass --> RESOLVE
+
+    RESOLVE{"Resolve obstacles\nfrom library cache"}
+    RESOLVE -- All cached --> DRAWING_BG
+    RESOLVE -- Missing slugs --> DRAWING_OBS
+
+    DRAWING_OBS["Drawing Agent\n&#40;missing obstacles&#41;"]
+    DRAWING_OBS --> DRAWING_BG
+    DRAWING_BG["Drawing Agent\n&#40;backgrounds per act&#41;"]
+    DRAWING_OBS & DRAWING_BG --> DRAW_PAR{{"parallel: bounded\npool per asset"}}
+    DRAW_PAR --> SVG_LINT1{SVG Linter\n&#40;sanitise + validate&#41;}
+    SVG_LINT1 -- Fail --> DRAW_RETRY[Retry failed assets only]
+    DRAW_RETRY --> DRAW_PAR
+    SVG_LINT1 -- Pass --> RENDERER
+
+    RENDERER["Renderer Agent\n&#40;final SVG animation&#41;"]
+    RENDERER --> REND_PAR{{"parallel: one\nBedrock call per clip"}}
+    REND_PAR --> SVG_LINT2{SVG Linter}
+    SVG_LINT2 -- Fail --> REND_RETRY[Retry failed clips only]
+    SVG_LINT2 -- Pass --> MOTION_VAL{Motion Validator\n+ auto-repair}
+    MOTION_VAL -- Fail --> REND_RETRY
+    REND_RETRY --> REND_PAR
+    MOTION_VAL -- Pass --> ASSEMBLE
+
+    ASSEMBLE[Assemble episode JSON\n+ extract thumbnail]
+    ASSEMBLE --> S3["Write to S3\n&#40;drafts/&#41;"]
+    S3 --> DONE([Job DONE])
+
+    %% Budget gate note
+    BUDGET["Token ceilings + deadline\nbudget checked before\nevery stage and retry"]
+
+    %% Styles
+    classDef agentNode fill:#E3F2FD,stroke:#1565C0,color:#0D47A1,font-weight:bold
+    classDef validatorNode fill:#F3E5F5,stroke:#7B1FA2,color:#4A148C,font-weight:bold
+    classDef parallelNode fill:#E1F5FE,stroke:#0277BD,color:#01579B,font-weight:bold
+    classDef retryNode fill:#FFF9C4,stroke:#F9A825,color:#F57F17
+    classDef doneNode fill:#C8E6C9,stroke:#2E7D32,color:#1B5E20,font-weight:bold
+    classDef guardNode fill:#FFECB3,stroke:#FF8F00,color:#E65100,font-weight:bold,stroke-dasharray: 5 5
+    classDef ragNode fill:#E8F5E9,stroke:#388E3C,color:#1B5E20
+
+    class DIRECTOR,ANIMATOR,DRAWING_OBS,DRAWING_BG,RENDERER agentNode
+    class SCRIPT_VAL,FRAME_VAL,SVG_LINT1,SVG_LINT2,MOTION_VAL validatorNode
+    class ANIM_PAR,DRAW_PAR,REND_PAR parallelNode
+    class DIRECTOR_RETRY,ANIM_RETRY,DRAW_RETRY,REND_RETRY retryNode
+    class DONE,START doneNode
+    class BUDGET guardNode
+    class RAG ragNode

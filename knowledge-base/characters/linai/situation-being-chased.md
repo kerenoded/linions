@@ -1,0 +1,3 @@
+# situation-being-chased.md
+
+When Linai is being chased, the primary feeling is pressured focus rather than panic. Her body narrows, the eyes sharpen, and the vapor trails stream long behind her to show speed. She should move faster than usual, but never lose readability: moments of darting fear are followed by visible problem-solving beats. If she looks back, it is a quick wide-eyed glance, not a long held turn. A chase does not make her cruel or reckless — it makes her inventive under pressure. Even in a fail beat, the comedy should come from overcommitted motion or bad judgment, not from violence.

@@ -1,0 +1,411 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 800 200" fill="none"><ns0:defs><ns0:radialGradient id="bodyGlow" cx="50%" cy="40%" r="60%"><ns0:stop offset="0%" stop-color="#aaf4ff" stop-opacity="0.9" /><ns0:stop offset="50%" stop-color="#88eeff" stop-opacity="0.6" /><ns0:stop offset="100%" stop-color="#44ddee" stop-opacity="0.2" /></ns0:radialGradient><ns0:radialGradient id="innerGlow" cx="50%" cy="50%" r="50%"><ns0:stop offset="0%" stop-color="#ffffff" stop-opacity="0.4" /><ns0:stop offset="100%" stop-color="#44ddee" stop-opacity="0.0" /></ns0:radialGradient><ns0:radialGradient id="eyeGrad" cx="40%" cy="35%" r="50%"><ns0:stop offset="0%" stop-color="#ffffff" /><ns0:stop offset="100%" stop-color="#e8e8f0" /></ns0:radialGradient><ns0:radialGradient id="pupilGlow" cx="50%" cy="50%" r="50%"><ns0:stop offset="0%" stop-color="#88ffff" /><ns0:stop offset="40%" stop-color="#00eeff" /><ns0:stop offset="100%" stop-color="#006688" /></ns0:radialGradient><ns0:filter id="blur1"><ns0:feGaussianBlur stdDeviation="3" /></ns0:filter><ns0:filter id="blur2"><ns0:feGaussianBlur stdDeviation="5" /></ns0:filter><ns0:filter id="blur3"><ns0:feGaussianBlur stdDeviation="8" /></ns0:filter><ns0:filter id="blurSmall"><ns0:feGaussianBlur stdDeviation="1.5" /></ns0:filter><ns0:clipPath id="cloud-body-clip"><ns0:path d="M55 95 Q45 60 70 38 Q85 28 105 25 Q130 22 148 38 Q165 55 160 80 Q158 100 150 120 Q140 142 120 148 Q100 155 80 148 Q60 140 55 120 Z" /></ns0:clipPath><ns0:clipPath id="cloud-eye-left-clip"><ns0:ellipse cx="95" cy="72" rx="12" ry="14" /></ns0:clipPath><ns0:clipPath id="cloud-eye-right-clip"><ns0:ellipse cx="122" cy="70" rx="13" ry="15" /></ns0:clipPath></ns0:defs><ns0:svg id="background-root" viewBox="0 0 800 200" x="0" y="0" width="800" height="200">
+  <ns0:defs>
+    <ns0:linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <ns0:stop offset="0%" stop-color="#4a7a3a" />
+      <ns0:stop offset="40%" stop-color="#3d6b30" />
+      <ns0:stop offset="100%" stop-color="#2d5a22" />
+    </ns0:linearGradient>
+    <ns0:linearGradient id="floorGrad" x1="0" y1="0" x2="0" y2="1">
+      <ns0:stop offset="0%" stop-color="#3a5e2a" />
+      <ns0:stop offset="100%" stop-color="#2a4a1c" />
+    </ns0:linearGradient>
+    <ns0:linearGradient id="shaftGrad1" x1="0" y1="0" x2="0.3" y2="1">
+      <ns0:stop offset="0%" stop-color="#f0d080" stop-opacity="0.7" />
+      <ns0:stop offset="100%" stop-color="#a0c860" stop-opacity="0" />
+    </ns0:linearGradient>
+    <ns0:linearGradient id="shaftGrad2" x1="0" y1="0" x2="0.2" y2="1">
+      <ns0:stop offset="0%" stop-color="#e8c870" stop-opacity="0.6" />
+      <ns0:stop offset="100%" stop-color="#80b050" stop-opacity="0" />
+    </ns0:linearGradient>
+  </ns0:defs>
+
+  <ns0:g id="background-main">
+    
+    <ns0:rect x="0" y="0" width="800" height="200" fill="url(#skyGrad)" />
+
+    
+    <ns0:rect x="0" y="40" width="800" height="160" fill="#3a6a2e" opacity="0.6" />
+    
+    <ns0:ellipse cx="100" cy="50" rx="60" ry="45" fill="#2d5525" opacity="0.7" />
+    <ns0:ellipse cx="250" cy="45" rx="70" ry="50" fill="#2a5020" opacity="0.65" />
+    <ns0:ellipse cx="400" cy="42" rx="80" ry="48" fill="#2d5525" opacity="0.6" />
+    <ns0:ellipse cx="550" cy="48" rx="65" ry="45" fill="#285020" opacity="0.7" />
+    <ns0:ellipse cx="700" cy="44" rx="75" ry="50" fill="#2d5525" opacity="0.65" />
+    <ns0:rect x="90" y="50" width="8" height="80" fill="#3a5a28" opacity="0.5" />
+    <ns0:rect x="240" y="48" width="9" height="85" fill="#355525" opacity="0.5" />
+    <ns0:rect x="390" y="50" width="10" height="80" fill="#3a5a28" opacity="0.45" />
+    <ns0:rect x="540" y="52" width="8" height="78" fill="#355525" opacity="0.5" />
+    <ns0:rect x="690" y="48" width="9" height="82" fill="#3a5a28" opacity="0.5" />
+
+    
+    <ns0:ellipse cx="180" cy="100" rx="50" ry="20" fill="#7a6a8a" opacity="0.15" />
+    <ns0:ellipse cx="450" cy="95" rx="60" ry="18" fill="#807090" opacity="0.12" />
+    <ns0:ellipse cx="650" cy="105" rx="45" ry="16" fill="#7a6a8a" opacity="0.14" />
+
+    
+    <ns0:rect x="0" y="120" width="800" height="80" fill="url(#floorGrad)" />
+
+    
+    <ns0:ellipse cx="150" cy="140" rx="40" ry="12" fill="#4a8a3a" opacity="0.8" />
+    <ns0:ellipse cx="320" cy="145" rx="35" ry="10" fill="#3d7a30" opacity="0.75" />
+    <ns0:ellipse cx="500" cy="138" rx="45" ry="14" fill="#4a8a3a" opacity="0.8" />
+    <ns0:ellipse cx="670" cy="142" rx="38" ry="11" fill="#3d7a30" opacity="0.75" />
+
+    
+    <ns0:path d="M130 140 Q140 125 155 118 Q148 128 150 140Z" fill="#5a9a48" opacity="0.9" />
+    <ns0:path d="M145 138 Q158 120 170 115 Q162 126 160 140Z" fill="#4d8a3c" opacity="0.85" />
+    <ns0:path d="M480 138 Q495 120 510 114 Q502 125 505 138Z" fill="#5a9a48" opacity="0.9" />
+    <ns0:path d="M505 136 Q518 118 530 112 Q522 124 520 138Z" fill="#4d8a3c" opacity="0.85" />
+    <ns0:path d="M650 142 Q665 125 678 118 Q670 130 672 142Z" fill="#5a9a48" opacity="0.85" />
+    <ns0:path d="M310 145 Q322 128 335 122 Q328 133 325 145Z" fill="#4d8a3c" opacity="0.8" />
+
+    
+    <ns0:rect x="-10" y="10" width="65" height="190" fill="#5a4a30" rx="8" />
+    <ns0:rect x="0" y="15" width="50" height="185" fill="#6a5a38" rx="6" />
+    
+    <ns0:ellipse cx="30" cy="80" rx="22" ry="8" fill="#5a8a40" opacity="0.7" />
+    <ns0:ellipse cx="25" cy="110" rx="18" ry="6" fill="#6a9a50" opacity="0.65" />
+    <ns0:ellipse cx="35" cy="140" rx="20" ry="7" fill="#5a8a40" opacity="0.7" />
+    
+    <ns0:line x1="15" y1="20" x2="18" y2="190" stroke="#4a3a22" stroke-width="2" opacity="0.4" />
+    <ns0:line x1="35" y1="15" x2="38" y2="195" stroke="#4a3a22" stroke-width="1.5" opacity="0.35" />
+    
+    <ns0:path d="M0 170 Q30 165 70 180 Q50 185 30 190 Q10 188 0 185Z" fill="#5a4a30" opacity="0.9" />
+    <ns0:path d="M-10 175 Q15 168 55 185 Q30 192 0 195Z" fill="#6a5a38" opacity="0.85" />
+    
+    <ns0:ellipse cx="35" cy="178" rx="15" ry="5" fill="#5a9a3a" opacity="0.6" />
+
+    
+    <ns0:rect x="745" y="5" width="65" height="195" fill="#5a4a30" rx="8" />
+    <ns0:rect x="750" y="10" width="50" height="190" fill="#6a5a38" rx="6" />
+    
+    <ns0:ellipse cx="770" cy="75" rx="20" ry="7" fill="#5a8a40" opacity="0.7" />
+    <ns0:ellipse cx="775" cy="105" rx="16" ry="6" fill="#6a9a50" opacity="0.65" />
+    <ns0:ellipse cx="768" cy="135" rx="18" ry="7" fill="#5a8a40" opacity="0.7" />
+    
+    <ns0:line x1="765" y1="15" x2="768" y2="195" stroke="#4a3a22" stroke-width="2" opacity="0.4" />
+    <ns0:line x1="782" y1="10" x2="785" y2="200" stroke="#4a3a22" stroke-width="1.5" opacity="0.35" />
+    
+    <ns0:path d="M800 172 Q770 166 730 182 Q750 188 770 192 Q790 190 800 187Z" fill="#5a4a30" opacity="0.9" />
+    <ns0:path d="M810 178 Q785 170 745 188 Q770 194 800 198Z" fill="#6a5a38" opacity="0.85" />
+    <ns0:ellipse cx="765" cy="180" rx="14" ry="5" fill="#5a9a3a" opacity="0.6" />
+
+    
+    <ns0:rect x="180" y="25" width="28" height="175" fill="#5a4a30" rx="5" />
+    <ns0:rect x="184" y="30" width="20" height="170" fill="#6a5a38" rx="4" />
+    <ns0:ellipse cx="194" cy="100" rx="12" ry="5" fill="#5a8a40" opacity="0.6" />
+
+    
+    <ns0:rect x="600" y="20" width="30" height="180" fill="#5a4a30" rx="5" />
+    <ns0:rect x="604" y="25" width="22" height="175" fill="#6a5a38" rx="4" />
+    <ns0:ellipse cx="615" cy="95" rx="13" ry="5" fill="#5a8a40" opacity="0.6" />
+
+    
+    <ns0:ellipse cx="400" cy="-30" rx="450" ry="100" fill="#2a5020" opacity="0.85" />
+    <ns0:ellipse cx="400" cy="-15" rx="420" ry="80" fill="#3a6a2e" opacity="0.7" />
+    
+    <ns0:ellipse cx="80" cy="15" rx="90" ry="35" fill="#2d5525" opacity="0.9" />
+    <ns0:ellipse cx="200" cy="8" rx="70" ry="30" fill="#3a6a2e" opacity="0.85" />
+    <ns0:ellipse cx="350" cy="5" rx="80" ry="28" fill="#2d5525" opacity="0.8" />
+    <ns0:ellipse cx="500" cy="10" rx="75" ry="32" fill="#3a6a2e" opacity="0.85" />
+    <ns0:ellipse cx="650" cy="8" rx="70" ry="30" fill="#2d5525" opacity="0.9" />
+    <ns0:ellipse cx="760" cy="12" rx="80" ry="35" fill="#2d5525" opacity="0.9" />
+
+    
+    <ns0:ellipse cx="120" cy="35" rx="25" ry="12" fill="#4a7a3a" opacity="0.7" />
+    <ns0:ellipse cx="300" cy="30" rx="20" ry="10" fill="#4a7a3a" opacity="0.65" />
+    <ns0:ellipse cx="520" cy="28" rx="22" ry="11" fill="#4a7a3a" opacity="0.7" />
+    <ns0:ellipse cx="680" cy="32" rx="18" ry="9" fill="#4a7a3a" opacity="0.65" />
+
+    
+    <ns0:rect x="0" y="160" width="800" height="40" fill="#2a4a1c" opacity="0.5" />
+
+    
+    <ns0:ellipse cx="100" cy="175" rx="30" ry="8" fill="#4a8a30" opacity="0.7" />
+    <ns0:ellipse cx="350" cy="180" rx="25" ry="7" fill="#5a9a40" opacity="0.65" />
+    <ns0:ellipse cx="550" cy="172" rx="28" ry="8" fill="#4a8a30" opacity="0.7" />
+    <ns0:ellipse cx="720" cy="178" rx="22" ry="6" fill="#5a9a40" opacity="0.65" />
+
+    
+    <ns0:ellipse cx="85" cy="168" rx="5" ry="2" fill="#c8a0a0" opacity="0.8" />
+    <ns0:rect x="83" y="168" width="4" height="7" fill="#e0d0c0" rx="1" />
+    <ns0:ellipse cx="95" cy="170" rx="4" ry="1.5" fill="#d0a8a8" opacity="0.75" />
+    <ns0:rect x="93" y="170" width="3" height="6" fill="#e0d0c0" rx="1" />
+
+    
+    <ns0:rect x="688" y="172" width="4" height="7" fill="#e0d0c0" rx="1" />
+    <ns0:ellipse cx="690" cy="172" rx="5" ry="2" fill="#c8a0a0" opacity="0.8" />
+    <ns0:rect x="698" y="174" width="3" height="5" fill="#e0d0c0" rx="1" />
+    <ns0:ellipse cx="700" cy="174" rx="4" ry="1.5" fill="#d0a8a8" opacity="0.75" />
+
+    
+    <ns0:rect x="418" y="165" width="4" height="8" fill="#e0d0c0" rx="1" />
+    <ns0:ellipse cx="420" cy="165" rx="6" ry="2.5" fill="#d8a0b0" opacity="0.85" />
+    <ns0:rect x="428" y="168" width="3" height="6" fill="#e0d0c0" rx="1" />
+    <ns0:ellipse cx="430" cy="168" rx="4" ry="2" fill="#c8a0a8" opacity="0.8" />
+
+    
+    <ns0:path d="M250 185 Q255 172 262 165 Q258 175 260 185Z" fill="#5a9a48" opacity="0.8" />
+    <ns0:path d="M258 184 Q264 170 272 164 Q267 174 268 184Z" fill="#4d8a3c" opacity="0.75" />
+    <ns0:path d="M580 182 Q586 168 594 162 Q589 172 590 182Z" fill="#5a9a48" opacity="0.8" />
+
+    
+    <ns0:ellipse cx="200" cy="185" rx="18" ry="5" fill="#6abf5a" opacity="0.5" />
+    <ns0:ellipse cx="450" cy="188" rx="15" ry="4" fill="#6abf5a" opacity="0.45" />
+    <ns0:ellipse cx="620" cy="183" rx="16" ry="5" fill="#6abf5a" opacity="0.5" />
+
+    
+    <ns0:ellipse cx="300" cy="190" rx="40" ry="10" fill="#8070a0" opacity="0.1" />
+    <ns0:ellipse cx="550" cy="192" rx="35" ry="8" fill="#7a6a90" opacity="0.08" />
+  </ns0:g>
+
+  <ns0:g id="background-animated-part">
+    
+    <ns0:polygon points="280,0 320,0 420,200 360,200" fill="#f0d080" opacity="0.18">
+      <ns0:animate attributeName="opacity" values="0.18;0.55;0.18" dur="4s" repeatCount="indefinite" />
+    </ns0:polygon>
+
+    
+    <ns0:polygon points="500,0 535,0 610,200 560,200" fill="#e8c870" opacity="0.12">
+      <ns0:animate attributeName="opacity" values="0.12;0.48;0.12" dur="5s" begin="1s" repeatCount="indefinite" />
+    </ns0:polygon>
+
+    
+    <ns0:ellipse cx="380" cy="170" rx="22" ry="6" fill="#7ecf6a" opacity="0.7">
+      <ns0:animate attributeName="fill" values="#7ecf6a;#b6f0a0;#7ecf6a" dur="3.5s" repeatCount="indefinite" />
+    </ns0:ellipse>
+
+    
+    <ns0:rect x="0" y="55" width="800" height="50" fill="#a0c8a0" opacity="0.10" rx="10">
+      <ns0:animate attributeName="opacity" values="0.10;0.35;0.10" dur="6s" repeatCount="indefinite" />
+    </ns0:rect>
+
+    
+    <ns0:ellipse cx="420" cy="165" rx="7" ry="3" fill="#e8a0c0" opacity="0.9">
+      <ns0:animate attributeName="fill" values="#e8a0c0;#f5c8dc;#e8a0c0" dur="4s" repeatCount="indefinite" />
+    </ns0:ellipse>
+  </ns0:g>
+</ns0:svg><ns0:svg id="obstacle-root" viewBox="0 0 120 150" x="350" y="18" width="120" height="150">
+  <ns0:defs>
+    <ns0:radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <ns0:stop offset="0%" stop-color="#ffffff" stop-opacity="0.9" />
+      <ns0:stop offset="100%" stop-color="#e8d5f0" stop-opacity="0" />
+    </ns0:radialGradient>
+    <ns0:radialGradient id="wingGrad1" cx="30%" cy="30%" r="70%">
+      <ns0:stop offset="0%" stop-color="#a8e6cf" stop-opacity="0.6" />
+      <ns0:stop offset="40%" stop-color="#55c9d8" stop-opacity="0.45" />
+      <ns0:stop offset="100%" stop-color="#7b68ee" stop-opacity="0.3" />
+    </ns0:radialGradient>
+    <ns0:radialGradient id="wingGrad2" cx="70%" cy="30%" r="70%">
+      <ns0:stop offset="0%" stop-color="#88d8b0" stop-opacity="0.55" />
+      <ns0:stop offset="40%" stop-color="#4fc3f7" stop-opacity="0.4" />
+      <ns0:stop offset="100%" stop-color="#9575cd" stop-opacity="0.25" />
+    </ns0:radialGradient>
+    <ns0:radialGradient id="skinGrad" cx="50%" cy="40%" r="50%">
+      <ns0:stop offset="0%" stop-color="#fde8d0" />
+      <ns0:stop offset="100%" stop-color="#f0c9a0" />
+    </ns0:radialGradient>
+    <ns0:radialGradient id="hairGrad" cx="50%" cy="80%" r="60%">
+      <ns0:stop offset="0%" stop-color="#c9a0dc" />
+      <ns0:stop offset="100%" stop-color="#8e5baa" />
+    </ns0:radialGradient>
+    <ns0:radialGradient id="moteGrad" cx="50%" cy="50%" r="50%">
+      <ns0:stop offset="0%" stop-color="#ffffcc" stop-opacity="1" />
+      <ns0:stop offset="100%" stop-color="#ffee88" stop-opacity="0" />
+    </ns0:radialGradient>
+    <ns0:radialGradient id="bodyGlow" cx="50%" cy="50%" r="50%">
+      <ns0:stop offset="0%" stop-color="#f5e6ff" stop-opacity="0.4" />
+      <ns0:stop offset="100%" stop-color="#f5e6ff" stop-opacity="0" />
+    </ns0:radialGradient>
+  </ns0:defs>
+
+  <ns0:g id="obstacle-main">
+    
+    <ns0:ellipse cx="60" cy="75" rx="38" ry="45" fill="url(#bodyGlow)" />
+
+    
+    <ns0:path d="M58 68 Q30 30 18 55 Q12 70 40 72 Z" fill="#3a3a5c" opacity="0.15" transform="translate(3,4)" />
+    <ns0:path d="M62 68 Q90 30 102 55 Q108 70 80 72 Z" fill="#3a3a5c" opacity="0.15" transform="translate(3,4)" />
+    <ns0:path d="M56 75 Q28 80 22 100 Q20 110 48 95 Z" fill="#3a3a5c" opacity="0.12" transform="translate(3,4)" />
+    <ns0:path d="M64 75 Q92 80 98 100 Q100 110 72 95 Z" fill="#3a3a5c" opacity="0.12" transform="translate(3,4)" />
+
+    
+    <ns0:path d="M56 75 Q25 78 20 100 Q17 112 46 96 Z" fill="url(#wingGrad1)" stroke="#7bc8a4" stroke-width="0.5" opacity="0.7" />
+    <ns0:path d="M64 75 Q95 78 100 100 Q103 112 74 96 Z" fill="url(#wingGrad2)" stroke="#7bc8a4" stroke-width="0.5" opacity="0.7" />
+    
+    <ns0:path d="M56 75 Q35 88 30 100" fill="none" stroke="#55c9d8" stroke-width="0.4" opacity="0.5" />
+    <ns0:path d="M56 75 Q40 82 25 95" fill="none" stroke="#88d8b0" stroke-width="0.3" opacity="0.4" />
+    <ns0:path d="M64 75 Q85 88 90 100" fill="none" stroke="#55c9d8" stroke-width="0.4" opacity="0.5" />
+    <ns0:path d="M64 75 Q80 82 95 95" fill="none" stroke="#88d8b0" stroke-width="0.3" opacity="0.4" />
+
+    
+    
+    <ns0:path d="M52 82 Q48 100 44 118 Q52 122 60 122 Q68 122 76 118 Q72 100 68 82 Z" fill="#8b6aad" opacity="0.3" />
+    
+    <ns0:path d="M51 80 Q47 98 43 115 Q51 120 60 120 Q69 120 77 115 Q73 98 69 80 Z" fill="#c9a0dc" />
+    
+    <ns0:path d="M54 82 Q52 95 50 110 Q55 114 60 114 Q65 114 70 110 Q68 95 66 82 Z" fill="#f5e6d0" opacity="0.6" />
+    
+    <ns0:path d="M55 90 Q57 100 54 112" fill="none" stroke="#a87cc4" stroke-width="0.6" opacity="0.5" />
+    <ns0:path d="M65 90 Q63 100 66 112" fill="none" stroke="#a87cc4" stroke-width="0.6" opacity="0.5" />
+    
+    <ns0:path d="M43 115 Q40 118 43 121 Q46 118 47 115" fill="#6abf69" opacity="0.8" />
+    <ns0:path d="M49 118 Q47 122 50 124 Q53 121 52 117" fill="#7dd87d" opacity="0.7" />
+    <ns0:path d="M57 120 Q56 124 59 125 Q62 123 61 119" fill="#6abf69" opacity="0.8" />
+    <ns0:path d="M67 118 Q66 122 69 124 Q72 121 70 117" fill="#7dd87d" opacity="0.7" />
+    <ns0:path d="M75 115 Q73 118 76 121 Q79 118 77 115" fill="#6abf69" opacity="0.8" />
+
+    
+    <ns0:path d="M55 72 Q55 78 54 82 L66 82 Q65 78 65 72 Z" fill="url(#skinGrad)" />
+
+
+    <ns0:g id="obstacle-animated-part">
+
+      <ns0:g transform-origin="58 68">
+        <ns0:path d="M58 68 Q28 28 16 52 Q10 68 40 72 Z" fill="url(#wingGrad1)" stroke="#55c9d8" stroke-width="0.6" opacity="0.75" />
+
+        <ns0:path d="M58 68 Q38 45 22 55" fill="none" stroke="#4fc3f7" stroke-width="0.4" opacity="0.6" />
+        <ns0:path d="M58 68 Q42 50 28 58" fill="none" stroke="#88d8b0" stroke-width="0.35" opacity="0.5" />
+        <ns0:path d="M58 68 Q35 55 20 62" fill="none" stroke="#7bc8a4" stroke-width="0.3" opacity="0.4" />
+
+        <ns0:path d="M40 50 Q35 55 30 58" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.3" />
+        <ns0:ellipse cx="35" cy="52" rx="4" ry="3" fill="#a8e6cf" opacity="0.2" />
+      </ns0:g>
+
+      <ns0:g transform-origin="62 68">
+        <ns0:path d="M62 68 Q92 28 104 52 Q110 68 80 72 Z" fill="url(#wingGrad2)" stroke="#55c9d8" stroke-width="0.6" opacity="0.75" />
+
+        <ns0:path d="M62 68 Q82 45 98 55" fill="none" stroke="#4fc3f7" stroke-width="0.4" opacity="0.6" />
+        <ns0:path d="M62 68 Q78 50 92 58" fill="none" stroke="#88d8b0" stroke-width="0.35" opacity="0.5" />
+        <ns0:path d="M62 68 Q85 55 100 62" fill="none" stroke="#7bc8a4" stroke-width="0.3" opacity="0.4" />
+
+        <ns0:path d="M80 50 Q85 55 90 58" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.3" />
+        <ns0:ellipse cx="85" cy="52" rx="4" ry="3" fill="#a8e6cf" opacity="0.2" />
+      </ns0:g>
+      <ns0:animateTransform attributeName="transform" type="rotate" values="-3 60 68;3 60 68;-3 60 68" dur="0.8s" repeatCount="indefinite" />
+    </ns0:g>
+
+
+    <ns0:path d="M54 82 Q48 88 44 95 Q43 96 44 97 Q46 96 50 90 Q53 86 55 84" fill="url(#skinGrad)" stroke="#e0b88a" stroke-width="0.4" />
+    
+    <ns0:ellipse cx="44" cy="96" rx="2.5" ry="2" fill="url(#skinGrad)" stroke="#e0b88a" stroke-width="0.3" />
+
+    
+    <ns0:path d="M66 82 Q70 80 72 76 Q73 74 72 72 Q71 71 70 72 Q68 75 66 78 Q65 80 65 82" fill="url(#skinGrad)" stroke="#e0b88a" stroke-width="0.4" />
+    
+    <ns0:ellipse cx="71" cy="72" rx="2.5" ry="2.2" fill="url(#skinGrad)" stroke="#e0b88a" stroke-width="0.3" />
+    
+    <ns0:path d="M70 70 Q71 69 70.5 68" fill="none" stroke="#e0b88a" stroke-width="0.4" />
+    <ns0:path d="M72 70.5 Q73 69.5 72.5 68.5" fill="none" stroke="#e0b88a" stroke-width="0.4" />
+
+    
+    
+    <ns0:ellipse cx="61" cy="65" rx="10" ry="11" fill="#d4a07a" opacity="0.15" />
+    
+    <ns0:ellipse cx="60" cy="64" rx="10" ry="11" fill="url(#skinGrad)" />
+    
+    <ns0:ellipse cx="53" cy="67" rx="3" ry="1.8" fill="#f0a0a0" opacity="0.3" />
+    <ns0:ellipse cx="67" cy="66" rx="3" ry="1.8" fill="#f0a0a0" opacity="0.3" />
+
+    
+    
+    <ns0:ellipse cx="55" cy="63" rx="2.2" ry="2.5" fill="#ffffff" />
+    <ns0:ellipse cx="65" cy="62" rx="2.2" ry="2.5" fill="#ffffff" />
+    
+    <ns0:ellipse cx="55.5" cy="63.5" rx="1.4" ry="1.6" fill="#6a5acd" />
+    <ns0:ellipse cx="65.5" cy="62.5" rx="1.4" ry="1.6" fill="#6a5acd" />
+    
+    <ns0:ellipse cx="55.8" cy="63.8" rx="0.7" ry="0.8" fill="#2a1a4a" />
+    <ns0:ellipse cx="65.8" cy="62.8" rx="0.7" ry="0.8" fill="#2a1a4a" />
+    
+    <ns0:ellipse cx="54.8" cy="62.5" rx="0.5" ry="0.5" fill="#ffffff" opacity="0.9" />
+    <ns0:ellipse cx="64.8" cy="61.5" rx="0.5" ry="0.5" fill="#ffffff" opacity="0.9" />
+
+    
+    <ns0:path d="M52 60 Q55 58.5 58 59.5" fill="none" stroke="#7a5a8a" stroke-width="0.6" opacity="0.6" />
+    <ns0:path d="M62 58.5 Q65 57.5 68 59" fill="none" stroke="#7a5a8a" stroke-width="0.6" opacity="0.6" />
+
+    
+    <ns0:path d="M59.5 65 Q60 66.5 60.5 65" fill="none" stroke="#d4a88a" stroke-width="0.5" />
+
+    
+    <ns0:path d="M57 69 Q60 70.5 63 69" fill="none" stroke="#c47a7a" stroke-width="0.7" />
+    <ns0:path d="M58 69.2 Q60 68.5 62 69.2" fill="#e8a0a0" opacity="0.3" />
+
+    
+    <ns0:path d="M49 62 Q45 58 44 54 Q46 57 50 60" fill="url(#skinGrad)" stroke="#e0b88a" stroke-width="0.4" />
+    <ns0:path d="M71 61 Q75 57 76 53 Q74 56 70 59" fill="url(#skinGrad)" stroke="#e0b88a" stroke-width="0.4" />
+
+    
+    <ns0:path d="M50 60 Q48 50 44 40 Q46 38 50 42 Q52 48 53 55" fill="url(#hairGrad)" />
+    <ns0:path d="M52 57 Q50 45 48 35 Q51 33 54 38 Q55 46 55 55" fill="url(#hairGrad)" />
+    <ns0:path d="M56 55 Q55 43 56 32 Q59 30 60 35 Q59 44 58 54" fill="url(#hairGrad)" />
+    <ns0:path d="M62 54 Q63 42 65 33 Q68 31 67 37 Q65 45 63 54" fill="url(#hairGrad)" />
+    <ns0:path d="M66 56 Q68 44 72 36 Q74 35 72 40 Q69 48 67 56" fill="url(#hairGrad)" />
+    <ns0:path d="M69 59 Q72 50 76 42 Q77 41 75 46 Q72 53 70 59" fill="url(#hairGrad)" />
+
+    
+    <ns0:path d="M50 60 Q52 54 56 53 Q58 52 60 53 Q64 53 67 55 Q70 58 70 60 Q66 56 60 55 Q54 56 50 60 Z" fill="#a87cc4" />
+
+    
+    <ns0:path d="M53 45 Q54 40 55 36" fill="none" stroke="#d4b0e8" stroke-width="0.8" opacity="0.6" />
+    <ns0:path d="M64 43 Q65 38 66 35" fill="none" stroke="#d4b0e8" stroke-width="0.8" opacity="0.6" />
+
+    
+    <ns0:circle cx="47" cy="38" r="1.5" fill="#ffffaa" opacity="0.9">
+      <ns0:animate attributeName="opacity" values="0.9;0.3;0.9" dur="2s" repeatCount="indefinite" />
+    </ns0:circle>
+    <ns0:circle cx="47" cy="38" r="3" fill="url(#moteGrad)" opacity="0.5">
+      <ns0:animate attributeName="opacity" values="0.5;0.15;0.5" dur="2s" repeatCount="indefinite" />
+    </ns0:circle>
+
+    <ns0:circle cx="57" cy="32" r="1.2" fill="#ffffcc" opacity="0.85">
+      <ns0:animate attributeName="opacity" values="0.85;0.25;0.85" dur="1.7s" repeatCount="indefinite" />
+    </ns0:circle>
+    <ns0:circle cx="57" cy="32" r="2.5" fill="url(#moteGrad)" opacity="0.4">
+      <ns0:animate attributeName="opacity" values="0.4;0.1;0.4" dur="1.7s" repeatCount="indefinite" />
+    </ns0:circle>
+
+    <ns0:circle cx="67" cy="34" r="1.3" fill="#ffffaa" opacity="0.9">
+      <ns0:animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.3s" repeatCount="indefinite" />
+    </ns0:circle>
+    <ns0:circle cx="67" cy="34" r="2.8" fill="url(#moteGrad)" opacity="0.45">
+      <ns0:animate attributeName="opacity" values="0.45;0.1;0.45" dur="2.3s" repeatCount="indefinite" />
+    </ns0:circle>
+
+    <ns0:circle cx="75" cy="43" r="1" fill="#eeffaa" opacity="0.8">
+      <ns0:animate attributeName="opacity" values="0.8;0.2;0.8" dur="1.5s" repeatCount="indefinite" />
+    </ns0:circle>
+    <ns0:circle cx="75" cy="43" r="2.2" fill="url(#moteGrad)" opacity="0.35">
+      <ns0:animate attributeName="opacity" values="0.35;0.08;0.35" dur="1.5s" repeatCount="indefinite" />
+    </ns0:circle>
+
+    <ns0:circle cx="52" cy="42" r="0.9" fill="#ccffee" opacity="0.75">
+      <ns0:animate attributeName="opacity" values="0.75;0.2;0.75" dur="1.9s" repeatCount="indefinite" />
+    </ns0:circle>
+
+    <ns0:circle cx="62" cy="30" r="1" fill="#ddffcc" opacity="0.7">
+      <ns0:animate attributeName="opacity" values="0.7;0.15;0.7" dur="2.1s" repeatCount="indefinite" />
+    </ns0:circle>
+
+    
+
+
+    <ns0:circle cx="55" cy="128" r="0.8" fill="#ffffcc" opacity="0.6">
+      <ns0:animate attributeName="opacity" values="0.6;0;0.6" dur="1.4s" repeatCount="indefinite" />
+      <ns0:animate attributeName="cy" values="128;132;128" dur="1.4s" repeatCount="indefinite" />
+    </ns0:circle>
+    <ns0:circle cx="60" cy="130" r="0.6" fill="#eeffdd" opacity="0.5">
+      <ns0:animate attributeName="opacity" values="0.5;0;0.5" dur="1.8s" repeatCount="indefinite" />
+      <ns0:animate attributeName="cy" values="130;135;130" dur="1.8s" repeatCount="indefinite" />
+    </ns0:circle>
+    <ns0:circle cx="65" cy="127" r="0.7" fill="#ffffaa" opacity="0.55">
+      <ns0:animate attributeName="opacity" values="0.55;0;0.55" dur="1.6s" repeatCount="indefinite" />
+      <ns0:animate attributeName="cy" values="127;131;127" dur="1.6s" repeatCount="indefinite" />
+    </ns0:circle>
+
+    
+    <ns0:ellipse cx="55" cy="120" rx="2.5" ry="1.2" fill="#f0c9a0" stroke="#d4a88a" stroke-width="0.3" />
+    <ns0:ellipse cx="65" cy="119.5" rx="2.5" ry="1.2" fill="#f0c9a0" stroke="#d4a88a" stroke-width="0.3" />
+  </ns0:g>
+</ns0:svg><ns0:g id="linai"><ns0:g id="linai-trails"><ns0:path d="M70 140 Q65 155 55 170 Q50 180 48 190" stroke="#44ddee" stroke-width="4" fill="none" stroke-linecap="round" filter="url(#blur2)" /><ns0:path d="M90 145 Q85 160 80 175 Q78 185 75 195" stroke="#88eeff" stroke-width="5" fill="none" stroke-linecap="round" filter="url(#blur2)" /><ns0:path d="M110 148 Q112 165 108 180 Q106 190 105 200" stroke="#44ddee" stroke-width="6" fill="none" stroke-linecap="round" filter="url(#blur2)" /><ns0:path d="M130 142 Q135 158 140 172 Q142 182 145 192" stroke="#88eeff" stroke-width="4" fill="none" stroke-linecap="round" filter="url(#blur2)" /><ns0:path d="M100 150 Q98 168 95 185 Q93 195 92 200" stroke="#aaf4ff" stroke-width="7" fill="none" stroke-linecap="round" filter="url(#blur3)" /><ns0:ellipse cx="85" cy="150" rx="20" ry="8" fill="#44ddee" filter="url(#blur2)" /><ns0:ellipse cx="115" cy="148" rx="18" ry="7" fill="#88eeff" filter="url(#blur2)" /><ns0:ellipse cx="100" cy="155" rx="25" ry="10" fill="#44ddee" filter="url(#blur3)" /></ns0:g><ns0:g id="linai-body"><ns0:ellipse cx="108" cy="90" rx="70" ry="60" fill="#44ddee" opacity="0.15" filter="url(#blur3)" /><ns0:path d="M55 95 Q45 60 70 38 Q85 28 105 25 Q130 22 148 38 Q165 55 160 80 Q158 100 150 120 Q140 142 120 148 Q100 155 80 148 Q60 140 55 120 Z" fill="#44ddee" opacity="0.35" filter="url(#blur1)" /><ns0:path d="M60 92 Q52 62 75 42 Q90 32 108 30 Q132 28 147 42 Q160 58 156 82 Q153 102 145 118 Q136 138 118 143 Q100 148 82 142 Q65 135 60 112 Z" fill="#88eeff" opacity="0.4" /><ns0:path d="M68 90 Q62 68 80 50 Q92 40 108 38 Q128 36 140 48 Q152 62 148 82 Q145 100 138 114 Q130 130 115 135 Q100 140 87 133 Q72 125 68 108 Z" fill="#aaf4ff" /><ns0:ellipse cx="95" cy="75" rx="35" ry="28" fill="#aaf4ff" opacity="0.3" /><ns0:ellipse cx="115" cy="85" rx="28" ry="22" fill="#88eeff" opacity="0.25" /><ns0:ellipse cx="85" cy="100" rx="22" ry="18" fill="#44ddee" opacity="0.2" /><ns0:ellipse cx="120" cy="65" rx="20" ry="16" fill="#aaf4ff" opacity="0.35" /><ns0:ellipse cx="105" cy="80" rx="30" ry="25" fill="url(#innerGlow)" opacity="0.6" /><ns0:ellipse cx="80" cy="40" rx="18" ry="14" fill="#aaf4ff" opacity="0.4" filter="url(#blurSmall)" /><ns0:ellipse cx="105" cy="30" rx="20" ry="12" fill="#88eeff" opacity="0.45" filter="url(#blurSmall)" /><ns0:ellipse cx="130" cy="38" rx="16" ry="13" fill="#aaf4ff" opacity="0.35" filter="url(#blurSmall)" /><ns0:ellipse cx="155" cy="70" rx="12" ry="18" fill="#88eeff" opacity="0.3" filter="url(#blurSmall)" /><ns0:ellipse cx="150" cy="55" rx="10" ry="12" fill="#aaf4ff" opacity="0.25" filter="url(#blurSmall)" /><ns0:ellipse cx="100" cy="35" rx="30" ry="10" fill="#ffffff" opacity="0.12" filter="url(#blur1)" /><ns0:path d="M55 95 Q45 60 70 38 Q85 28 105 25 Q130 22 148 38 Q165 55 160 80 Q158 100 150 120 Q140 142 120 148 Q100 155 80 148 Q60 140 55 120 Z" fill="none" stroke="#aaf4ff" stroke-width="2" opacity="0.2" filter="url(#blur1)" /><ns0:g data-linai-body-content-wrapper="true"><ns0:g id="linai-particles" clip-path="url(#cloud-body-clip)"><ns0:circle cx="88" cy="68" r="2" fill="#ffffff" opacity="0.7" filter="url(#blurSmall)" /><ns0:circle cx="88" cy="68" r="1" fill="#ffffff" opacity="0.9" /><ns0:circle cx="120" cy="75" r="1.8" fill="#ffffff" opacity="0.6" filter="url(#blurSmall)" /><ns0:circle cx="120" cy="75" r="0.8" fill="#ffffff" opacity="0.9" /><ns0:circle cx="100" cy="110" r="1.5" fill="#aaf4ff" opacity="0.7" filter="url(#blurSmall)" /><ns0:circle cx="100" cy="110" r="0.7" fill="#ffffff" opacity="0.8" /><ns0:circle cx="130" cy="95" r="1.8" fill="#ffffff" opacity="0.5" filter="url(#blurSmall)" /><ns0:circle cx="130" cy="95" r="0.8" fill="#ffffff" opacity="0.8" /><ns0:circle cx="78" cy="88" r="1.3" fill="#88eeff" opacity="0.6" filter="url(#blurSmall)" /><ns0:circle cx="78" cy="88" r="0.6" fill="#ffffff" opacity="0.9" /><ns0:circle cx="112" cy="55" r="1.5" fill="#ffffff" opacity="0.5" filter="url(#blurSmall)" /><ns0:circle cx="112" cy="55" r="0.7" fill="#ffffff" opacity="0.8" /><ns0:circle cx="140" cy="68" r="1.2" fill="#aaf4ff" opacity="0.6" filter="url(#blurSmall)" /><ns0:circle cx="140" cy="68" r="0.5" fill="#ffffff" opacity="0.9" /><ns0:circle cx="95" cy="125" r="1.4" fill="#ffffff" opacity="0.4" filter="url(#blurSmall)" /><ns0:circle cx="95" cy="125" r="0.6" fill="#ffffff" opacity="0.7" /><ns0:circle cx="75" cy="105" r="1" fill="#ffffff" opacity="0.5" filter="url(#blurSmall)" /><ns0:circle cx="118" cy="120" r="1.2" fill="#88eeff" opacity="0.5" filter="url(#blurSmall)" /><ns0:circle cx="135" cy="55" r="1" fill="#ffffff" opacity="0.6" filter="url(#blurSmall)" /><ns0:circle cx="85" cy="50" r="1.3" fill="#ffffff" opacity="0.5" filter="url(#blurSmall)" /></ns0:g><ns0:g id="linai-mouth" clip-path="url(#cloud-body-clip)"><ns0:path d="M112 98 Q118 104 125 100" stroke="#2299aa" stroke-width="1.8" fill="none" opacity="0.6" stroke-linecap="round" /></ns0:g><ns0:g id="linai-eye-left" clip-path="url(#cloud-body-clip)"><ns0:g data-eye-socket-wrapper="true" clip-path="url(#cloud-eye-left-clip)"><ns0:ellipse cx="95" cy="72" rx="12" ry="14" fill="url(#eyeGrad)" /><ns0:ellipse cx="95" cy="74" rx="11" ry="12" fill="#ddeeff" opacity="0.3" /><ns0:ellipse cx="97" cy="73" rx="7" ry="8.5" fill="#113344" /><ns0:ellipse cx="98" cy="73" rx="4" ry="5" fill="url(#pupilGlow)" /><ns0:ellipse cx="98" cy="73" rx="3" ry="3.5" fill="#00eeff" opacity="0.8" /><ns0:ellipse cx="93" cy="68" rx="3" ry="3.5" fill="#ffffff" opacity="0.95" /><ns0:ellipse cx="100" cy="77" rx="1.5" ry="1.8" fill="#ffffff" opacity="0.6" /><ns0:circle cx="98" cy="72" r="1.2" fill="#aaffff" opacity="0.7" /></ns0:g></ns0:g><ns0:g id="linai-eye-right" clip-path="url(#cloud-body-clip)"><ns0:g data-eye-socket-wrapper="true" clip-path="url(#cloud-eye-right-clip)"><ns0:ellipse cx="122" cy="70" rx="13" ry="15" fill="url(#eyeGrad)" /><ns0:ellipse cx="122" cy="72" rx="12" ry="13" fill="#ddeeff" opacity="0.3" /><ns0:ellipse cx="124" cy="71" rx="7.5" ry="9" fill="#113344" /><ns0:ellipse cx="125" cy="71" rx="4.5" ry="5.5" fill="url(#pupilGlow)" /><ns0:ellipse cx="125" cy="71" rx="3.2" ry="3.8" fill="#00eeff" opacity="0.8" /><ns0:ellipse cx="120" cy="66" rx="3.2" ry="3.8" fill="#ffffff" opacity="0.95" /><ns0:ellipse cx="127" cy="75" rx="1.6" ry="2" fill="#ffffff" opacity="0.6" /><ns0:circle cx="125" cy="70" r="1.3" fill="#aaffff" opacity="0.7" /></ns0:g></ns0:g><ns0:g id="linai-inner-patterns" clip-path="url(#cloud-body-clip)"><ns0:g id="linai-inner-patterns-sparkles"><ns0:circle cx="100" cy="120" r="2" fill="#ffffff" opacity="0" /><ns0:circle cx="88" cy="115" r="1.5" fill="#aaf4ff" opacity="0" /><ns0:circle cx="115" cy="118" r="1.5" fill="#ffffff" opacity="0" /><ns0:path d="M100 113 L101.5 117 L105.5 117 L102.5 119.5 L103.5 123.5 L100 121 L96.5 123.5 L97.5 119.5 L94.5 117 L98.5 117 Z" fill="#ffffff" opacity="0" /><ns0:path d="M116 112 L117 115 L120 115 L117.5 117 L118.5 120 L116 118.5 L113.5 120 L114.5 117 L112 115 L115 115 Z" fill="#aaf4ff" opacity="0" /><ns0:path d="M85 117 L86 120 L89 120 L86.5 122 L87.5 125 L85 123.5 L82.5 125 L83.5 122 L81 120 L84 120 Z" fill="#88eeff" opacity="0" /></ns0:g></ns0:g></ns0:g></ns0:g></ns0:g></ns0:svg>

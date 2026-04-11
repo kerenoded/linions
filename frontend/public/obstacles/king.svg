@@ -1,0 +1,216 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="obstacle-root" viewBox="0 0 120 150">
+  <g id="obstacle-main">
+    
+    <path d="M30 65 Q25 90 22 130 L98 130 Q95 90 90 65 Z" fill="#6B0020" />
+    
+    
+    <path d="M32 65 Q28 90 25 130 L95 130 Q92 90 88 65 Z" fill="#8B0000" />
+    
+    
+    <rect x="25" y="125" width="70" height="8" rx="3" fill="#F5F5DC" />
+    <circle cx="30" cy="129" r="2" fill="#E8E0C8" />
+    <circle cx="38" cy="129" r="2" fill="#E8E0C8" />
+    <circle cx="46" cy="129" r="2" fill="#E8E0C8" />
+    <circle cx="54" cy="129" r="2" fill="#E8E0C8" />
+    <circle cx="62" cy="129" r="2" fill="#E8E0C8" />
+    <circle cx="70" cy="129" r="2" fill="#E8E0C8" />
+    <circle cx="78" cy="129" r="2" fill="#E8E0C8" />
+    <circle cx="86" cy="129" r="2" fill="#E8E0C8" />
+    <circle cx="90" cy="129" r="2" fill="#E8E0C8" />
+    
+    
+    <circle cx="32" cy="127" r="1" fill="#1a1a1a" />
+    <circle cx="42" cy="127" r="1" fill="#1a1a1a" />
+    <circle cx="52" cy="127" r="1" fill="#1a1a1a" />
+    <circle cx="62" cy="127" r="1" fill="#1a1a1a" />
+    <circle cx="72" cy="127" r="1" fill="#1a1a1a" />
+    <circle cx="82" cy="127" r="1" fill="#1a1a1a" />
+    <circle cx="88" cy="127" r="1" fill="#1a1a1a" />
+    
+    
+    <ellipse cx="45" cy="143" rx="10" ry="5" fill="#2a1a0a" />
+    <ellipse cx="75" cy="143" rx="10" ry="5" fill="#2a1a0a" />
+    <ellipse cx="45" cy="142" rx="9" ry="4" fill="#3d2b1f" />
+    <ellipse cx="75" cy="142" rx="9" ry="4" fill="#3d2b1f" />
+    
+    
+    <rect x="39" y="118" width="12" height="25" rx="3" fill="#1a1a5e" />
+    <rect x="69" y="118" width="12" height="25" rx="3" fill="#1a1a5e" />
+    
+    
+    <path d="M38 60 L38 120 L82 120 L82 60 Q75 55 60 55 Q45 55 38 60 Z" fill="#1a1a5e" />
+    
+    
+    <path d="M40 58 L40 118 L80 118 L80 58 Q73 53 60 53 Q47 53 40 58 Z" fill="#22227a" />
+    
+    
+    <line x1="60" y1="58" x2="60" y2="118" stroke="#1a1a5e" stroke-width="1.5" />
+    
+    
+    <rect x="38" y="88" width="44" height="6" rx="2" fill="#8B6914" />
+    <rect x="38" y="89" width="44" height="4" rx="1" fill="#DAA520" />
+    
+    <rect x="55" y="87" width="10" height="8" rx="1" fill="#FFD700" />
+    <rect x="57" y="89" width="6" height="4" rx="1" fill="#DAA520" />
+    
+    
+    <path d="M35 55 Q38 50 60 48 Q82 50 85 55 L88 65 Q75 58 60 57 Q45 58 32 65 Z" fill="#F5F5DC" />
+    <circle cx="40" cy="55" r="1.5" fill="#1a1a1a" />
+    <circle cx="50" cy="52" r="1.5" fill="#1a1a1a" />
+    <circle cx="60" cy="51" r="1.5" fill="#1a1a1a" />
+    <circle cx="70" cy="52" r="1.5" fill="#1a1a1a" />
+    <circle cx="80" cy="55" r="1.5" fill="#1a1a1a" />
+    
+    
+    <path d="M38 62 L28 80 L24 100 L30 102 L36 84 L40 68 Z" fill="#1a1a5e" />
+    <path d="M82 62 L92 80 L96 100 L90 102 L84 84 L80 68 Z" fill="#1a1a5e" />
+    
+    
+    <path d="M40 60 L30 78 L26 98 L32 100 L38 82 L42 66 Z" fill="#22227a" />
+    
+    
+    <path d="M80 60 L90 78 L94 98 L88 100 L82 82 L78 66 Z" fill="#22227a" />
+    
+    
+    <ellipse cx="29" cy="100" rx="5" ry="4" fill="#E8B88A" />
+    <ellipse cx="91" cy="100" rx="5" ry="4" fill="#E8B88A" />
+    <ellipse cx="29" cy="99" rx="4.5" ry="3.5" fill="#F0C8A0" />
+    <ellipse cx="91" cy="99" rx="4.5" ry="3.5" fill="#F0C8A0" />
+    
+    
+    <g id="obstacle-animated-part">
+      <animateTransform attributeName="transform" type="rotate" values="-3,91,100;3,91,100;-3,91,100" dur="3s" repeatCount="indefinite" />
+      
+      <rect x="89.5" y="60" width="3" height="42" rx="1" fill="#8B6914" />
+      <rect x="90" y="61" width="2" height="40" rx="0.5" fill="#DAA520" />
+      
+      <circle cx="91" cy="58" r="5" fill="#DAA520" />
+      <circle cx="91" cy="58" r="4" fill="#FFD700" />
+      <circle cx="91" cy="58" r="2.5" fill="#FFF8DC" />
+      
+      <rect x="90" y="51" width="2" height="5" fill="#FFD700" />
+      <rect x="88" y="53" width="6" height="2" fill="#FFD700" />
+      
+      <circle cx="89.5" cy="56.5" r="1" fill="#FFFACD" opacity="0.7" />
+    </g>
+    
+    
+    <rect x="54" y="40" width="12" height="14" rx="3" fill="#D4A574" />
+    <rect x="55" y="41" width="10" height="12" rx="2" fill="#E8B88A" />
+    
+    
+    <ellipse cx="60" cy="32" rx="17" ry="19" fill="#C9956B" />
+    
+    
+    <ellipse cx="60" cy="31" rx="16" ry="18" fill="#E8B88A" />
+    <ellipse cx="60" cy="30" rx="15.5" ry="17.5" fill="#F0C8A0" />
+    
+    
+    <path d="M44 25 Q43 32 44 38 Q45 32 46 28 Z" fill="#4a3728" />
+    <path d="M76 25 Q77 32 76 38 Q75 32 74 28 Z" fill="#4a3728" />
+    
+    
+    <path d="M48 38 Q50 42 54 46 Q57 48 60 49 Q63 48 66 46 Q70 42 72 38 Q68 40 60 41 Q52 40 48 38 Z" fill="#5a4030" />
+    <path d="M49 38 Q51 41 55 45 Q58 47 60 48 Q62 47 65 45 Q69 41 71 38 Q67 39 60 40 Q53 39 49 38 Z" fill="#6B4C3B" />
+    
+    
+    <path d="M52 36 Q56 38 60 37 Q64 38 68 36 Q65 37 60 36 Q55 37 52 36 Z" fill="#4a3728" stroke="#4a3728" stroke-width="1" />
+    
+    
+    <ellipse cx="52" cy="28" rx="3.5" ry="2.5" fill="#FFFFFF" />
+    <ellipse cx="68" cy="28" rx="3.5" ry="2.5" fill="#FFFFFF" />
+    <circle cx="53" cy="28" r="1.8" fill="#2E5090" />
+    <circle cx="67" cy="28" r="1.8" fill="#2E5090" />
+    <circle cx="53" cy="28" r="0.9" fill="#111111" />
+    <circle cx="67" cy="28" r="0.9" fill="#111111" />
+    
+    <circle cx="54" cy="27" r="0.5" fill="#FFFFFF" />
+    <circle cx="68" cy="27" r="0.5" fill="#FFFFFF" />
+    
+    
+    <path d="M48 25 Q52 23 56 25" stroke="#4a3728" stroke-width="1.2" fill="none" />
+    <path d="M64 25 Q68 23 72 25" stroke="#4a3728" stroke-width="1.2" fill="none" />
+    
+    
+    <path d="M59 30 Q58 33 57 34 Q59 35 61 35 Q63 34 62 33 Q61 30 60 30 Z" fill="#D4A574" />
+    
+    
+    <path d="M55 38 Q58 40 60 40 Q62 40 65 38" stroke="#8B4040" stroke-width="1" fill="none" />
+    
+    
+    <ellipse cx="44" cy="31" rx="3" ry="4" fill="#E8B88A" />
+    <ellipse cx="44" cy="31" rx="2" ry="3" fill="#D4A574" />
+    <ellipse cx="76" cy="31" rx="3" ry="4" fill="#E8B88A" />
+    <ellipse cx="76" cy="31" rx="2" ry="3" fill="#D4A574" />
+    
+    
+    <path d="M43 22 L43 15 L77 15 L77 22 Q70 20 60 20 Q50 20 43 22 Z" fill="#B8860B" />
+    <path d="M44 21 L44 16 L76 16 L76 21 Q69 19 60 19 Q51 19 44 21 Z" fill="#DAA520" />
+    
+    
+    <rect x="44" y="18" width="32" height="2" rx="1" fill="#FFD700" />
+    
+    
+    <polygon points="44,16 42,6 48,14" fill="#DAA520" />
+    <polygon points="52,16 50,3 56,14" fill="#DAA520" />
+    <polygon points="60,16 58,1 64,14" fill="#DAA520" />
+    <polygon points="68,16 66,3 72,14" fill="#DAA520" />
+    <polygon points="76,16 78,6 72,14" fill="#DAA520" />
+    
+    
+    <polygon points="44,16 43,8 47,14" fill="#FFD700" />
+    <polygon points="52,16 51,5 55,14" fill="#FFD700" />
+    <polygon points="60,16 59,3 63,14" fill="#FFD700" />
+    <polygon points="68,16 67,5 71,14" fill="#FFD700" />
+    <polygon points="76,16 77,8 73,14" fill="#FFD700" />
+    
+    
+    <circle cx="45" cy="8" r="1.5" fill="#FF0000" />
+    <circle cx="45" cy="8" r="0.8" fill="#FF4444" opacity="0.7" />
+    <circle cx="53" cy="5" r="1.5" fill="#0000FF" />
+    <circle cx="53" cy="5" r="0.8" fill="#4444FF" opacity="0.7" />
+    <circle cx="60" cy="3" r="2" fill="#FF0000" />
+    <circle cx="60" cy="3" r="1.2" fill="#FF4444" opacity="0.7" />
+    <circle cx="67" cy="5" r="1.5" fill="#00AA00" />
+    <circle cx="67" cy="5" r="0.8" fill="#44FF44" opacity="0.7" />
+    <circle cx="75" cy="8" r="1.5" fill="#0000FF" />
+    <circle cx="75" cy="8" r="0.8" fill="#4444FF" opacity="0.7" />
+    
+    
+    <circle cx="50" cy="19" r="1.2" fill="#FF0000" />
+    <circle cx="60" cy="19" r="1.5" fill="#00AA00" />
+    <circle cx="70" cy="19" r="1.2" fill="#FF0000" />
+    
+    
+    <circle cx="55" cy="19" r="0.7" fill="#FFD700" />
+    <circle cx="65" cy="19" r="0.7" fill="#FFD700" />
+    
+    
+    <circle cx="60" cy="62" r="2" fill="#FFD700" />
+    <circle cx="60" cy="70" r="1.5" fill="#DAA520" />
+    <circle cx="60" cy="77" r="1.5" fill="#DAA520" />
+    <circle cx="60" cy="84" r="1.5" fill="#DAA520" />
+    
+    
+    <circle cx="40" cy="58" r="2.5" fill="#FFD700" />
+    <circle cx="40" cy="58" r="1.5" fill="#FF0000" />
+    
+    
+    <circle cx="80" cy="58" r="2.5" fill="#FFD700" />
+    <circle cx="80" cy="58" r="1.5" fill="#FF0000" />
+    
+    
+    <path d="M42 58 Q50 62 60 63 Q70 62 78 58" stroke="#FFD700" stroke-width="1" fill="none" />
+    <path d="M42 59 Q50 63 60 64 Q70 63 78 59" stroke="#DAA520" stroke-width="0.5" fill="none" />
+    
+    
+    <path d="M45 95 Q48 105 46 118" stroke="#1a1a5e" stroke-width="0.8" fill="none" opacity="0.5" />
+    <path d="M75 95 Q72 105 74 118" stroke="#1a1a5e" stroke-width="0.8" fill="none" opacity="0.5" />
+    
+    
+    <path d="M35 70 Q33 90 28 125" stroke="#6B0020" stroke-width="0.8" fill="none" opacity="0.4" />
+    <path d="M85 70 Q87 90 92 125" stroke="#6B0020" stroke-width="0.8" fill="none" opacity="0.4" />
+    <path d="M50 70 Q48 95 45 125" stroke="#6B0020" stroke-width="0.5" fill="none" opacity="0.3" />
+    <path d="M70 70 Q72 95 75 125" stroke="#6B0020" stroke-width="0.5" fill="none" opacity="0.3" />
+  </g>
+</svg>

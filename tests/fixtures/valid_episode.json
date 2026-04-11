@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "1.0",
+  "uuid": "11111111-2222-4333-8444-555555555555",
+  "username": "somedev",
+  "title": "Linai and the Wobbly Wall",
+  "description": "Linai tests two playful plans before finding a joyful way past a stubborn wall.",
+  "generatedAt": "2026-03-27T10:00:00Z",
+  "contentHash": "sha256:81571251add8fdafb8d0dfd51524ebee90082927af08543c6a349619f98054e1",
+  "actCount": 2,
+  "acts": [
+    {
+      "actIndex": 0,
+      "obstacleType": "wall",
+      "approachText": "Linai floats up to a wobbly wall and studies its cracks before deciding what to try.",
+      "clips": {
+        "approach": "<svg viewBox=\"0 0 800 200\"><g id=\"linai\"/></svg>",
+        "choices": [
+          {
+            "choiceIndex": 0,
+            "label": "Knock politely",
+            "isWinning": false,
+            "outcomeText": "The wall boings back and leaves Linai wobbling in surprise.",
+            "winClip": null,
+            "failClip": "<svg viewBox=\"0 0 800 200\"><g id=\"linai\"/></svg>"
+          },
+          {
+            "choiceIndex": 1,
+            "label": "Climb over",
+            "isWinning": true,
+            "outcomeText": "Linai finds a gentle updraft and scoots neatly over the top.",
+            "winClip": "<svg viewBox=\"0 0 800 200\"><g id=\"linai\"/></svg>",
+            "failClip": null
+          }
+        ]
+      }
+    },
+    {
+      "actIndex": 1,
+      "obstacleType": "bird",
+      "approachText": "A proud bird blocks the path, puffing its chest while Linai slows to a curious hover.",
+      "clips": {
+        "approach": "<svg viewBox=\"0 0 800 200\"><g id=\"linai\"/></svg>",
+        "choices": [
+          {
+            "choiceIndex": 0,
+            "label": "Offer a crumb",
+            "isWinning": true,
+            "outcomeText": "The bird chirps with delight and flutters aside to let Linai pass.",
+            "winClip": "<svg viewBox=\"0 0 800 200\"><g id=\"linai\"/></svg>",
+            "failClip": null
+          },
+          {
+            "choiceIndex": 1,
+            "label": "Wave arms wildly",
+            "isWinning": false,
+            "outcomeText": "The bird flaps back even harder and Linai has to regroup.",
+            "winClip": null,
+            "failClip": "<svg viewBox=\"0 0 800 200\"><g id=\"linai\"/></svg>"
+          }
+        ]
+      }
+    }
+  ]
+}

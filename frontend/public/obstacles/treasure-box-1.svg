@@ -1,0 +1,212 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="obstacle-root" viewBox="0 0 120 150">
+  <defs>
+    <radialGradient id="glowGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFD700" stop-opacity="0.9" />
+      <stop offset="40%" stop-color="#FFA500" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#8B6914" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="woodGrain" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5C3A1E" />
+      <stop offset="25%" stop-color="#4A2E14" />
+      <stop offset="50%" stop-color="#5C3A1E" />
+      <stop offset="75%" stop-color="#3E2510" />
+      <stop offset="100%" stop-color="#5C3A1E" />
+    </linearGradient>
+    <linearGradient id="lidGrain" x1="0" y1="0" x2="1" y2="0.3">
+      <stop offset="0%" stop-color="#5C3A1E" />
+      <stop offset="30%" stop-color="#4A2E14" />
+      <stop offset="60%" stop-color="#5C3A1E" />
+      <stop offset="100%" stop-color="#3E2510" />
+    </linearGradient>
+    <linearGradient id="brassGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D4A843" />
+      <stop offset="50%" stop-color="#B8902A" />
+      <stop offset="100%" stop-color="#8B6914" />
+    </linearGradient>
+    <linearGradient id="brassDark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9E7B20" />
+      <stop offset="100%" stop-color="#6B5010" />
+    </linearGradient>
+  </defs>
+
+  <g id="obstacle-main">
+    
+    <ellipse cx="60" cy="138" rx="52" ry="10" fill="#3D2B1A" />
+    <ellipse cx="60" cy="136" rx="48" ry="8" fill="#4E3622" />
+    <ellipse cx="55" cy="137" rx="44" ry="7" fill="#5A3F28" />
+
+    
+    <ellipse cx="25" cy="135" rx="8" ry="4" fill="#3D2B1A" />
+    <ellipse cx="90" cy="136" rx="6" ry="3" fill="#4E3622" />
+    <ellipse cx="42" cy="138" rx="5" ry="3" fill="#3D2B1A" />
+    <ellipse cx="75" cy="139" rx="7" ry="3" fill="#3A2816" />
+
+    
+    <path d="M18 132 Q20 110 16 95" stroke="#2D5A1E" stroke-width="1.5" fill="none" />
+    <path d="M22 130 Q25 108 20 92" stroke="#3A6B25" stroke-width="1.2" fill="none" />
+    <path d="M100 133 Q98 112 102 96" stroke="#2D5A1E" stroke-width="1.5" fill="none" />
+    <path d="M96 131 Q93 110 97 94" stroke="#3A6B25" stroke-width="1.2" fill="none" />
+    <path d="M105 134 Q107 115 103 100" stroke="#1E4A14" stroke-width="1" fill="none" />
+
+    
+    <ellipse cx="60" cy="135" rx="40" ry="6" fill="#2A1C0E" opacity="0.5" />
+
+    
+    <rect x="18" y="85" width="84" height="48" rx="2" ry="2" fill="url(#woodGrain)" />
+
+    
+    <line x1="18" y1="95" x2="102" y2="95" stroke="#3A2510" stroke-width="0.5" opacity="0.6" />
+    <line x1="18" y1="105" x2="102" y2="105" stroke="#3A2510" stroke-width="0.5" opacity="0.6" />
+    <line x1="18" y1="115" x2="102" y2="115" stroke="#3A2510" stroke-width="0.5" opacity="0.6" />
+    <line x1="18" y1="125" x2="102" y2="125" stroke="#3A2510" stroke-width="0.5" opacity="0.6" />
+
+    
+    <line x1="35" y1="85" x2="35" y2="133" stroke="#4A2E14" stroke-width="0.3" opacity="0.4" />
+    <line x1="52" y1="85" x2="52" y2="133" stroke="#4A2E14" stroke-width="0.3" opacity="0.4" />
+    <line x1="70" y1="85" x2="70" y2="133" stroke="#4A2E14" stroke-width="0.3" opacity="0.4" />
+    <line x1="87" y1="85" x2="87" y2="133" stroke="#4A2E14" stroke-width="0.3" opacity="0.4" />
+
+    
+    <path d="M25 90 Q30 88 40 90 Q50 92 55 90" stroke="#6B4A2E" stroke-width="0.3" fill="none" opacity="0.5" />
+    <path d="M60 100 Q70 98 80 100 Q90 102 95 100" stroke="#6B4A2E" stroke-width="0.3" fill="none" opacity="0.5" />
+    <path d="M22 118 Q35 116 50 118 Q60 120 70 118" stroke="#6B4A2E" stroke-width="0.3" fill="none" opacity="0.4" />
+
+    
+    <rect x="18" y="130" width="84" height="3" rx="1" fill="#3E2510" />
+
+    
+    <rect x="16" y="103" width="88" height="5" rx="1" fill="url(#brassGrad)" />
+    <line x1="16" y1="103" x2="104" y2="103" stroke="#D4A843" stroke-width="0.5" />
+    <line x1="16" y1="108" x2="104" y2="108" stroke="#6B5010" stroke-width="0.5" />
+
+    
+    <circle cx="22" cy="105.5" r="1.2" fill="#D4A843" stroke="#8B6914" stroke-width="0.3" />
+    <circle cx="38" cy="105.5" r="1.2" fill="#D4A843" stroke="#8B6914" stroke-width="0.3" />
+    <circle cx="54" cy="105.5" r="1.2" fill="#D4A843" stroke="#8B6914" stroke-width="0.3" />
+    <circle cx="70" cy="105.5" r="1.2" fill="#D4A843" stroke="#8B6914" stroke-width="0.3" />
+    <circle cx="86" cy="105.5" r="1.2" fill="#D4A843" stroke="#8B6914" stroke-width="0.3" />
+    <circle cx="98" cy="105.5" r="1.2" fill="#D4A843" stroke="#8B6914" stroke-width="0.3" />
+
+    
+    <path d="M16 120 L16 133 Q16 135 18 135 L30 135 L30 131 L20 131 L20 120 Z" fill="url(#brassGrad)" stroke="#6B5010" stroke-width="0.5" />
+    
+    <path d="M104 120 L104 133 Q104 135 102 135 L90 135 L90 131 L100 131 L100 120 Z" fill="url(#brassGrad)" stroke="#6B5010" stroke-width="0.5" />
+    
+    <path d="M16 85 L16 95 L20 95 L20 89 L30 89 L30 85 Z" fill="url(#brassGrad)" stroke="#6B5010" stroke-width="0.5" />
+    
+    <path d="M104 85 L104 95 L100 95 L100 89 L90 89 L90 85 Z" fill="url(#brassGrad)" stroke="#6B5010" stroke-width="0.5" />
+
+    
+    <rect x="50" y="96" width="20" height="14" rx="2" fill="url(#brassDark)" stroke="#6B5010" stroke-width="0.5" />
+    
+    <rect x="52" y="98" width="16" height="10" rx="1" fill="none" stroke="#D4A843" stroke-width="0.4" />
+    
+    <circle cx="60" cy="102" r="2.5" fill="#1A0E05" stroke="#8B6914" stroke-width="0.5" />
+    <rect x="59" y="102" width="2" height="4" rx="0.5" fill="#1A0E05" />
+    
+    <circle cx="59.2" cy="101.2" r="0.6" fill="#3A2510" opacity="0.6" />
+
+    
+    <path d="M55 96 Q55 92 60 92 Q65 92 65 96" fill="url(#brassGrad)" stroke="#6B5010" stroke-width="0.5" />
+
+    
+    <rect x="19" y="85" width="82" height="4" fill="#1A0E05" />
+
+    
+    <g id="obstacle-animated-part">
+      
+      <ellipse cx="60" cy="83" rx="35" ry="12" fill="url(#glowGrad)" opacity="0.8">
+        <animate attributeName="opacity" values="0.6;1.0;0.6" dur="1.8s" repeatCount="indefinite" />
+      </ellipse>
+      
+      <ellipse cx="60" cy="80" rx="25" ry="8" fill="#FFD700" opacity="0.3">
+        <animate attributeName="opacity" values="0.2;0.45;0.2" dur="1.8s" repeatCount="indefinite" />
+      </ellipse>
+
+      
+      <polygon points="45,78 46,75 47,78 50,79 47,80 46,83 45,80 42,79" fill="#FFEC8B" opacity="0.8">
+        <animate attributeName="opacity" values="0.4;1.0;0.4" dur="1.2s" repeatCount="indefinite" />
+      </polygon>
+      <polygon points="70,76 71,73 72,76 75,77 72,78 71,81 70,78 67,77" fill="#FFE066" opacity="0.7">
+        <animate attributeName="opacity" values="0.3;0.9;0.3" dur="1.5s" repeatCount="indefinite" />
+      </polygon>
+      <polygon points="58,74 59,72 60,74 62,75 60,76 59,78 58,76 56,75" fill="#FFFACD" opacity="0.9">
+        <animate attributeName="opacity" values="0.5;1.0;0.5" dur="0.9s" repeatCount="indefinite" />
+      </polygon>
+      <polygon points="52,80 52.5,78 53,80 55,80.5 53,81 52.5,83 52,81 50,80.5" fill="#FFD700" opacity="0.6">
+        <animate attributeName="opacity" values="0.3;0.8;0.3" dur="2.0s" repeatCount="indefinite" />
+      </polygon>
+      <polygon points="66,81 66.5,79 67,81 69,81.5 67,82 66.5,84 66,82 64,81.5" fill="#FFEC8B" opacity="0.7">
+        <animate attributeName="opacity" values="0.4;0.9;0.4" dur="1.4s" repeatCount="indefinite" />
+      </polygon>
+    </g>
+
+    
+    <g transform="translate(18, 85) rotate(-20, 42, 0)">
+      
+      <rect x="0" y="-18" width="84" height="18" rx="2" fill="url(#lidGrain)" />
+
+      
+      <line x1="0" y1="-12" x2="84" y2="-12" stroke="#3A2510" stroke-width="0.5" opacity="0.6" />
+      <line x1="0" y1="-6" x2="84" y2="-6" stroke="#3A2510" stroke-width="0.5" opacity="0.6" />
+
+      
+      <path d="M10 -15 Q20 -16 30 -14 Q40 -13 50 -15" stroke="#6B4A2E" stroke-width="0.3" fill="none" opacity="0.4" />
+      <path d="M40 -8 Q55 -9 65 -7 Q75 -6 80 -8" stroke="#6B4A2E" stroke-width="0.3" fill="none" opacity="0.4" />
+
+      
+      <rect x="0" y="-18" width="84" height="2" rx="1" fill="#6B4A2E" opacity="0.4" />
+
+      
+      <rect x="-2" y="-10" width="88" height="4" rx="1" fill="url(#brassGrad)" />
+      <line x1="-2" y1="-10" x2="86" y2="-10" stroke="#D4A843" stroke-width="0.4" />
+      <line x1="-2" y1="-6" x2="86" y2="-6" stroke="#6B5010" stroke-width="0.4" />
+
+      
+      <circle cx="6" cy="-8" r="1" fill="#D4A843" stroke="#8B6914" stroke-width="0.3" />
+      <circle cx="22" cy="-8" r="1" fill="#D4A843" stroke="#8B6914" stroke-width="0.3" />
+      <circle cx="42" cy="-8" r="1" fill="#D4A843" stroke="#8B6914" stroke-width="0.3" />
+      <circle cx="62" cy="-8" r="1" fill="#D4A843" stroke="#8B6914" stroke-width="0.3" />
+      <circle cx="78" cy="-8" r="1" fill="#D4A843" stroke="#8B6914" stroke-width="0.3" />
+
+      
+      <path d="M0 -18 L0 -10 L4 -10 L4 -14 L12 -14 L12 -18 Z" fill="url(#brassGrad)" stroke="#6B5010" stroke-width="0.4" />
+      <path d="M84 -18 L84 -10 L80 -10 L80 -14 L72 -14 L72 -18 Z" fill="url(#brassGrad)" stroke="#6B5010" stroke-width="0.4" />
+      <path d="M0 0 L0 -6 L4 -6 L4 -4 L12 -4 L12 0 Z" fill="url(#brassGrad)" stroke="#6B5010" stroke-width="0.4" />
+      <path d="M84 0 L84 -6 L80 -6 L80 -4 L72 -4 L72 0 Z" fill="url(#brassGrad)" stroke="#6B5010" stroke-width="0.4" />
+
+      
+      <rect x="1" y="-1" width="82" height="2" fill="#1A0E05" opacity="0.8" />
+    </g>
+
+    
+    <rect x="30" y="83" width="8" height="4" rx="1" fill="url(#brassGrad)" stroke="#6B5010" stroke-width="0.4" />
+    <rect x="70" y="83" width="8" height="4" rx="1" fill="url(#brassGrad)" stroke="#6B5010" stroke-width="0.4" />
+    <circle cx="34" cy="85" r="1" fill="#D4A843" stroke="#6B5010" stroke-width="0.3" />
+    <circle cx="74" cy="85" r="1" fill="#D4A843" stroke="#6B5010" stroke-width="0.3" />
+
+    
+    <path d="M15 140 Q13 125 17 115" stroke="#2D5A1E" stroke-width="1.8" fill="none" />
+    <path d="M20 139 Q18 128 22 118" stroke="#3A6B25" stroke-width="1.3" fill="none" />
+    <path d="M28 137 Q26 130 30 122" stroke="#1E4A14" stroke-width="1" fill="none" />
+    <path d="M95 139 Q97 127 93 117" stroke="#2D5A1E" stroke-width="1.5" fill="none" />
+    <path d="M100 140 Q102 130 98 120" stroke="#3A6B25" stroke-width="1.2" fill="none" />
+    <path d="M88 138 Q90 130 86 123" stroke="#1E4A14" stroke-width="1" fill="none" />
+
+    
+    <ellipse cx="30" cy="132" rx="4" ry="2" fill="#4E3622" opacity="0.7" />
+    <ellipse cx="80" cy="133" rx="3" ry="1.5" fill="#3D2B1A" opacity="0.8" />
+    <ellipse cx="55" cy="134" rx="5" ry="2" fill="#4E3622" opacity="0.6" />
+
+    
+    <path d="M24 133 Q22 128 25 124" stroke="#2D5A1E" stroke-width="0.8" fill="none" opacity="0.7" />
+    <path d="M85 132 Q87 127 84 123" stroke="#3A6B25" stroke-width="0.8" fill="none" opacity="0.7" />
+    <path d="M50 134 Q48 130 51 126" stroke="#1E4A14" stroke-width="0.6" fill="none" opacity="0.6" />
+
+    
+    <line x1="18" y1="85" x2="102" y2="85" stroke="#7B5A3A" stroke-width="0.5" opacity="0.5" />
+
+    
+    <rect x="18" y="85" width="84" height="3" fill="#1A0E05" opacity="0.3" />
+  </g>
+</svg>

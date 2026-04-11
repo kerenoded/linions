@@ -1,0 +1,184 @@
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#E3F2FD', 'primaryTextColor': '#1a1a1a', 'primaryBorderColor': '#1565C0', 'lineColor': '#424242', 'secondaryColor': '#FFF3E0', 'tertiaryColor': '#E8F5E9', 'fontSize': '14px'}, 'flowchart': {'curve': 'basis', 'padding': 20, 'nodeSpacing': 30, 'rankSpacing': 40}}}%%
+
+flowchart TD
+    %% ── STAGE 0: INITIALIZATION ──
+    START([Orchestrator Lambda invoked]) --> ENSURE_GEN{Job state =\nGENERATING?}
+    ENSURE_GEN -- No --> ABORT_STATE[/Mark FAILED:\ninvalid job state/]
+    ENSURE_GEN -- Yes --> CREATE_SESSION[Create AgentCore Session]
+    CREATE_SESSION --> RAG_STAGE
+
+    subgraph RAG_STAGE [" Stage 1 &mdash; RAG Retrieval "]
+        direction TB
+        UPDATE_KB[Update job: STAGE_KB_QUERY]
+        UPDATE_KB --> QUERY_KB[Query Bedrock\nKnowledge Base]
+        QUERY_KB --> RAG_OK{Success?}
+        RAG_OK -- No --> FAIL_KB[/Mark FAILED/]
+    end
+
+    RAG_OK -- Yes --> DIR_STAGE
+
+    %% ── STAGE 2: DIRECTOR ──
+    subgraph DIR_STAGE [" Stage 2 &mdash; Director Agent "]
+        direction TB
+        DIR_BUDGET{Deadline\nbudget OK?}
+        DIR_BUDGET -- No --> FAIL_DIR_BUDGET[/Mark FAILED:\ndeadline exhausted/]
+        DIR_BUDGET -- Yes --> UPDATE_DIR[Update job:\nSTAGE_GENERATE_SCRIPT]
+        UPDATE_DIR --> DIR_INVOKE[Invoke Director Agent\n&#40;Bedrock call&#41;]
+        DIR_INVOKE --> DIR_TOKEN{Output tokens\n≤ ceiling?}
+        DIR_TOKEN -- No --> FAIL_DIR_TOKEN[/Mark FAILED:\ntoken ceiling/]
+        DIR_TOKEN -- Yes --> DIR_NORMALIZE[Normalize output\n&#40;truncate title, description,\nchoice labels&#41;]
+        DIR_NORMALIZE --> UPDATE_VAL_SCRIPT[Update job:\nSTAGE_VALIDATE_SCRIPT]
+        UPDATE_VAL_SCRIPT --> DIR_VALIDATE{Script\nValidator}
+        DIR_VALIDATE -- Pass --> DIR_DONE([Director done])
+        DIR_VALIDATE -- Fail --> DIR_RETRY_CHECK{Retries\nexhausted?}
+        DIR_RETRY_CHECK -- Yes --> FAIL_DIR_RETRY[/Mark FAILED/]
+        DIR_RETRY_CHECK -- No --> DIR_RETRY_BUDGET{Retry deadline\nbudget OK?}
+        DIR_RETRY_BUDGET -- No --> FAIL_DIR_RETRY
+        DIR_RETRY_BUDGET -- Yes --> DIR_BACKOFF[Exponential backoff\nwith jitter]
+        DIR_BACKOFF --> DIR_INVOKE
+    end
+
+    DIR_DONE --> ANIM_STAGE
+
+    %% ── STAGE 3: ANIMATOR ──
+    subgraph ANIM_STAGE [" Stage 3 &mdash; Animator Agent &lpar;parallel per-act&rpar; "]
+        direction TB
+        ANIM_BUDGET{Deadline\nbudget OK?}
+        ANIM_BUDGET -- No --> FAIL_ANIM_BUDGET[/Mark FAILED:\ndeadline exhausted/]
+        ANIM_BUDGET -- Yes --> ANIM_BUILD[Build AnimatorInput\nfrom Director output]
+        ANIM_BUILD --> ANIM_FAN{{"&lt;&lt; parallel fan-out &gt;&gt;\none Bedrock call per act"}}
+        ANIM_FAN --> ANIM_TOKEN{Output tokens\n≤ ceiling?}
+        ANIM_TOKEN -- No --> FAIL_ANIM_TOKEN[/Mark FAILED:\ntoken ceiling/]
+        ANIM_TOKEN -- Yes --> ANIM_SNAP[Keyframe snapping repair\n&#40;snap character_y to\nsupport_y within tolerance&#41;]
+        ANIM_SNAP --> ANIM_VALIDATE{Frame\nValidator}
+        ANIM_VALIDATE -- Pass --> ANIM_MERGE
+        ANIM_VALIDATE -- Fail --> ANIM_REPAIR_CHECK{All errors\n= out of bounds?}
+        ANIM_REPAIR_CHECK -- Yes --> ANIM_REPAIR[Repair keyframe bounds\n&#40;clamp to canvas&#41;]
+        ANIM_REPAIR --> ANIM_REVALIDATE{Re-validate\nframes}
+        ANIM_REVALIDATE -- Pass --> ANIM_MERGE
+        ANIM_REVALIDATE -- Fail --> ANIM_RETRY_CHECK
+        ANIM_REPAIR_CHECK -- No --> ANIM_RETRY_CHECK{Act retries\nexhausted?}
+        ANIM_RETRY_CHECK -- Yes --> FAIL_ANIM_RETRY[/Mark FAILED/]
+        ANIM_RETRY_CHECK -- No --> ANIM_FAN
+        ANIM_MERGE{{"&lt;&lt; join &gt;&gt;\nmerge all act outputs"}}
+        ANIM_MERGE --> ANIM_DONE([Animator done])
+    end
+
+    ANIM_DONE --> DRAW_STAGE
+
+    %% ── STAGE 4: DRAWING ──
+    subgraph DRAW_STAGE [" Stage 4 &mdash; Drawing Agent &lpar;parallel per-asset&rpar; "]
+        direction TB
+        DRAW_RESOLVE[Resolve obstacle slugs\nagainst prepared library]
+        DRAW_RESOLVE --> DRAW_QUEUE[Queue missing obstacles\n+ all act backgrounds]
+        DRAW_QUEUE --> DRAW_EMPTY{Queue\nempty?}
+        DRAW_EMPTY -- Yes --> DRAW_DONE([Drawing done])
+        DRAW_EMPTY -- No --> DRAW_BUDGET{Deadline\nbudget OK?}
+        DRAW_BUDGET -- No --> FAIL_DRAW_BUDGET[/Mark FAILED:\ndeadline exhausted/]
+        DRAW_BUDGET -- Yes --> UPDATE_DRAW[Update job:\nSTAGE_DRAW_ASSETS]
+        UPDATE_DRAW --> DRAW_FAN{{"&lt;&lt; parallel fan-out &gt;&gt;\none Bedrock call per asset"}}
+        DRAW_FAN --> DRAW_TOKEN{At token\nceiling?}
+        DRAW_TOKEN -- Yes: truncation --> DRAW_TRUNC_RETRY[Build truncation\nretry guidance]
+        DRAW_TRUNC_RETRY --> DRAW_RETRY_CHECK
+        DRAW_TOKEN -- No --> DRAW_LINT[SVG Linter\n&#40;validate + sanitise&#41;]
+        DRAW_LINT -- Pass --> DRAW_COLLECT
+        DRAW_LINT -- Fail --> DRAW_RETRY_CHECK{Asset retries\nexhausted?}
+        DRAW_RETRY_CHECK -- Yes --> FAIL_DRAW_RETRY[/Mark FAILED/]
+        DRAW_RETRY_CHECK -- No --> DRAW_FAN
+        DRAW_COLLECT{{"&lt;&lt; join &gt;&gt;\ncollect all asset SVGs"}}
+        DRAW_COLLECT --> DRAW_DONE
+    end
+
+    DRAW_DONE --> REND_STAGE
+
+    %% ── STAGE 5: RENDERER ──
+    subgraph REND_STAGE [" Stage 5 &mdash; Renderer Agent &lpar;parallel per-clip&rpar; "]
+        direction TB
+        REND_BUDGET{Deadline\nbudget OK?}
+        REND_BUDGET -- No --> FAIL_REND_BUDGET[/Mark FAILED:\ndeadline exhausted/]
+        REND_BUDGET -- Yes --> UPDATE_REND[Update job:\nSTAGE_RENDER_SVG]
+        UPDATE_REND --> REND_FAN{{"&lt;&lt; parallel fan-out &gt;&gt;\none Bedrock call per clip"}}
+        REND_FAN --> REND_TRUNC{Truncation\nerror + at\ntoken ceiling?}
+        REND_TRUNC -- Yes --> REND_TRUNC_RETRY[Build compact-output\nretry guidance]
+        REND_TRUNC_RETRY --> REND_RETRY_CHECK
+        REND_TRUNC -- No --> REND_TOKEN{Output tokens\n≤ ceiling?}
+        REND_TOKEN -- No --> FAIL_REND_TOKEN[/Mark FAILED:\ntoken ceiling/]
+        REND_TOKEN -- Yes --> REND_COMPOSE[Compose scene SVG\n&#40;merge obstacle +\nbackground layers&#41;]
+        REND_COMPOSE --> REND_LINT{SVG Linter\n&#40;validate +\nsanitise&#41;}
+        REND_LINT -- Fail --> REND_RETRY_CHECK
+        REND_LINT -- Pass --> REND_MOTION{Motion\nValidator}
+        REND_MOTION -- Pass --> REND_COLLECT
+        REND_MOTION -- Fail --> REND_REPAIR_CASCADE
+
+        subgraph REND_REPAIR_CASCADE [" Motion Repair Cascade "]
+            direction TB
+            RC_UNSUPPORTED{Unsupported\nanim targets?}
+            RC_UNSUPPORTED -- Yes --> RC_FIX_UNSUPPORTED[Remove unsupported\nanimation targets]
+            RC_FIX_UNSUPPORTED --> RC_REVAL1{Re-validate\nmotion}
+            RC_REVAL1 -- Pass --> RC_ACCEPT([Accept repaired])
+            RC_REVAL1 -- Fail --> RC_EYE
+
+            RC_UNSUPPORTED -- No --> RC_EYE{Eye motion\nerrors?}
+            RC_EYE -- Yes --> RC_FIX_EYE[Repair eye motion\n&#40;constrain subtle&#41;]
+            RC_FIX_EYE --> RC_REVAL2{Re-validate\nmotion}
+            RC_REVAL2 -- Pass --> RC_ACCEPT
+            RC_REVAL2 -- Fail --> RC_ROOT
+
+            RC_EYE -- No --> RC_ROOT{Root translate\nerrors?}
+            RC_ROOT -- Yes --> RC_FIX_ROOT[Repair root translate\n&#40;clamp Y&#41;]
+            RC_FIX_ROOT --> RC_REVAL3{Re-validate\nmotion}
+            RC_REVAL3 -- Pass --> RC_ACCEPT
+            RC_REVAL3 -- Fail --> RC_BODY
+
+            RC_ROOT -- No --> RC_BODY{Body scale\nerrors?}
+            RC_BODY -- Yes --> RC_FIX_BODY[Repair body scale\n&#40;clamp min/max&#41;]
+            RC_FIX_BODY --> RC_REVAL4{Re-validate\nmotion}
+            RC_REVAL4 -- Pass --> RC_ACCEPT
+            RC_REVAL4 -- Fail --> RC_GIVE_UP([All repairs failed])
+
+            RC_BODY -- No --> RC_GIVE_UP
+        end
+
+        RC_ACCEPT --> REND_COLLECT
+        RC_GIVE_UP --> REND_RETRY_CHECK{Clip retries\nexhausted?}
+        REND_RETRY_CHECK -- Yes --> FAIL_REND_RETRY[/Mark FAILED/]
+        REND_RETRY_CHECK -- No --> REND_FAN
+        REND_COLLECT{{"&lt;&lt; join &gt;&gt;\ncollect all clip SVGs"}}
+        REND_COLLECT --> REND_DONE([Renderer done])
+    end
+
+    REND_DONE --> PERSIST_STAGE
+
+    %% ── STAGE 6: PERSISTENCE ──
+    subgraph PERSIST_STAGE [" Stage 6 &mdash; Persistence "]
+        direction TB
+        BUILD_EP[Assemble episode JSON\nfrom all stage outputs]
+        BUILD_EP --> EXTRACT_THUMB[Extract thumbnail\nfrom first approach clip]
+        EXTRACT_THUMB --> COLLECT_ASSETS[Collect supporting assets\n&#40;obstacle + background SVGs&#41;]
+        COLLECT_ASSETS --> WRITE_EP[Write episode.json to S3]
+        WRITE_EP --> WRITE_THUMB[Write thumb.svg to S3]
+        WRITE_THUMB --> WRITE_THUMB_OK{Success?}
+        WRITE_THUMB_OK -- No --> CLEANUP_EP[Delete episode.json\nfrom S3]
+        CLEANUP_EP --> FAIL_PERSIST[/Mark FAILED/]
+        WRITE_THUMB_OK -- Yes --> WRITE_ASSETS_LOOP[Write each obstacle +\nbackground SVG to S3]
+        WRITE_ASSETS_LOOP --> WRITE_ASSETS_OK{All\nsucceeded?}
+        WRITE_ASSETS_OK -- No --> CLEANUP_ALL[Delete all written keys\nin reverse order]
+        CLEANUP_ALL --> FAIL_PERSIST
+        WRITE_ASSETS_OK -- Yes --> MARK_DONE[Mark job DONE\nin DynamoDB]
+    end
+
+    MARK_DONE --> DONE([Return draft S3 key])
+
+    %% ── STYLES ──
+    classDef failNode fill:#FFCDD2,stroke:#C62828,color:#B71C1C,font-weight:bold
+    classDef parallelNode fill:#E1F5FE,stroke:#0277BD,color:#01579B,font-weight:bold
+    classDef repairNode fill:#FFF9C4,stroke:#F9A825,color:#F57F17
+    classDef validatorNode fill:#F3E5F5,stroke:#7B1FA2,color:#4A148C
+    classDef doneNode fill:#C8E6C9,stroke:#2E7D32,color:#1B5E20
+    classDef stageLabel fill:#ECEFF1,stroke:#546E7A,color:#263238
+
+    class ABORT_STATE,FAIL_KB,FAIL_DIR_BUDGET,FAIL_DIR_TOKEN,FAIL_DIR_RETRY,FAIL_ANIM_BUDGET,FAIL_ANIM_TOKEN,FAIL_ANIM_RETRY,FAIL_DRAW_BUDGET,FAIL_DRAW_RETRY,FAIL_REND_BUDGET,FAIL_REND_TOKEN,FAIL_REND_RETRY,FAIL_PERSIST failNode
+    class ANIM_FAN,DRAW_FAN,REND_FAN,ANIM_MERGE,DRAW_COLLECT,REND_COLLECT parallelNode
+    class DIR_NORMALIZE,ANIM_SNAP,ANIM_REPAIR,RC_FIX_UNSUPPORTED,RC_FIX_EYE,RC_FIX_ROOT,RC_FIX_BODY,DRAW_TRUNC_RETRY,REND_TRUNC_RETRY repairNode
+    class DIR_VALIDATE,ANIM_VALIDATE,ANIM_REVALIDATE,DRAW_LINT,REND_LINT,REND_MOTION,RC_REVAL1,RC_REVAL2,RC_REVAL3,RC_REVAL4 validatorNode
+    class DIR_DONE,ANIM_DONE,DRAW_DONE,REND_DONE,DONE,RC_ACCEPT doneNode

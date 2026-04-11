@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="background-root" viewBox="0 0 800 200">
+  <g id="background-main">
+    
+    <defs>
+      <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#4da6e8" />
+        <stop offset="40%" stop-color="#7ec8f0" />
+        <stop offset="70%" stop-color="#b3e0f7" />
+        <stop offset="100%" stop-color="#d4eef9" />
+      </linearGradient>
+      <linearGradient id="oceanDeep" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#0a6e8a" />
+        <stop offset="50%" stop-color="#085a72" />
+        <stop offset="100%" stop-color="#064a5e" />
+      </linearGradient>
+      <linearGradient id="shimmerGrad1" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#ffffff" stop-opacity="0" />
+        <stop offset="30%" stop-color="#fffde0" />
+        <stop offset="50%" stop-color="#fff8b0" />
+        <stop offset="70%" stop-color="#fffde0" />
+        <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+      </linearGradient>
+      <linearGradient id="shimmerGrad2" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#ffffff" stop-opacity="0" />
+        <stop offset="25%" stop-color="#e0f4ff" />
+        <stop offset="50%" stop-color="#fffce0" />
+        <stop offset="75%" stop-color="#e0f4ff" />
+        <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+      </linearGradient>
+    </defs>
+
+    
+    <rect x="0" y="0" width="800" height="110" fill="url(#skyGrad)" />
+
+    
+    <ellipse cx="600" cy="30" rx="80" ry="40" fill="#fff8d0" opacity="0.5" />
+    <ellipse cx="600" cy="25" rx="40" ry="22" fill="#fffbe0" opacity="0.7" />
+    <ellipse cx="600" cy="22" rx="18" ry="12" fill="#ffffff" opacity="0.9" />
+
+    
+    <ellipse cx="120" cy="45" rx="70" ry="18" fill="#f0f8ff" opacity="0.6" />
+    <ellipse cx="160" cy="40" rx="50" ry="15" fill="#ffffff" opacity="0.5" />
+    <ellipse cx="450" cy="55" rx="90" ry="16" fill="#eaf5fc" opacity="0.5" />
+    <ellipse cx="700" cy="50" rx="60" ry="14" fill="#f5faff" opacity="0.45" />
+
+    
+    <rect x="0" y="90" width="800" height="25" fill="#c8e6f4" opacity="0.6" />
+
+    
+    <rect x="0" y="100" width="800" height="100" fill="url(#oceanDeep)" />
+
+    
+    <path d="M0,115 Q100,108 200,116 Q300,124 400,114 Q500,106 600,117 Q700,126 800,113 L800,140 Q700,148 600,138 Q500,130 400,142 Q300,150 200,138 Q100,128 0,142 Z" fill="#0b7a96" opacity="0.9" />
+
+    
+    <path d="M0,130 Q80,122 180,132 Q280,142 380,128 Q480,118 580,133 Q680,144 800,127 L800,158 Q680,168 580,155 Q480,144 380,160 Q280,170 180,156 Q80,144 0,160 Z" fill="#0d8fad" opacity="0.8" />
+
+    
+    <path d="M0,140 Q50,134 120,141 Q200,150 300,138 Q400,128 500,142 Q600,154 700,140 Q760,134 800,138 L800,160 Q760,156 700,162 Q600,172 500,158 Q400,148 300,162 Q200,172 120,160 Q50,152 0,158 Z" fill="#10a0be" opacity="0.85" />
+
+    
+    <path d="M0,152 Q100,146 200,155 Q300,164 400,150 Q500,140 600,155 Q700,166 800,152 L800,172 Q700,180 600,170 Q500,160 400,174 Q300,184 200,172 Q100,162 0,174 Z" fill="#15b0cc" opacity="0.7" />
+
+    
+    <path d="M0,160 Q60,154 140,162 Q240,172 340,158 Q440,148 540,163 Q640,174 740,160 Q780,156 800,158 L800,170 Q780,168 740,172 Q640,182 540,170 Q440,160 340,174 Q240,184 140,172 Q60,164 0,172 Z" fill="#30c8dd" opacity="0.6" />
+
+    
+    <path d="M0,168 Q100,162 200,170 Q300,178 400,166 Q500,158 600,170 Q700,180 800,168 L800,182 Q700,190 600,180 Q500,172 400,184 Q300,192 200,180 Q100,172 0,184 Z" fill="#50d8e8" opacity="0.5" />
+
+    
+    <path d="M0,164 Q40,160 100,165 Q180,172 260,163 Q340,156 420,166 Q500,174 580,164 Q660,156 740,166 Q780,170 800,166 L800,169 Q780,173 740,169 Q660,160 580,168 Q500,178 420,169 Q340,160 260,167 Q180,176 100,168 Q40,162 0,168 Z" fill="#e8fbff" opacity="0.4" />
+
+    
+    <rect x="0" y="99" width="800" height="3" fill="#88cce0" opacity="0.7" />
+    <rect x="0" y="100" width="800" height="1.5" fill="#a0dae8" opacity="0.5" />
+
+    
+    <path d="M0,178 Q200,185 400,176 Q600,170 800,180 L800,200 L0,200 Z" fill="#064a5e" opacity="0.9" />
+    <path d="M0,185 Q150,192 350,183 Q550,176 800,188 L800,200 L0,200 Z" fill="#053d4e" opacity="0.8" />
+
+    
+    <g id="background-animated-part">
+      
+      <path d="M320,108 Q400,118 480,108 Q520,104 560,112 Q600,120 640,110 L640,115 Q600,125 560,117 Q520,109 480,113 Q400,123 320,113 Z" fill="url(#shimmerGrad1)" opacity="0.2">
+        <animate attributeName="opacity" values="0.2;0.85;0.2" dur="2.5s" repeatCount="indefinite" />
+      </path>
+
+      
+      <path d="M80,120 Q160,128 260,118 Q340,110 420,122 Q480,130 540,120 L540,126 Q480,136 420,128 Q340,116 260,124 Q160,134 80,126 Z" fill="url(#shimmerGrad2)" opacity="0.1">
+        <animate attributeName="opacity" values="0.1;0.7;0.1" dur="3.2s" begin="0.8s" repeatCount="indefinite" />
+      </path>
+
+      
+      <ellipse cx="300" cy="38" rx="100" ry="22" fill="#ffffff">
+        <animate attributeName="fill" values="#ffffff;#e8f4ff;#ffffff" dur="5s" repeatCount="indefinite" />
+      </ellipse>
+      <ellipse cx="340" cy="32" rx="65" ry="18" fill="#ffffff">
+        <animate attributeName="fill" values="#ffffff;#e8f4ff;#ffffff" dur="5s" begin="0.5s" repeatCount="indefinite" />
+      </ellipse>
+      <ellipse cx="270" cy="42" rx="45" ry="14" fill="#f8fcff">
+        <animate attributeName="fill" values="#f8fcff;#e0eef8;#f8fcff" dur="5s" begin="1s" repeatCount="indefinite" />
+      </ellipse>
+
+      
+      <path d="M0,156 Q50,150 130,158 Q220,168 320,155 Q420,144 520,158 Q620,170 720,156 Q770,150 800,155 L800,162 Q770,158 720,164 Q620,176 520,164 Q420,152 320,163 Q220,176 130,165 Q50,156 0,164 Z" fill="#f0ffff" opacity="0.3">
+        <animate attributeName="opacity" values="0.3;0.75;0.3" dur="2s" repeatCount="indefinite" />
+      </path>
+
+      
+      <path d="M0,125 Q100,118 200,128 Q300,138 400,124 Q500,114 600,128 Q700,140 800,124 L800,145 Q700,155 600,142 Q500,130 400,146 Q300,158 200,144 Q100,132 0,148 Z" fill="#0a6e8a" opacity="0.85">
+        <animate attributeName="fill" values="#0a6e8a;#0d8fad;#0a6e8a" dur="6s" repeatCount="indefinite" />
+      </path>
+    </g>
+  </g>
+</svg>

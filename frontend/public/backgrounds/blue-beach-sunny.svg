@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="background-root" viewBox="0 0 800 200">
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e90ff" />
+      <stop offset="60%" stop-color="#5bb8f5" />
+      <stop offset="100%" stop-color="#87ceeb" />
+    </linearGradient>
+    <linearGradient id="oceanGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a8a8a" />
+      <stop offset="40%" stop-color="#20b2aa" />
+      <stop offset="100%" stop-color="#7fdbda" />
+    </linearGradient>
+    <linearGradient id="sandGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f0d68a" />
+      <stop offset="50%" stop-color="#e8c86a" />
+      <stop offset="100%" stop-color="#d4a84a" />
+    </linearGradient>
+    <linearGradient id="shallowWater" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#40c9c0" />
+      <stop offset="100%" stop-color="#a8e6cf" />
+    </linearGradient>
+  </defs>
+
+  <g id="background-main">
+    
+    <rect x="0" y="0" width="800" height="105" fill="url(#skyGrad)" />
+
+    
+    <circle cx="650" cy="30" r="25" fill="#fff7a0" opacity="0.9" />
+    <circle cx="650" cy="30" r="20" fill="#ffee58" />
+
+    
+    <ellipse cx="150" cy="25" rx="70" ry="18" fill="#ffffff" opacity="0.85" />
+    <ellipse cx="180" cy="20" rx="50" ry="15" fill="#ffffff" opacity="0.9" />
+    <ellipse cx="120" cy="30" rx="40" ry="12" fill="#ffffff" opacity="0.8" />
+
+    <ellipse cx="450" cy="40" rx="60" ry="14" fill="#ffffff" opacity="0.75" />
+    <ellipse cx="480" cy="35" rx="45" ry="12" fill="#ffffff" opacity="0.8" />
+
+    <ellipse cx="700" cy="55" rx="50" ry="12" fill="#ffffff" opacity="0.7" />
+    <ellipse cx="720" cy="50" rx="35" ry="10" fill="#ffffff" opacity="0.75" />
+
+    
+    <rect x="0" y="75" width="800" height="30" fill="#1a8a8a" />
+
+    
+    <rect x="0" y="85" width="800" height="30" fill="url(#oceanGrad)" />
+
+    
+    <path d="M0,90 Q50,86 100,90 Q150,94 200,90 Q250,86 300,90 Q350,94 400,90 Q450,86 500,90 Q550,94 600,90 Q650,86 700,90 Q750,94 800,90" fill="none" stroke="#3dd6d0" stroke-width="1.5" opacity="0.6" />
+    <path d="M0,97 Q40,93 80,97 Q120,101 160,97 Q200,93 240,97 Q280,101 320,97 Q360,93 400,97 Q440,101 480,97 Q520,93 560,97 Q600,101 640,97 Q680,93 720,97 Q760,101 800,97" fill="none" stroke="#5ce0d8" stroke-width="1.2" opacity="0.5" />
+    <path d="M0,103 Q60,99 120,103 Q180,107 240,103 Q300,99 360,103 Q420,107 480,103 Q540,99 600,103 Q660,107 720,103 Q780,99 800,103" fill="none" stroke="#80ece5" stroke-width="1" opacity="0.4" />
+
+    
+    <rect x="0" y="110" width="800" height="18" fill="url(#shallowWater)" opacity="0.8" />
+
+    
+    <path d="M0,125 Q30,122 60,125 Q90,128 120,125 Q150,122 180,125 Q210,128 240,125 Q270,122 300,125 Q330,128 360,125 Q390,122 420,125 Q450,128 480,125 Q510,122 540,125 Q570,128 600,125 Q630,122 660,125 Q690,128 720,125 Q750,122 780,125 L800,125 L800,130 L0,130 Z" fill="#e8f5f0" opacity="0.7" />
+
+    
+    <rect x="0" y="128" width="800" height="10" fill="#c8a855" opacity="0.6" />
+
+    
+    <rect x="0" y="130" width="800" height="70" fill="url(#sandGrad)" />
+
+    
+    <path d="M0,145 Q100,142 200,145 Q300,148 400,145 Q500,142 600,145 Q700,148 800,145" fill="none" stroke="#d4a84a" stroke-width="0.8" opacity="0.4" />
+    <path d="M0,158 Q80,155 160,158 Q240,161 320,158 Q400,155 480,158 Q560,161 640,158 Q720,155 800,158" fill="none" stroke="#c89840" stroke-width="0.7" opacity="0.35" />
+    <path d="M0,170 Q120,167 240,170 Q360,173 480,170 Q600,167 720,170 Q780,173 800,170" fill="none" stroke="#c89840" stroke-width="0.6" opacity="0.3" />
+    <path d="M0,182 Q90,179 180,182 Q270,185 360,182 Q450,179 540,182 Q630,185 720,182 Q770,179 800,182" fill="none" stroke="#b88830" stroke-width="0.5" opacity="0.25" />
+
+    
+    <ellipse cx="120" cy="165" rx="4" ry="3" fill="#8b7355" opacity="0.7" />
+    <ellipse cx="125" cy="167" rx="3" ry="2" fill="#a08060" opacity="0.6" />
+    <circle cx="350" cy="175" r="2.5" fill="#7a6545" opacity="0.65" />
+    <ellipse cx="500" cy="155" rx="3.5" ry="2.5" fill="#9b8565" opacity="0.6" />
+    <circle cx="680" cy="170" r="2" fill="#8a7050" opacity="0.7" />
+    <ellipse cx="250" cy="185" rx="3" ry="2" fill="#907555" opacity="0.55" />
+    <circle cx="600" cy="180" r="3" fill="#7e6848" opacity="0.6" />
+    <ellipse cx="750" cy="160" rx="2.5" ry="1.8" fill="#a09070" opacity="0.5" />
+    <circle cx="50" cy="178" r="2" fill="#8b7050" opacity="0.6" />
+    <ellipse cx="420" cy="190" rx="3" ry="2" fill="#806848" opacity="0.55" />
+
+    
+    <path d="M300,162 Q303,158 306,162 Q303,160 300,162 Z" fill="#f0e0c0" opacity="0.6" />
+    <path d="M560,168 Q563,164 566,168 Q563,166 560,168 Z" fill="#edd5b5" opacity="0.55" />
+
+    
+    <g id="background-animated-part">
+      
+      <ellipse cx="620" cy="92" rx="80" ry="12" fill="#fffde0" opacity="0.5">
+        <animate attributeName="opacity" values="0.2;0.8;0.2" dur="3s" repeatCount="indefinite" />
+      </ellipse>
+      <ellipse cx="640" cy="88" rx="40" ry="6" fill="#ffffff" opacity="0.4">
+        <animate attributeName="opacity" values="0.3;0.9;0.3" dur="3s" repeatCount="indefinite" />
+      </ellipse>
+
+      
+      <ellipse cx="300" cy="100" rx="120" ry="8" fill="#b0f0e8" opacity="0.3">
+        <animate attributeName="opacity" values="0.1;0.6;0.1" dur="2.5s" begin="1s" repeatCount="indefinite" />
+      </ellipse>
+      <ellipse cx="500" cy="105" rx="90" ry="6" fill="#c0f8f0" opacity="0.25">
+        <animate attributeName="opacity" values="0.1;0.5;0.1" dur="2.5s" begin="1s" repeatCount="indefinite" />
+      </ellipse>
+
+      
+      <g>
+        <ellipse cx="450" cy="40" rx="65" ry="16" fill="#ffffff" opacity="0.85">
+          <animate attributeName="opacity" values="0.7;1.0;0.7" dur="4s" repeatCount="indefinite" />
+        </ellipse>
+        <ellipse cx="480" cy="35" rx="48" ry="13" fill="#ffffff" opacity="0.9">
+          <animate attributeName="opacity" values="0.7;1.0;0.7" dur="4s" repeatCount="indefinite" />
+        </ellipse>
+        <ellipse cx="430" cy="44" rx="35" ry="10" fill="#ffffff" opacity="0.8">
+          <animate attributeName="opacity" values="0.7;1.0;0.7" dur="4s" repeatCount="indefinite" />
+        </ellipse>
+      </g>
+
+      
+      <ellipse cx="400" cy="155" rx="150" ry="20" fill="#f5dfa0" opacity="0.6">
+        <animate attributeName="fill" values="#f5dfa0;#ffe8b0;#f5dfa0" dur="3.5s" repeatCount="indefinite" />
+      </ellipse>
+      <ellipse cx="200" cy="175" rx="100" ry="15" fill="#f5dfa0" opacity="0.5">
+        <animate attributeName="fill" values="#f5dfa0;#ffe8b0;#f5dfa0" dur="3.5s" repeatCount="indefinite" />
+      </ellipse>
+      <ellipse cx="650" cy="165" rx="110" ry="18" fill="#f5dfa0" opacity="0.5">
+        <animate attributeName="fill" values="#ffe8b0;#f5dfa0;#ffe8b0" dur="3.5s" repeatCount="indefinite" />
+      </ellipse>
+
+      
+      <rect x="0" y="0" width="800" height="70" fill="#ffffff" opacity="0.15">
+        <animate attributeName="opacity" values="0.05;0.3;0.05" dur="5s" repeatCount="indefinite" />
+      </rect>
+    </g>
+  </g>
+</svg>

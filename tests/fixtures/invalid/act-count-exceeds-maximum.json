@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "1.0",
+  "uuid": "11111111-2222-4333-8444-555555555555",
+  "username": "somedev",
+  "title": "Linai and the Wobbly Wall",
+  "description": "Linai tests two playful plans before finding a joyful way past a stubborn wall.",
+  "generatedAt": "2026-03-27T10:00:00Z",
+  "contentHash": "sha256:fa40c558430c22243d05aac23706244780ffdfc804fbb4d2f9a82bd2b509ef60",
+  "actCount": 4,
+  "acts": [
+    {
+      "actIndex": 0,
+      "obstacleType": "wall",
+      "clips": {
+        "approach": "<svg viewBox=\"0 0 800 200\"><g id=\"linai\"/></svg>",
+        "choices": [
+          {
+            "choiceIndex": 0,
+            "label": "Knock politely",
+            "isWinning": false,
+            "winClip": null,
+            "failClip": "<svg viewBox=\"0 0 800 200\"><g id=\"linai\"/></svg>"
+          },
+          {
+            "choiceIndex": 1,
+            "label": "Climb over",
+            "isWinning": true,
+            "winClip": "<svg viewBox=\"0 0 800 200\"><g id=\"linai\"/></svg>",
+            "failClip": null
+          }
+        ]
+      }
+    },
+    {
+      "actIndex": 1,
+      "obstacleType": "bird",
+      "clips": {
+        "approach": "<svg viewBox=\"0 0 800 200\"><g id=\"linai\"/></svg>",
+        "choices": [
+          {
+            "choiceIndex": 0,
+            "label": "Offer a crumb",
+            "isWinning": true,
+            "winClip": "<svg viewBox=\"0 0 800 200\"><g id=\"linai\"/></svg>",
+            "failClip": null
+          },
+          {
+            "choiceIndex": 1,
+            "label": "Wave arms wildly",
+            "isWinning": false,
+            "winClip": null,
+            "failClip": "<svg viewBox=\"0 0 800 200\"><g id=\"linai\"/></svg>"
+          }
+        ]
+      }
+    },
+    {
+      "actIndex": 2,
+      "obstacleType": "tree",
+      "clips": {
+        "approach": "<svg viewBox=\"0 0 800 200\"><g id=\"linai\"/></svg>",
+        "choices": [
+          {
+            "choiceIndex": 0,
+            "label": "Duck under",
+            "isWinning": false,
+            "winClip": null,
+            "failClip": "<svg viewBox=\"0 0 800 200\"><g id=\"linai\"/></svg>"
+          },
+          {
+            "choiceIndex": 1,
+            "label": "Swing around",
+            "isWinning": true,
+            "winClip": "<svg viewBox=\"0 0 800 200\"><g id=\"linai\"/></svg>",
+            "failClip": null
+          }
+        ]
+      }
+    },
+    {
+      "actIndex": 3,
+      "obstacleType": "hole",
+      "clips": {
+        "approach": "<svg viewBox=\"0 0 800 200\"><g id=\"linai\"/></svg>",
+        "choices": [
+          {
+            "choiceIndex": 0,
+            "label": "Jump now",
+            "isWinning": true,
+            "winClip": "<svg viewBox=\"0 0 800 200\"><g id=\"linai\"/></svg>",
+            "failClip": null
+          },
+          {
+            "choiceIndex": 1,
+            "label": "Step slowly",
+            "isWinning": false,
+            "winClip": null,
+            "failClip": "<svg viewBox=\"0 0 800 200\"><g id=\"linai\"/></svg>"
+          }
+        ]
+      }
+    }
+  ]
+}

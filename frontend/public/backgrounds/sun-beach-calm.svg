@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="background-root" viewBox="0 0 800 200">
+  <g id="background-main">
+    
+    <defs>
+      <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#4db8e8" />
+        <stop offset="60%" stop-color="#7dcef0" />
+        <stop offset="100%" stop-color="#b0e0f0" />
+      </linearGradient>
+      <linearGradient id="sandGrad" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#e8c96a" />
+        <stop offset="100%" stop-color="#d4a843" />
+      </linearGradient>
+      <radialGradient id="sunGlow" cx="0.5" cy="0.5" r="0.5">
+        <stop offset="0%" stop-color="#fffbe6" stop-opacity="1" />
+        <stop offset="40%" stop-color="#ffe066" stop-opacity="0.8" />
+        <stop offset="70%" stop-color="#ffcc33" stop-opacity="0.3" />
+        <stop offset="100%" stop-color="#ffcc33" stop-opacity="0" />
+      </radialGradient>
+    </defs>
+
+    
+    <rect x="0" y="0" width="800" height="110" fill="url(#skyGrad)" />
+
+    
+    <polygon points="680,30 800,0 800,70" fill="#fff5cc" opacity="0.25" />
+    <polygon points="680,30 750,0 720,80" fill="#fff5cc" opacity="0.2" />
+    <polygon points="680,30 620,0 640,70" fill="#fff5cc" opacity="0.18" />
+    <polygon points="680,30 800,80 740,90" fill="#fff5cc" opacity="0.15" />
+    <polygon points="680,30 600,60 650,80" fill="#fff5cc" opacity="0.12" />
+    <polygon points="680,30 780,10 800,40" fill="#fffbe6" opacity="0.2" />
+
+    
+    <circle cx="690" cy="32" r="60" fill="url(#sunGlow)" opacity="0.6" />
+
+    
+    <rect x="0" y="90" width="800" height="25" fill="#1a7a8a" />
+
+    
+    <rect x="0" y="95" width="800" height="18" fill="#2a9db0" />
+
+    
+    <rect x="0" y="105" width="800" height="12" fill="#3cc8d8" />
+
+    
+    <rect x="0" y="100" width="800" height="5" fill="#5dd8e8" opacity="0.4" />
+
+    
+    <rect x="0" y="115" width="800" height="85" fill="url(#sandGrad)" />
+
+    
+    <path d="M0,130 Q100,127 200,130 Q300,133 400,130 Q500,127 600,130 Q700,133 800,130" fill="none" stroke="#c9a040" stroke-width="1" opacity="0.5" />
+    <path d="M0,145 Q120,142 240,145 Q360,148 480,145 Q600,142 720,145 Q760,147 800,145" fill="none" stroke="#c9a040" stroke-width="1" opacity="0.45" />
+    <path d="M0,160 Q80,157 200,160 Q320,163 440,160 Q560,157 680,160 Q740,162 800,160" fill="none" stroke="#c9a040" stroke-width="1" opacity="0.4" />
+    <path d="M0,175 Q150,172 300,175 Q450,178 600,175 Q750,172 800,175" fill="none" stroke="#c9a040" stroke-width="1" opacity="0.35" />
+    <path d="M0,188 Q100,185 250,188 Q400,191 550,188 Q700,185 800,188" fill="none" stroke="#c9a040" stroke-width="1" opacity="0.3" />
+
+    
+    <ellipse cx="200" cy="155" rx="120" ry="8" fill="#c49a35" opacity="0.25" />
+    <ellipse cx="550" cy="170" rx="150" ry="10" fill="#c49a35" opacity="0.2" />
+    <ellipse cx="100" cy="185" rx="80" ry="6" fill="#c49a35" opacity="0.18" />
+
+    
+    <rect x="0" y="115" width="800" height="8" fill="#b89040" opacity="0.5" />
+
+    <g id="background-animated-part">
+      
+      <circle cx="690" cy="32" r="28" fill="#fff4a3">
+        <animate attributeName="opacity" values="0.85;1.0;0.85" dur="3s" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite" />
+      </circle>
+      <circle cx="690" cy="32" r="18" fill="#fffbe6" opacity="0.9" />
+
+      
+      <path d="M0,114 Q40,111 80,114 Q120,117 160,114 Q200,111 240,114 Q280,117 320,114 Q360,111 400,114 Q440,117 480,114 Q520,111 560,114 Q600,117 640,114 Q680,111 720,114 Q760,117 800,114" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round">
+        <animate attributeName="opacity" values="0.3;0.9;0.3" dur="2.5s" repeatCount="indefinite" />
+      </path>
+
+      
+      <path d="M0,110 Q50,107 100,110 Q150,113 200,110 Q250,107 300,110 Q350,113 400,110 Q450,107 500,110 Q550,113 600,110 Q650,107 700,110 Q750,113 800,110" fill="none" stroke="#e8f8ff" stroke-width="2" stroke-linecap="round">
+        <animate attributeName="opacity" values="0.2;0.8;0.2" dur="3.5s" begin="0.8s" repeatCount="indefinite" />
+      </path>
+
+      
+      <rect x="0" y="97" width="800" height="10" fill="#3ab5c8">
+        <animate attributeName="fill" values="#3ab5c8;#2a9db0;#3ab5c8" dur="5s" repeatCount="indefinite" />
+      </rect>
+
+      
+      <rect x="0" y="125" width="800" height="12" fill="#f0d878" rx="2">
+        <animate attributeName="opacity" values="0.4;0.75;0.4" dur="4s" repeatCount="indefinite" />
+      </rect>
+    </g>
+  </g>
+</svg>

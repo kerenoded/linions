@@ -1,0 +1,20 @@
+{
+  "name": "linions-proxy",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node server.ts"
+  },
+  "dependencies": {
+    "@aws-crypto/sha256-js": "^5.2.0",
+    "@aws-sdk/credential-provider-node": "^3.919.0",
+    "@smithy/protocol-http": "^4.1.8",
+    "@smithy/signature-v4": "^5.3.12"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.0.0"
+  }
+}

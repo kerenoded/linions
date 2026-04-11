@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="background-root" viewBox="0 0 800 200">
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8a9aaa" />
+      <stop offset="30%" stop-color="#a0b0be" />
+      <stop offset="60%" stop-color="#b0bcc8" />
+      <stop offset="100%" stop-color="#c0cdd8" />
+    </linearGradient>
+    <linearGradient id="grassGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5a7a3a" />
+      <stop offset="50%" stop-color="#6b8b3a" />
+      <stop offset="100%" stop-color="#4a6a2a" />
+    </linearGradient>
+  </defs>
+
+  <g id="background-main">
+    
+    <rect x="0" y="0" width="800" height="130" fill="url(#skyGrad)" />
+
+    
+    <ellipse cx="150" cy="30" rx="120" ry="30" fill="#929fad" opacity="0.8" />
+    <ellipse cx="350" cy="20" rx="150" ry="35" fill="#8a96a6" opacity="0.7" />
+    <ellipse cx="550" cy="35" rx="130" ry="28" fill="#9aa8b6" opacity="0.75" />
+    <ellipse cx="700" cy="25" rx="140" ry="32" fill="#8e9caa" opacity="0.8" />
+    <ellipse cx="80" cy="55" rx="100" ry="25" fill="#a0aab6" opacity="0.6" />
+    <ellipse cx="400" cy="50" rx="180" ry="30" fill="#96a4b2" opacity="0.65" />
+    <ellipse cx="650" cy="60" rx="120" ry="22" fill="#a4b0bc" opacity="0.6" />
+    <ellipse cx="250" cy="70" rx="140" ry="20" fill="#b0b8c4" opacity="0.5" />
+
+    
+    <rect x="0" y="105" width="800" height="20" fill="#3a5a2a" opacity="0.6" />
+    <ellipse cx="40" cy="108" rx="30" ry="18" fill="#2e4e22" />
+    <ellipse cx="90" cy="106" rx="35" ry="20" fill="#345828" />
+    <ellipse cx="145" cy="109" rx="28" ry="17" fill="#2a4a20" />
+    <ellipse cx="200" cy="107" rx="32" ry="19" fill="#305224" />
+    <ellipse cx="260" cy="108" rx="36" ry="18" fill="#2c4c22" />
+    <ellipse cx="320" cy="106" rx="30" ry="20" fill="#365a2a" />
+    <ellipse cx="375" cy="109" rx="34" ry="17" fill="#2e5026" />
+    <ellipse cx="430" cy="107" rx="28" ry="19" fill="#324e24" />
+    <ellipse cx="490" cy="108" rx="38" ry="18" fill="#2a4820" />
+    <ellipse cx="550" cy="106" rx="32" ry="20" fill="#345628" />
+    <ellipse cx="610" cy="109" rx="30" ry="17" fill="#305424" />
+    <ellipse cx="665" cy="107" rx="35" ry="19" fill="#2c5022" />
+    <ellipse cx="720" cy="108" rx="28" ry="18" fill="#385c2c" />
+    <ellipse cx="775" cy="106" rx="34" ry="20" fill="#2e4e24" />
+
+    
+    <ellipse cx="200" cy="140" rx="250" ry="30" fill="#5a7a3a" />
+    <ellipse cx="550" cy="135" rx="300" ry="28" fill="#4e7032" />
+    <ellipse cx="100" cy="145" rx="180" ry="25" fill="#6a8a3e" />
+    <ellipse cx="700" cy="142" rx="200" ry="26" fill="#567a36" />
+    <rect x="0" y="130" width="800" height="70" fill="#5a7a38" />
+
+    
+    <ellipse cx="150" cy="155" rx="120" ry="15" fill="#6e8e40" opacity="0.7" />
+    <ellipse cx="400" cy="148" rx="150" ry="12" fill="#7a9a48" opacity="0.5" />
+    <ellipse cx="650" cy="160" rx="130" ry="14" fill="#628838" opacity="0.6" />
+    <ellipse cx="300" cy="170" rx="100" ry="10" fill="#8aa050" opacity="0.4" />
+    <ellipse cx="550" cy="175" rx="140" ry="12" fill="#6e8e3c" opacity="0.5" />
+
+    
+    <ellipse cx="250" cy="150" rx="60" ry="8" fill="#8a9e4a" opacity="0.5" />
+    <ellipse cx="500" cy="165" rx="70" ry="10" fill="#96a856" opacity="0.4" />
+    <ellipse cx="680" cy="145" rx="50" ry="7" fill="#8e9c4e" opacity="0.45" />
+
+    
+    <ellipse cx="180" cy="158" rx="35" ry="8" fill="#8a9aaa" opacity="0.5" />
+    <ellipse cx="480" cy="168" rx="40" ry="7" fill="#90a0b0" opacity="0.45" />
+    <ellipse cx="650" cy="155" rx="30" ry="6" fill="#8896a6" opacity="0.5" />
+    <ellipse cx="340" cy="175" rx="25" ry="5" fill="#8c9cac" opacity="0.4" />
+
+    
+    <line x1="10" y1="200" x2="15" y2="178" stroke="#4a6a28" stroke-width="2" opacity="0.8" />
+    <line x1="25" y1="200" x2="22" y2="175" stroke="#5a7a32" stroke-width="1.5" opacity="0.7" />
+    <line x1="50" y1="200" x2="55" y2="180" stroke="#3e6020" stroke-width="2" opacity="0.8" />
+    <line x1="80" y1="200" x2="76" y2="176" stroke="#4e7228" stroke-width="1.8" opacity="0.75" />
+    <line x1="120" y1="200" x2="125" y2="182" stroke="#5a7a30" stroke-width="2" opacity="0.7" />
+    <line x1="160" y1="200" x2="157" y2="179" stroke="#446824" stroke-width="1.5" opacity="0.8" />
+    <line x1="210" y1="200" x2="215" y2="181" stroke="#4a6e2a" stroke-width="2" opacity="0.7" />
+    <line x1="260" y1="200" x2="256" y2="177" stroke="#567a34" stroke-width="1.8" opacity="0.75" />
+    <line x1="310" y1="200" x2="314" y2="183" stroke="#3c5e1e" stroke-width="2" opacity="0.8" />
+    <line x1="360" y1="200" x2="357" y2="178" stroke="#4e7430" stroke-width="1.5" opacity="0.7" />
+    <line x1="420" y1="200" x2="424" y2="180" stroke="#5a7c36" stroke-width="2" opacity="0.75" />
+    <line x1="470" y1="200" x2="466" y2="176" stroke="#446626" stroke-width="1.8" opacity="0.8" />
+    <line x1="530" y1="200" x2="535" y2="182" stroke="#4c7028" stroke-width="2" opacity="0.7" />
+    <line x1="580" y1="200" x2="576" y2="179" stroke="#567c32" stroke-width="1.5" opacity="0.75" />
+    <line x1="640" y1="200" x2="644" y2="181" stroke="#3e6222" stroke-width="2" opacity="0.8" />
+    <line x1="700" y1="200" x2="696" y2="177" stroke="#4a6c2c" stroke-width="1.8" opacity="0.7" />
+    <line x1="750" y1="200" x2="754" y2="180" stroke="#527430" stroke-width="2" opacity="0.75" />
+    <line x1="790" y1="200" x2="786" y2="178" stroke="#446824" stroke-width="1.5" opacity="0.8" />
+
+    
+    <g id="background-animated-part">
+      
+      <ellipse cx="400" cy="40" rx="200" ry="35" opacity="0.5">
+        <animate attributeName="fill" values="#a8b8c8;#c0cdd8;#a8b8c8" dur="6s" repeatCount="indefinite" />
+      </ellipse>
+
+      
+      <ellipse cx="180" cy="158" rx="32" ry="6" fill="#b0c0d0">
+        <animate attributeName="opacity" values="0.3;0.6;0.3" dur="3s" repeatCount="indefinite" />
+      </ellipse>
+
+      
+      <ellipse cx="480" cy="168" rx="36" ry="5" fill="#a8b8c8">
+        <animate attributeName="opacity" values="0.6;0.3;0.6" dur="3s" begin="1.5s" repeatCount="indefinite" />
+      </ellipse>
+
+      
+      <g opacity="0.5">
+        <animate attributeName="opacity" values="0.4;0.7;0.4" dur="2s" repeatCount="indefinite" />
+        
+        <line x1="30" y1="0" x2="10" y2="50" stroke="#b0c8e0" stroke-width="0.8" opacity="0.6" />
+        <line x1="70" y1="0" x2="50" y2="50" stroke="#a8c0d8" stroke-width="0.7" opacity="0.5" />
+        <line x1="100" y1="0" x2="75" y2="60" stroke="#b4cce4" stroke-width="0.8" opacity="0.55" />
+        <line x1="140" y1="0" x2="115" y2="65" stroke="#aec4dc" stroke-width="0.7" opacity="0.5" />
+        <line x1="180" y1="0" x2="155" y2="60" stroke="#b0c8e0" stroke-width="0.8" opacity="0.6" />
+        <line x1="220" y1="0" x2="195" y2="65" stroke="#a8c0d8" stroke-width="0.7" opacity="0.5" />
+        <line x1="260" y1="0" x2="235" y2="60" stroke="#b4cce4" stroke-width="0.8" opacity="0.55" />
+        <line x1="300" y1="0" x2="275" y2="65" stroke="#aec4dc" stroke-width="0.7" opacity="0.5" />
+        <line x1="340" y1="0" x2="315" y2="60" stroke="#b0c8e0" stroke-width="0.8" opacity="0.6" />
+        <line x1="380" y1="0" x2="355" y2="65" stroke="#a8c0d8" stroke-width="0.7" opacity="0.5" />
+        <line x1="420" y1="0" x2="395" y2="60" stroke="#b4cce4" stroke-width="0.8" opacity="0.55" />
+        <line x1="460" y1="0" x2="435" y2="65" stroke="#aec4dc" stroke-width="0.7" opacity="0.5" />
+        <line x1="500" y1="0" x2="475" y2="60" stroke="#b0c8e0" stroke-width="0.8" opacity="0.6" />
+        <line x1="540" y1="0" x2="515" y2="65" stroke="#a8c0d8" stroke-width="0.7" opacity="0.5" />
+        <line x1="580" y1="0" x2="555" y2="60" stroke="#b4cce4" stroke-width="0.8" opacity="0.55" />
+        <line x1="620" y1="0" x2="595" y2="65" stroke="#aec4dc" stroke-width="0.7" opacity="0.5" />
+        <line x1="660" y1="0" x2="635" y2="60" stroke="#b0c8e0" stroke-width="0.8" opacity="0.6" />
+        <line x1="700" y1="0" x2="675" y2="65" stroke="#a8c0d8" stroke-width="0.7" opacity="0.5" />
+        <line x1="740" y1="0" x2="715" y2="60" stroke="#b4cce4" stroke-width="0.8" opacity="0.55" />
+        <line x1="780" y1="0" x2="755" y2="65" stroke="#aec4dc" stroke-width="0.7" opacity="0.5" />
+        
+        <line x1="55" y1="20" x2="20" y2="120" stroke="#b0c8e0" stroke-width="0.6" opacity="0.4" />
+        <line x1="115" y1="10" x2="80" y2="110" stroke="#a8c0d8" stroke-width="0.6" opacity="0.35" />
+        <line x1="195" y1="15" x2="160" y2="115" stroke="#b4cce4" stroke-width="0.6" opacity="0.4" />
+        <line x1="275" y1="5" x2="240" y2="105" stroke="#aec4dc" stroke-width="0.6" opacity="0.35" />
+        <line x1="355" y1="18" x2="320" y2="118" stroke="#b0c8e0" stroke-width="0.6" opacity="0.4" />
+        <line x1="435" y1="8" x2="400" y2="108" stroke="#a8c0d8" stroke-width="0.6" opacity="0.35" />
+        <line x1="515" y1="12" x2="480" y2="112" stroke="#b4cce4" stroke-width="0.6" opacity="0.4" />
+        <line x1="595" y1="22" x2="560" y2="122" stroke="#aec4dc" stroke-width="0.6" opacity="0.35" />
+        <line x1="675" y1="6" x2="640" y2="106" stroke="#b0c8e0" stroke-width="0.6" opacity="0.4" />
+        <line x1="755" y1="16" x2="720" y2="116" stroke="#a8c0d8" stroke-width="0.6" opacity="0.35" />
+        
+        <line x1="45" y1="0" x2="0" y2="130" stroke="#b0c8e0" stroke-width="0.5" opacity="0.3" />
+        <line x1="130" y1="0" x2="85" y2="130" stroke="#a8c0d8" stroke-width="0.5" opacity="0.25" />
+        <line x1="230" y1="0" x2="185" y2="130" stroke="#b4cce4" stroke-width="0.5" opacity="0.3" />
+        <line x1="330" y1="0" x2="285" y2="130" stroke="#aec4dc" stroke-width="0.5" opacity="0.25" />
+        <line x1="430" y1="0" x2="385" y2="130" stroke="#b0c8e0" stroke-width="0.5" opacity="0.3" />
+        <line x1="530" y1="0" x2="485" y2="130" stroke="#a8c0d8" stroke-width="0.5" opacity="0.25" />
+        <line x1="630" y1="0" x2="585" y2="130" stroke="#b4cce4" stroke-width="0.5" opacity="0.3" />
+        <line x1="730" y1="0" x2="685" y2="130" stroke="#aec4dc" stroke-width="0.5" opacity="0.25" />
+        
+        <line x1="60" y1="100" x2="40" y2="170" stroke="#b0c8e0" stroke-width="0.9" opacity="0.5" />
+        <line x1="160" y1="90" x2="140" y2="160" stroke="#a8c0d8" stroke-width="0.8" opacity="0.45" />
+        <line x1="280" y1="95" x2="260" y2="165" stroke="#b4cce4" stroke-width="0.9" opacity="0.5" />
+        <line x1="390" y1="85" x2="370" y2="155" stroke="#aec4dc" stroke-width="0.8" opacity="0.45" />
+        <line x1="510" y1="92" x2="490" y2="162" stroke="#b0c8e0" stroke-width="0.9" opacity="0.5" />
+        <line x1="620" y1="88" x2="600" y2="158" stroke="#a8c0d8" stroke-width="0.8" opacity="0.45" />
+        <line x1="730" y1="95" x2="710" y2="165" stroke="#b4cce4" stroke-width="0.9" opacity="0.5" />
+      </g>
+    </g>
+  </g>
+</svg>

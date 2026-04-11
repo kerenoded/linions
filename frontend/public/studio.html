@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Linions Studio</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="/app.css" />
+</head>
+<body class="studio-body">
+  <main class="studio-shell">
+    <header class="studio-hero">
+      <div>
+        <p class="eyebrow">Local creator studio</p>
+        <h1>Generate, preview, and publish Linions stories.</h1>
+        <p class="hero-copy">
+          Write a vivid short story idea for Linai with clear mood, setting, and obstacles she finds along the way.
+        </p>
+      </div>
+    </header>
+
+    <section class="studio-stage-stack">
+      <section id="studio-create-section" class="studio-panel studio-create-stage">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">Create</p>
+            <h2>Start a new episode</h2>
+          </div>
+        </div>
+        <form id="prompt-form" class="prompt-form">
+          <label for="prompt-input">Prompt</label>
+          <textarea
+            id="prompt-input"
+            placeholder="Linai meets a princess on a sunny day in fields of many-colored flowers, and after that she meets a butterfly..."
+          ></textarea>
+          <div class="button-row mt-12">
+            <button id="generate-button" type="submit" class="primary-button">Generate</button>
+          </div>
+        </form>
+        <p id="generator-stage" class="section-status">Waiting for prompt...</p>
+      </section>
+
+      <section id="studio-preview-section" class="studio-panel studio-preview-stage" hidden>
+        <div class="preview-header">
+          <div>
+            <p class="section-kicker">Preview</p>
+            <h2 id="player-title">Episode preview</h2>
+            <p id="player-description" class="story-description"></p>
+          </div>
+          <div class="button-row">
+            <button id="publish-button" type="button" class="primary-button">Publish to repo</button>
+            <button id="generate-new-button" type="button">Generate a new episode</button>
+          </div>
+        </div>
+
+        <section class="preview-media-panel">
+          <iframe
+            id="player-frame"
+            title="Linions Episode"
+            sandbox=""
+            scrolling="no"
+          ></iframe>
+          <p id="player-status" class="section-status story-status-line" hidden></p>
+          <div class="story-actions">
+            <div id="player-choices" class="choice-grid"></div>
+            <div id="player-controls" class="button-row"></div>
+          </div>
+          <article id="player-story-card" class="story-card mt-16" hidden>
+            <p id="player-story-text" class="story-copy"></p>
+          </article>
+        </section>
+      </section>
+    </section>
+  </main>
+
+  <script type="module" src="/main.js"></script>
+</body>
+</html>

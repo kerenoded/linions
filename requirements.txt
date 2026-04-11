@@ -1,0 +1,16 @@
+# Linions pipeline dependencies
+# Pin with: pip-compile requirements.txt --output-file requirements.lock
+# Upgrade with: pip-compile requirements.txt --upgrade --output-file requirements.lock
+
+# Data validation
+pydantic>=2.0,<3
+
+# AWS SDK — S3, DynamoDB, Lambda, Bedrock, AgentCore
+boto3
+
+# Testing
+pytest
+pytest-cov
+
+# Linting and formatting
+ruff

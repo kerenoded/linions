@@ -1,0 +1,3 @@
+# situation-creative-problem-solving.md
+
+Creative problem-solving in Linai begins with a visible shift from frustrated motion to focused stillness. Her eyes lock in, the body steadies, and the internal patterns reorganize from noise into purposeful symbols or cleaner swirls. She often tests one tiny idea physically before committing to the full solution. The pleasure of the beat comes from watching a chaotic emotional state become coherent intention. When the idea arrives, the body usually brightens and expands slightly as if the answer has literally energized her. Creative problem-solving should feel clever but accessible: the viewer should believe they might have thought of it too, one second later.

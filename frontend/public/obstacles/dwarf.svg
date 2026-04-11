@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="obstacle-root" viewBox="0 0 120 150">
+  <g id="obstacle-main">
+    
+    <path d="M32,130 L32,142 Q32,148 38,148 L52,148 Q56,148 56,144 L56,130 Q56,128 44,128 Q32,128 32,130Z" fill="#5C3A1E" />
+    <path d="M34,142 Q34,146 38,146 L52,146 Q54,146 54,144 L54,140 L34,140Z" fill="#4A2E16" />
+    
+    <path d="M64,130 L64,142 Q64,148 70,148 L84,148 Q88,148 88,144 L88,130 Q88,128 76,128 Q64,128 64,130Z" fill="#5C3A1E" />
+    <path d="M66,142 Q66,146 70,146 L84,146 Q86,146 86,144 L86,140 L66,140Z" fill="#4A2E16" />
+    
+    <rect x="36" y="118" width="16" height="14" rx="3" fill="#8B6914" />
+    
+    <rect x="68" y="118" width="16" height="14" rx="3" fill="#8B6914" />
+    
+    <ellipse cx="60" cy="100" rx="30" ry="26" fill="#2E8B2E" />
+    
+    <ellipse cx="60" cy="106" rx="28" ry="20" fill="#267326" />
+    
+    <ellipse cx="54" cy="92" rx="12" ry="10" fill="#3AA63A" opacity="0.5" />
+    
+    <path d="M48,76 Q60,82 72,76" stroke="#267326" stroke-width="2" fill="none" />
+    
+    <rect x="30" y="98" width="60" height="8" rx="2" fill="#6B3A1E" />
+    
+    <rect x="53" y="97" width="14" height="10" rx="2" fill="#C8A832" />
+    <rect x="56" y="99" width="8" height="6" rx="1" fill="#6B3A1E" />
+    
+    <path d="M30,88 Q18,78 16,60 Q15,54 20,52 Q25,50 27,56 L32,78Z" fill="#2E8B2E" />
+    
+    <ellipse cx="20" cy="52" rx="6" ry="5" fill="#F0C8A0" />
+    
+    <ellipse cx="16" cy="48" rx="2" ry="3" fill="#F0C8A0" />
+    <ellipse cx="20" cy="47" rx="2" ry="3" fill="#F0C8A0" />
+    <ellipse cx="24" cy="48" rx="2" ry="3" fill="#F0C8A0" />
+    
+    <path d="M90,88 Q102,78 104,60 Q105,54 100,52 Q95,50 93,56 L88,78Z" fill="#2E8B2E" />
+    
+    <ellipse cx="100" cy="52" rx="6" ry="5" fill="#F0C8A0" />
+    
+    <ellipse cx="96" cy="48" rx="2" ry="3" fill="#F0C8A0" />
+    <ellipse cx="100" cy="47" rx="2" ry="3" fill="#F0C8A0" />
+    <ellipse cx="104" cy="48" rx="2" ry="3" fill="#F0C8A0" />
+    
+    <ellipse cx="60" cy="70" rx="18" ry="16" fill="#F0C8A0" />
+
+    <ellipse cx="60" cy="74" rx="16" ry="10" fill="#E0B890" opacity="0.4" />
+
+    <ellipse cx="48" cy="72" rx="4" ry="3" fill="#F0A0A0" opacity="0.6" />
+    <ellipse cx="72" cy="72" rx="4" ry="3" fill="#F0A0A0" opacity="0.6" />
+
+    <path d="M50,66 Q53,63 56,66" stroke="#3A2010" stroke-width="2" fill="none" stroke-linecap="round" />
+
+    <path d="M48,64 L50,66" stroke="#3A2010" stroke-width="0.8" fill="none" />
+    <path d="M48,68 L50,66" stroke="#3A2010" stroke-width="0.8" fill="none" />
+
+    <path d="M64,66 Q67,63 70,66" stroke="#3A2010" stroke-width="2" fill="none" stroke-linecap="round" />
+
+    <path d="M72,64 L70,66" stroke="#3A2010" stroke-width="0.8" fill="none" />
+    <path d="M72,68 L70,66" stroke="#3A2010" stroke-width="0.8" fill="none" />
+
+    <ellipse cx="60" cy="70" rx="3.5" ry="3" fill="#E8B898" />
+    <ellipse cx="59" cy="69" rx="1.5" ry="1" fill="#F0D0B0" opacity="0.6" />
+
+    <ellipse cx="60" cy="76" rx="6" ry="4" fill="#8B2020" />
+    <ellipse cx="60" cy="75" rx="5" ry="2" fill="#C83232" />
+
+    <rect x="56" y="74" width="8" height="2" rx="1" fill="#FFFFFF" opacity="0.7" />
+
+    <path d="M49,62 Q53,59 57,62" stroke="#A06028" stroke-width="1.5" fill="none" />
+    <path d="M63,62 Q67,59 71,62" stroke="#A06028" stroke-width="1.5" fill="none" />
+
+    <ellipse cx="42" cy="70" rx="3" ry="5" fill="#E8B898" />
+    <ellipse cx="78" cy="70" rx="3" ry="5" fill="#E8B898" />
+
+    <path d="M47,81 Q44,85 38,98 Q36,111 44,115 Q52,119 60,119 Q68,119 76,115 Q84,111 82,98 Q76,85 73,81Z" fill="#C87832" />
+
+    <path d="M42,91 Q40,95 41,101 Q42,107 45,111" stroke="#A06028" stroke-width="2" fill="none" />
+
+    <path d="M78,91 Q80,95 79,101 Q78,107 75,111" stroke="#A06028" stroke-width="2" fill="none" />
+
+    <path d="M60,88 Q59,98 58,108 Q58,113 60,117" stroke="#A06028" stroke-width="2" fill="none" />
+
+    <path d="M48,87 Q47,93 48,99" stroke="#D4883C" stroke-width="1" fill="none" />
+    <path d="M72,87 Q73,93 72,99" stroke="#D4883C" stroke-width="1" fill="none" />
+    <path d="M54,89 Q53,97 54,105" stroke="#D4883C" stroke-width="1" fill="none" />
+    <path d="M66,89 Q67,97 66,105" stroke="#D4883C" stroke-width="1" fill="none" />
+
+    <circle cx="44" cy="99" r="2.5" fill="#FF69B4" />
+    <circle cx="44" cy="99" r="1" fill="#FFD700" />
+    <circle cx="76" cy="99" r="2.5" fill="#FF69B4" />
+    <circle cx="76" cy="99" r="1" fill="#FFD700" />
+    <circle cx="58" cy="109" r="2.5" fill="#DA70D6" />
+    <circle cx="58" cy="109" r="1" fill="#FFD700" />
+    <circle cx="68" cy="103" r="2" fill="#87CEEB" />
+    <circle cx="68" cy="103" r="0.8" fill="#FFD700" />
+    <circle cx="50" cy="107" r="2" fill="#FF6347" />
+    <circle cx="50" cy="107" r="0.8" fill="#FFD700" />
+
+    <path d="M50,74 Q55,72 60,74 Q65,72 70,74" stroke="#C87832" stroke-width="2" fill="none" />
+    
+    <g id="obstacle-animated-part">
+      <animateTransform attributeName="transform" type="rotate" values="-4,60,58;4,60,58;-4,60,58" dur="1.2s" repeatCount="indefinite" />
+      
+      <ellipse cx="60" cy="58" rx="22" ry="5" fill="#8B1A1A" />
+
+      <ellipse cx="60" cy="57" rx="22" ry="5" fill="#CC2222" />
+
+      <path d="M40,57 Q42,36 50,21 Q55,11 60,4 Q65,11 70,21 Q78,36 80,57Z" fill="#DD2222" />
+
+      <path d="M50,57 Q52,38 56,24 Q58,14 60,6 Q55,11 50,21 Q44,34 42,57Z" fill="#EE3333" opacity="0.5" />
+
+      <path d="M70,57 Q68,38 64,24 Q62,14 60,6 Q65,11 70,21 Q76,34 78,57Z" fill="#AA1818" opacity="0.5" />
+
+      <path d="M58,6 Q62,8 65,14 Q60,10 56,8Z" fill="#FF4444" opacity="0.4" />
+
+      <rect x="40" y="52" width="40" height="5" rx="2" fill="#1A6B1A" />
+
+      <rect x="56" y="52" width="8" height="5" rx="1" fill="#C8A832" />
+    </g>
+    
+    <g transform="translate(18,34)">
+      <ellipse cx="0" cy="0" rx="5" ry="7" fill="#8B6914" />
+      <path d="M-4,-5 Q0,-7 4,-5" stroke="#6B4E0A" stroke-width="1" fill="none" />
+      <path d="M-4.5,-2 Q0,-4 4.5,-2" stroke="#6B4E0A" stroke-width="1" fill="none" />
+      <path d="M-4.5,1 Q0,-1 4.5,1" stroke="#6B4E0A" stroke-width="1" fill="none" />
+      <path d="M-4,4 Q0,2 4,4" stroke="#6B4E0A" stroke-width="1" fill="none" />
+      <path d="M-2,6 Q0,5 2,6" stroke="#6B4E0A" stroke-width="1" fill="none" />
+      <ellipse cx="-1" cy="-2" rx="2" ry="3" fill="#9B7924" opacity="0.4" />
+      <animateTransform attributeName="transform" type="translate" values="18,34;18,30;18,34" dur="1.8s" repeatCount="indefinite" />
+    </g>
+    
+    <g transform="translate(60,22)">
+      <ellipse cx="0" cy="0" rx="5.5" ry="7.5" fill="#7B5A0A" />
+      <path d="M-4.5,-5.5 Q0,-7.5 4.5,-5.5" stroke="#5B3E06" stroke-width="1" fill="none" />
+      <path d="M-5,-2.5 Q0,-4.5 5,-2.5" stroke="#5B3E06" stroke-width="1" fill="none" />
+      <path d="M-5,0.5 Q0,-1.5 5,0.5" stroke="#5B3E06" stroke-width="1" fill="none" />
+      <path d="M-4.5,3.5 Q0,1.5 4.5,3.5" stroke="#5B3E06" stroke-width="1" fill="none" />
+      <path d="M-2.5,6 Q0,5 2.5,6" stroke="#5B3E06" stroke-width="1" fill="none" />
+      <ellipse cx="1" cy="-1" rx="2" ry="3" fill="#8B6A1A" opacity="0.4" />
+      <animateTransform attributeName="transform" type="translate" values="60,22;60,18;60,22" dur="1.5s" repeatCount="indefinite" />
+    </g>
+    
+    <g transform="translate(102,34)">
+      <ellipse cx="0" cy="0" rx="5" ry="7" fill="#8B6914" />
+      <path d="M-4,-5 Q0,-7 4,-5" stroke="#6B4E0A" stroke-width="1" fill="none" />
+      <path d="M-4.5,-2 Q0,-4 4.5,-2" stroke="#6B4E0A" stroke-width="1" fill="none" />
+      <path d="M-4.5,1 Q0,-1 4.5,1" stroke="#6B4E0A" stroke-width="1" fill="none" />
+      <path d="M-4,4 Q0,2 4,4" stroke="#6B4E0A" stroke-width="1" fill="none" />
+      <path d="M-2,6 Q0,5 2,6" stroke="#6B4E0A" stroke-width="1" fill="none" />
+      <ellipse cx="-1" cy="-2" rx="2" ry="3" fill="#9B7924" opacity="0.4" />
+      <animateTransform attributeName="transform" type="translate" values="102,34;102,30;102,34" dur="2.1s" repeatCount="indefinite" />
+    </g>
+  </g>
+</svg>

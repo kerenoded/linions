@@ -1,0 +1,3 @@
+# situation-dramatic-failure.md
+
+Dramatic failure should feel big, clear, and comic, but never cruel. Linai may stretch, dim, scatter a few particles, or slump downward in midair as the mistake fully lands. Her eyes should always tell the emotional truth first: disbelief, indignation, embarrassment, or a flash of despair. The body can temporarily lose shape, but it should always re-form quickly enough that the audience feels recovery is possible. A dramatic failure should resolve into either renewed determination or a beat of fourth-wall acknowledgment, not into prolonged suffering. The point is not that Linai is broken; the point is that she committed hard and it did not work.

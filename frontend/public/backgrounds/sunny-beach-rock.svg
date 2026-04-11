@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="background-root" viewBox="0 0 800 200">
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#87CEEB" />
+      <stop offset="60%" stop-color="#B8E4F0" />
+      <stop offset="100%" stop-color="#FFF8E7" />
+    </linearGradient>
+    <linearGradient id="oceanGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1A9E9E" />
+      <stop offset="50%" stop-color="#3CBCBC" />
+      <stop offset="100%" stop-color="#5ECFCF" />
+    </linearGradient>
+    <linearGradient id="sandGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8C872" />
+      <stop offset="100%" stop-color="#D4A84B" />
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="1" cy="0" r="0.8">
+      <stop offset="0%" stop-color="#FFFDE0" stop-opacity="0.9" />
+      <stop offset="40%" stop-color="#FFF5B0" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#FFF5B0" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <g id="background-main">
+    
+    <rect x="0" y="0" width="800" height="200" fill="url(#skyGrad)" />
+
+    
+    <circle cx="750" cy="20" r="60" fill="#FFFDE0" opacity="0.7" />
+    <circle cx="750" cy="20" r="35" fill="#FFF9C4" />
+
+    
+    <rect x="0" y="80" width="800" height="40" fill="#1A8E8E" />
+
+    
+    <rect x="0" y="85" width="800" height="40" fill="url(#oceanGrad)" />
+
+    
+    <ellipse cx="200" cy="100" rx="250" ry="8" fill="#3CBCBC" opacity="0.7" />
+    <ellipse cx="550" cy="105" rx="300" ry="10" fill="#4DD8D8" opacity="0.6" />
+    <ellipse cx="400" cy="112" rx="450" ry="8" fill="#5ECFCF" opacity="0.8" />
+
+    
+    <path d="M0,115 Q100,108 200,115 Q300,122 400,115 Q500,108 600,115 Q700,122 800,115 L800,120 Q700,127 600,120 Q500,113 400,120 Q300,127 200,120 Q100,113 0,120 Z" fill="#A8EDE9" opacity="0.6" />
+    <path d="M0,120 Q80,114 180,120 Q280,126 380,120 Q480,114 580,120 Q680,126 800,120 L800,125 L0,125 Z" fill="#FFFFFF" opacity="0.35" />
+
+    
+    <rect x="0" y="120" width="800" height="80" fill="url(#sandGrad)" />
+
+    
+    <path d="M0,120 Q200,128 400,122 Q600,118 800,125 L800,135 Q600,130 400,135 Q200,140 0,132 Z" fill="#C49A3C" opacity="0.5" />
+
+    
+    <ellipse cx="150" cy="155" rx="60" ry="4" fill="#C9A050" opacity="0.4" />
+    <ellipse cx="500" cy="170" rx="80" ry="5" fill="#C9A050" opacity="0.3" />
+    <ellipse cx="700" cy="145" rx="50" ry="3" fill="#C9A050" opacity="0.35" />
+
+    
+    <ellipse cx="120" cy="30" rx="70" ry="18" fill="#FFFFFF" opacity="0.85" />
+    <ellipse cx="160" cy="25" rx="50" ry="15" fill="#FFFFFF" opacity="0.9" />
+    <ellipse cx="80" cy="28" rx="40" ry="12" fill="#FFFFFF" opacity="0.8" />
+
+    <ellipse cx="450" cy="40" rx="60" ry="14" fill="#FFFFFF" opacity="0.75" />
+    <ellipse cx="490" cy="36" rx="45" ry="12" fill="#FFFFFF" opacity="0.8" />
+
+    <ellipse cx="650" cy="50" rx="40" ry="10" fill="#FFFFFF" opacity="0.6" />
+
+    
+    <path d="M440,145 Q430,130 450,125 Q470,120 490,125 Q510,128 515,140 Q518,150 510,158 Q495,165 475,165 Q455,165 445,158 Q438,153 440,145 Z" fill="#8B7355" />
+    <path d="M445,143 Q440,133 455,128 Q470,124 485,128 Q500,132 505,142 Q508,150 500,155 Q490,160 475,160 Q458,160 450,154 Q443,150 445,143 Z" fill="#9C8465" />
+    <path d="M455,135 Q460,128 475,127 Q488,130 492,138 Q490,145 480,148 Q465,148 458,142 Z" fill="#AD9575" opacity="0.6" />
+
+    
+    <ellipse cx="480" cy="165" rx="40" ry="5" fill="#B8963E" opacity="0.4" />
+
+    
+    <ellipse cx="200" cy="175" rx="5" ry="3" fill="#7A6B50" />
+    <ellipse cx="210" cy="178" rx="3" ry="2" fill="#8B7D65" />
+    <ellipse cx="320" cy="168" rx="4" ry="2.5" fill="#6E6050" />
+    <ellipse cx="600" cy="180" rx="4" ry="3" fill="#7A6B50" />
+    <ellipse cx="615" cy="183" rx="3" ry="2" fill="#8B7D65" />
+    <ellipse cx="100" cy="185" rx="3.5" ry="2" fill="#6E6050" />
+
+    
+    <path d="M350,182 Q353,176 356,182 Q353,184 350,182 Z" fill="#F0E6D0" />
+    <path d="M352,181 Q353,178 354,181 Z" fill="#E8D8BC" opacity="0.7" />
+
+    <path d="M680,172 Q684,166 688,172 Q684,175 680,172 Z" fill="#F5EDE0" />
+    <path d="M682,171 Q684,168 686,171 Z" fill="#EDE0CC" opacity="0.7" />
+
+    <path d="M140,190 Q142,185 146,188 Q144,192 140,190 Z" fill="#F0E0C8" />
+
+    <path d="M530,185 Q534,179 538,185 Q534,188 530,185 Z" fill="#F5EDE0" />
+
+    
+    <polygon points="750,20 800,0 800,50" fill="#FFFDE0" opacity="0.15" />
+    <polygon points="750,20 700,0 760,0" fill="#FFFDE0" opacity="0.1" />
+    <polygon points="750,20 800,70 780,80" fill="#FFFDE0" opacity="0.1" />
+    <polygon points="750,20 650,60 680,40" fill="#FFF9C4" opacity="0.08" />
+
+    
+    <g id="background-animated-part">
+      
+      <path d="M0,110 Q100,103 200,110 Q300,117 400,110 Q500,103 600,110 Q700,117 800,110 L800,118 Q700,125 600,118 Q500,111 400,118 Q300,125 200,118 Q100,111 0,118 Z" fill="#FFFFFF" opacity="0.4">
+        <animate attributeName="opacity" values="0.4;0.9;0.4" dur="3s" repeatCount="indefinite" />
+      </path>
+
+      
+      <path d="M0,105 Q150,95 300,105 Q450,115 600,105 Q700,98 800,105 L800,113 Q700,106 600,113 Q450,123 300,113 Q150,103 0,113 Z" fill="#5ECFCF" opacity="0.6">
+        <animate attributeName="fill" values="#5ECFCF;#89E8E8;#5ECFCF" dur="4s" repeatCount="indefinite" />
+      </path>
+
+      
+      <circle cx="750" cy="20" r="120" fill="url(#sunGlow)" opacity="0.15">
+        <animate attributeName="opacity" values="0.15;0.55;0.15" dur="5s" repeatCount="indefinite" />
+      </circle>
+
+      
+      <g opacity="0.7">
+        <ellipse cx="300" cy="22" rx="65" ry="16" fill="#FFFFFF" />
+        <ellipse cx="340" cy="18" rx="50" ry="14" fill="#FFFFFF" />
+        <ellipse cx="265" cy="20" rx="35" ry="11" fill="#FFFFFF" />
+        <animate attributeName="opacity" values="0.7;1.0;0.7" dur="6s" repeatCount="indefinite" />
+      </g>
+
+      
+      <g opacity="0.1">
+        <circle cx="250" cy="150" r="2" fill="#FFFDE0" />
+        <circle cx="380" cy="175" r="1.5" fill="#FFFDE0" />
+        <circle cx="550" cy="160" r="2" fill="#FFFDE0" />
+        <circle cx="150" cy="165" r="1.5" fill="#FFFDE0" />
+        <circle cx="650" cy="155" r="2" fill="#FFFDE0" />
+        <circle cx="720" cy="175" r="1.5" fill="#FFFDE0" />
+        <circle cx="80" cy="180" r="2" fill="#FFFDE0" />
+        <circle cx="430" cy="185" r="1.5" fill="#FFFDE0" />
+        <animate attributeName="opacity" values="0.1;0.5;0.1" dur="2.5s" repeatCount="indefinite" />
+      </g>
+    </g>
+  </g>
+</svg>

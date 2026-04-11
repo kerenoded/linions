@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "commonjs",
+    "lib": ["ES2022"],
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "dist",
+    "rootDir": ".",
+    "esModuleInterop": true
+  },
+  "include": ["bin", "lib", "config.ts"],
+  "exclude": ["node_modules", "dist"]
+}

@@ -1,0 +1,3 @@
+# situation-delight.md
+
+Delight in Linai should feel immediate, contagious, and slightly oversized. Her eyes brighten, the body expands, and particles or sparkles become more active as though delight has to spill somewhere. She often rises a little higher than necessary when delighted, as though buoyancy itself has increased. The trails react with lift and looseness rather than discipline. Delight should never feel sarcastic or performative; it is one of Linai's most sincere states. Even a tiny delightful detail can shift the whole emotional temperature of a clip when she responds fully to it.

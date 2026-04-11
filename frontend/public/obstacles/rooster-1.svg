@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="obstacle-root" viewBox="0 0 120 150">
+  <g id="obstacle-main">
+    
+    <rect x="42" y="105" width="28" height="45" fill="#5C3A1E" rx="2" />
+    <rect x="44" y="105" width="3" height="45" fill="#6B4423" opacity="0.5" />
+    <rect x="62" y="105" width="2" height="45" fill="#4A2E15" opacity="0.6" />
+    
+    <line x1="50" y1="108" x2="50" y2="150" stroke="#4A2E15" stroke-width="0.5" opacity="0.4" />
+    <line x1="55" y1="106" x2="55" y2="150" stroke="#4A2E15" stroke-width="0.3" opacity="0.3" />
+    <line x1="60" y1="107" x2="60" y2="150" stroke="#6B4423" stroke-width="0.4" opacity="0.3" />
+    
+    <ellipse cx="56" cy="105" rx="16" ry="4" fill="#6B4423" />
+    <ellipse cx="56" cy="105" rx="14" ry="3" fill="#7A5230" />
+    
+    <ellipse cx="48" cy="104" rx="6" ry="2.5" fill="#3A6B2A" />
+    <ellipse cx="52" cy="103" rx="4" ry="2" fill="#4A8B3A" />
+    <ellipse cx="45" cy="105" rx="3" ry="1.5" fill="#2E5A20" />
+    <ellipse cx="64" cy="104" rx="5" ry="2" fill="#3A6B2A" />
+    <ellipse cx="67" cy="105" rx="3" ry="1.5" fill="#4A8B3A" />
+    <circle cx="50" cy="103" r="1" fill="#5AA845" opacity="0.7" />
+    <circle cx="63" cy="103" r="0.8" fill="#5AA845" opacity="0.6" />
+
+    
+    <path d="M30 60 Q20 30 15 15 Q22 35 28 50 Q25 40 18 20 Q26 42 30 55Z" fill="#1A3320" opacity="0.9" />
+    <path d="M32 62 Q18 25 12 10 Q20 30 27 48 Q22 32 14 12 Q24 38 32 58Z" fill="#0D2618" />
+    <path d="M34 58 Q28 35 25 18 Q30 38 34 52 Q30 38 26 22 Q32 42 35 55Z" fill="#2A4A30" />
+    <path d="M33 60 Q22 28 17 8 Q24 32 30 50Z" fill="#1E3B25" opacity="0.8" />
+    <path d="M36 56 Q32 38 30 25 Q34 40 37 52Z" fill="#3A5A3E" opacity="0.7" />
+    
+    <path d="M28 50 Q20 30 16 16 Q22 34 28 48Z" fill="#2E6B45" opacity="0.3" />
+    <path d="M32 55 Q24 35 20 20 Q26 38 32 52Z" fill="#1A5A3A" opacity="0.25" />
+
+    
+    <ellipse cx="52" cy="82" rx="22" ry="18" fill="#8B2500" />
+    <ellipse cx="50" cy="80" rx="20" ry="16" fill="#A03000" />
+    
+    <ellipse cx="48" cy="76" rx="12" ry="9" fill="#B84000" opacity="0.5" />
+
+    
+    <path d="M38 72 Q30 78 28 90 Q32 85 36 80 Q33 86 30 94 Q36 87 40 80 Q38 88 35 96 Q40 88 44 82Z" fill="#6B1800" />
+    <path d="M40 74 Q34 80 32 88 Q36 83 39 78 Q37 84 34 92 Q39 85 42 80Z" fill="#7A2000" opacity="0.8" />
+    
+    <path d="M42 76 Q36 82 34 90" stroke="#551200" stroke-width="0.5" fill="none" opacity="0.6" />
+    <path d="M44 78 Q38 84 36 92" stroke="#551200" stroke-width="0.5" fill="none" opacity="0.5" />
+
+    
+    <path d="M36 68 Q30 72 28 78 Q34 74 38 70Z" fill="#D46A00" />
+    <path d="M38 66 Q32 70 30 76 Q36 72 40 68Z" fill="#E87800" />
+    <path d="M40 65 Q34 68 32 74 Q38 70 42 66Z" fill="#D46A00" opacity="0.8" />
+
+    
+    <ellipse cx="62" cy="78" rx="14" ry="16" fill="#A83200" />
+    <ellipse cx="64" cy="76" rx="11" ry="13" fill="#C04000" />
+    <ellipse cx="66" cy="74" rx="7" ry="8" fill="#D04800" opacity="0.5" />
+
+    
+    <path d="M58 68 Q62 55 65 45 Q70 48 72 55 Q68 65 64 72Z" fill="#B83800" />
+    <path d="M60 66 Q63 54 66 46 Q69 50 70 56 Q67 64 63 70Z" fill="#CC4400" opacity="0.7" />
+    
+    <path d="M58 65 Q55 60 56 55 Q60 58 59 63Z" fill="#D46A00" opacity="0.8" />
+    <path d="M57 60 Q54 55 55 50 Q59 53 58 58Z" fill="#E87800" opacity="0.7" />
+    <path d="M59 56 Q56 51 57 46 Q61 49 60 54Z" fill="#D46A00" opacity="0.6" />
+    <path d="M68 58 Q71 54 70 50 Q66 52 67 56Z" fill="#CC4400" opacity="0.5" />
+
+    
+    <ellipse cx="66" cy="40" rx="8" ry="7" fill="#8B2500" />
+    <ellipse cx="66" cy="39" rx="7" ry="6" fill="#A03000" />
+    
+    <ellipse cx="65" cy="37" rx="4" ry="3" fill="#B84000" opacity="0.4" />
+
+    
+    <ellipse cx="70" cy="38" rx="2.5" ry="2.5" fill="#FFFFFF" />
+    <ellipse cx="70.5" cy="38" rx="1.5" ry="1.5" fill="#1A1A00" />
+    <ellipse cx="71" cy="37.5" rx="0.5" ry="0.5" fill="#FFFFFF" opacity="0.8" />
+    
+    <ellipse cx="70" cy="38" rx="3" ry="3" fill="none" stroke="#CC2200" stroke-width="0.5" opacity="0.6" />
+
+    
+    
+    <path d="M73 36 L85 33 L82 37 L73 38Z" fill="#E8A800" />
+    <path d="M73 36 L85 33 L84 35 L73 37Z" fill="#F0B800" opacity="0.7" />
+    
+    <path d="M73 40 L83 42 L82 39 L73 38Z" fill="#D49000" />
+    <path d="M73 40 L83 42 L83 40 L73 39Z" fill="#C08000" opacity="0.6" />
+    
+    <path d="M73 38 L82 37 L82 39 L73 38Z" fill="#4A0000" opacity="0.8" />
+    
+    <path d="M75 38 L79 37.8 L78 38.5Z" fill="#CC3333" opacity="0.6" />
+    
+    <ellipse cx="77" cy="35.5" rx="0.5" ry="0.3" fill="#8B6000" opacity="0.5" />
+
+    
+    <ellipse cx="72" cy="46" rx="3.5" ry="5" fill="#CC0000" />
+    <ellipse cx="72" cy="47" rx="3" ry="4.5" fill="#E00000" />
+    <ellipse cx="71.5" cy="46" rx="2" ry="3" fill="#FF2020" opacity="0.4" />
+    
+    <ellipse cx="69" cy="45" rx="2.5" ry="3.5" fill="#CC0000" />
+    <ellipse cx="69" cy="45.5" rx="2" ry="3" fill="#E00000" opacity="0.8" />
+
+    
+    <g id="obstacle-animated-part">
+      <animateTransform attributeName="transform" type="rotate" values="-3 66 35;3 66 35;-3 66 35" dur="0.4s" repeatCount="indefinite" />
+      
+      <path d="M58 35 Q57 28 60 22 Q62 27 61 33Z" fill="#DD0000" rx="2" />
+      <path d="M61 33 Q60 24 63 18 Q66 24 64 32Z" fill="#EE0000" />
+      <path d="M64 32 Q63 22 66 16 Q69 22 67 31Z" fill="#FF0000" />
+      <path d="M67 31 Q66 23 69 18 Q72 24 70 32Z" fill="#EE0000" />
+      <path d="M70 32 Q69 26 72 22 Q74 28 72 34Z" fill="#DD0000" />
+      
+      <path d="M62 30 Q61 25 63 20 Q64 25 63 30Z" fill="#FF3333" opacity="0.5" />
+      <path d="M65 29 Q64 23 66 18 Q67 23 66 29Z" fill="#FF4444" opacity="0.4" />
+      <path d="M68 30 Q67 25 69 20 Q70 25 69 30Z" fill="#FF3333" opacity="0.4" />
+      
+      <path d="M58 35 Q63 33 72 34 Q70 36 60 36Z" fill="#CC0000" />
+    </g>
+
+    
+    
+    <path d="M48 100 L44 104 L42 103" stroke="#D49000" stroke-width="1.5" fill="none" stroke-linecap="round" />
+    <path d="M48 100 L47 105 L45 106" stroke="#D49000" stroke-width="1.5" fill="none" stroke-linecap="round" />
+    <path d="M48 100 L50 105 L52 105" stroke="#D49000" stroke-width="1.5" fill="none" stroke-linecap="round" />
+    
+    <path d="M42 103 L40 102" stroke="#8B6000" stroke-width="1" fill="none" stroke-linecap="round" />
+    <path d="M45 106 L43 106" stroke="#8B6000" stroke-width="1" fill="none" stroke-linecap="round" />
+    <path d="M52 105 L54 104" stroke="#8B6000" stroke-width="1" fill="none" stroke-linecap="round" />
+    
+    <path d="M60 100 L57 104 L55 104" stroke="#D49000" stroke-width="1.5" fill="none" stroke-linecap="round" />
+    <path d="M60 100 L60 105 L59 107" stroke="#D49000" stroke-width="1.5" fill="none" stroke-linecap="round" />
+    <path d="M60 100 L63 104 L65 104" stroke="#D49000" stroke-width="1.5" fill="none" stroke-linecap="round" />
+    
+    <path d="M55 104 L53 103" stroke="#8B6000" stroke-width="1" fill="none" stroke-linecap="round" />
+    <path d="M59 107 L58 108" stroke="#8B6000" stroke-width="1" fill="none" stroke-linecap="round" />
+    <path d="M65 104 L67 103" stroke="#8B6000" stroke-width="1" fill="none" stroke-linecap="round" />
+    
+    <path d="M50 95 L48 100" stroke="#D49000" stroke-width="2.5" fill="none" stroke-linecap="round" />
+    <path d="M58 95 L60 100" stroke="#D49000" stroke-width="2.5" fill="none" stroke-linecap="round" />
+    
+    <line x1="49" y1="96" x2="50" y2="96" stroke="#B87800" stroke-width="0.3" />
+    <line x1="49" y1="97.5" x2="49.5" y2="97.5" stroke="#B87800" stroke-width="0.3" />
+    <line x1="48.5" y1="99" x2="49" y2="99" stroke="#B87800" stroke-width="0.3" />
+    <line x1="59" y1="96" x2="58.5" y2="96" stroke="#B87800" stroke-width="0.3" />
+    <line x1="59.5" y1="97.5" x2="59" y2="97.5" stroke="#B87800" stroke-width="0.3" />
+    <line x1="60" y1="99" x2="59.5" y2="99" stroke="#B87800" stroke-width="0.3" />
+
+    
+    <path d="M86 30 L92 28" stroke="#FFD700" stroke-width="0.8" opacity="0.6" stroke-linecap="round" />
+    <path d="M87 33 L94 32" stroke="#FFD700" stroke-width="0.6" opacity="0.5" stroke-linecap="round" />
+    <path d="M86 36 L93 36" stroke="#FFD700" stroke-width="0.7" opacity="0.4" stroke-linecap="round" />
+    <path d="M88 27 L93 24" stroke="#FFD700" stroke-width="0.5" opacity="0.3" stroke-linecap="round" />
+
+    
+    <ellipse cx="56" cy="148" rx="25" ry="2" fill="#2A1A0A" opacity="0.3" />
+  </g>
+</svg>
