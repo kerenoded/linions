@@ -31,7 +31,7 @@ export class PlayerController {
   public bind(): void {}
 
   public clear(): void {
-    this.options.frame.srcdoc = "";
+    this.options.frame.style.visibility = "hidden";
   }
 
   public loadEpisode(episode: Episode): void {
@@ -91,7 +91,15 @@ export class PlayerController {
   }
 
   private renderSvg(svg: string): void {
-    this.options.frame.srcdoc = `<!doctype html><html><head><link rel="stylesheet" href="/player-frame.css"></head><body>${svg}</body></html>`;
+    const frame = this.options.frame;
+    frame.addEventListener(
+      "load",
+      () => {
+        frame.style.visibility = "";
+      },
+      { once: true },
+    );
+    frame.srcdoc = `<!doctype html><html><head><link rel="stylesheet" href="/player-frame.css"></head><body>${svg}</body></html>`;
   }
 
   private renderChoices(choices: EpisodeChoice[]): void {

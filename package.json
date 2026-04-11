@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "prepare": "git config core.hooksPath .githooks 2>/dev/null || true",
+    "cdk": "infra/node_modules/.bin/cdk",
     "lint": "eslint \"infra/**/*.ts\" \"proxy/**/*.ts\" \"frontend/src/**/*.ts\"",
     "test:frontend": "node scripts/run-frontend-tests.mjs"
   },
