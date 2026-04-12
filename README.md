@@ -182,12 +182,25 @@ Open `http://localhost:3000` — that is the local creator studio.
 3. Click **Publish** in the creator studio to write the episode JSON and assets to the repo
 4. After publishing, run `npm run cdk -- deploy` to sync the new episode to S3 and make it live on CloudFront — the publish button alone does not update the live site
 
-To contribute an episode to the public gallery at `https://linions.odedkeren.dev/`, reach out to request contributing access and commit permissions.
-
 See [SCRIPTS.md](SCRIPTS.md) for the full command reference, local development flow, debug
 runners, and publication workflow.
 
 See [DESIGN.md](DESIGN.md) for agent contracts, JSON schemas, and data flow.
+
+---
+
+## Contribute an episode
+
+Want to see your own AI-generated episode on the [live Linions gallery](https://linions.odedkeren.dev/)? Here's how:
+
+1. Clone the repo and deploy the stack to your own AWS account (see quickstart above)
+2. Generate episodes using the local creator studio — experiment with different prompts
+3. Reach out to request contributing access and commit permissions
+4. Once approved, publish your episode and open a PR — your episodes will go live on the Linions website
+
+Every contributor's episodes are attributed to their GitHub username. The more people generate
+episodes, the richer the gallery gets. All generation costs run on your own AWS account
+(typically under $0.50 per episode).
 
 ---
 
