@@ -27,6 +27,8 @@ turns out the results have real character and charm.
 Different Claude models produce noticeably different drawing quality. Claude Opus 4.6
 consistently produced the best hand-drawn SVG results for this project.
 
+📺 [See the comparison in action](https://www.youtube.com/shorts/IpTrvC5mAkg) — same prompt across different Claude models, Terminator style.
+
 ---
 
 ## See it in action
